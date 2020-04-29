@@ -712,12 +712,12 @@ section.lazy-placeholder:after {
 }
 .cid-rXtPeiUHTH .navbar {
   padding: .5rem 0;
-  background: #232323;
+  background: #ffffff;
   transition: none;
   min-height: 77px;
 }
 .cid-rXtPeiUHTH .navbar-dropdown.bg-color.transparent.opened {
-  background: #232323;
+  background: #ffffff;
 }
 .cid-rXtPeiUHTH a {
   font-style: normal;
@@ -808,7 +808,7 @@ section.lazy-placeholder:after {
   padding-bottom: 0;
 }
 .cid-rXtPeiUHTH .dropdown .dropdown-menu {
-  background: #232323;
+  background: #ffffff;
   visibility: hidden;
   display: block;
   position: absolute;
@@ -957,6 +957,11 @@ section.lazy-placeholder:after {
 .cid-rXtPeiUHTH .collapsed .navbar-collapse.collapsing .navbar-buttons:last-child,
 .cid-rXtPeiUHTH .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
+}
+@media (min-width: 1024px) {
+  .cid-rXtPeiUHTH .collapsed:not(.navbar-short) .navbar-collapse {
+    max-height: calc(98.5vh - 5rem);
+  }
 }
 .cid-rXtPeiUHTH .collapsed button.navbar-toggler {
   display: block;
@@ -1156,12 +1161,12 @@ section.lazy-placeholder:after {
 }
 .cid-rXtPeiUHTH .navbar {
   padding: .5rem 0;
-  background: #232323;
+  background: #ffffff;
   transition: none;
   min-height: 77px;
 }
 .cid-rXtPeiUHTH .navbar-dropdown.bg-color.transparent.opened {
-  background: #232323;
+  background: #ffffff;
 }
 .cid-rXtPeiUHTH a {
   font-style: normal;
@@ -1252,7 +1257,7 @@ section.lazy-placeholder:after {
   padding-bottom: 0;
 }
 .cid-rXtPeiUHTH .dropdown .dropdown-menu {
-  background: #232323;
+  background: #ffffff;
   visibility: hidden;
   display: block;
   position: absolute;
@@ -1401,6 +1406,11 @@ section.lazy-placeholder:after {
 .cid-rXtPeiUHTH .collapsed .navbar-collapse.collapsing .navbar-buttons:last-child,
 .cid-rXtPeiUHTH .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
+}
+@media (min-width: 1024px) {
+  .cid-rXtPeiUHTH .collapsed:not(.navbar-short) .navbar-collapse {
+    max-height: calc(98.5vh - 5rem);
+  }
 }
 .cid-rXtPeiUHTH .collapsed button.navbar-toggler {
   display: block;
@@ -1621,12 +1631,12 @@ section.lazy-placeholder:after {
 }
 .cid-rXtPeiUHTH .navbar {
   padding: .5rem 0;
-  background: #232323;
+  background: #ffffff;
   transition: none;
   min-height: 77px;
 }
 .cid-rXtPeiUHTH .navbar-dropdown.bg-color.transparent.opened {
-  background: #232323;
+  background: #ffffff;
 }
 .cid-rXtPeiUHTH a {
   font-style: normal;
@@ -1717,7 +1727,7 @@ section.lazy-placeholder:after {
   padding-bottom: 0;
 }
 .cid-rXtPeiUHTH .dropdown .dropdown-menu {
-  background: #232323;
+  background: #ffffff;
   visibility: hidden;
   display: block;
   position: absolute;
@@ -1866,6 +1876,11 @@ section.lazy-placeholder:after {
 .cid-rXtPeiUHTH .collapsed .navbar-collapse.collapsing .navbar-buttons:last-child,
 .cid-rXtPeiUHTH .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
+}
+@media (min-width: 1024px) {
+  .cid-rXtPeiUHTH .collapsed:not(.navbar-short) .navbar-collapse {
+    max-height: calc(98.5vh - 5rem);
+  }
 }
 .cid-rXtPeiUHTH .collapsed button.navbar-toggler {
   display: block;
