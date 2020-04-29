@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "GRUPO CONECTADO",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1090,7 +1090,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<a href=\"https://store17441987.ecwid.com/JUAN-POLIMENTOS-c47505491\">Agende por aqui mesmo...</a>",
+                "caption": "<a href=\"https://store17441987.ecwid.com/JUAN-POLIMENTOS-c47505491\" target=\"_blank\">Agende por aqui mesmo...</a>",
                 "active": false
               },
               {
@@ -1103,7 +1103,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Compre agora !!!",
+                "caption": "<a href=\"https://store17441987.ecwid.com/OFFICE-J%C3%93AIS-c47182959\" target=\"_blank\">Compre agora !!!</a>",
                 "active": true
               }
             ]
