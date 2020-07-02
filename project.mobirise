@@ -822,7 +822,7 @@
         },
         {
           "_params": {
-            "HTMLCode": "https://getsite.co/rq1pjllq",
+            "HTMLCode": "<script type=\"text/javascript\" async\n  src=\"//l.getsitecontrol.com/y791lm48.js\">\n</script>",
             "hideOnPublish": true,
             "paddingTop": 2,
             "paddingBottom": 2,
@@ -835,7 +835,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "HTMLCode": "https://getsite.co/rq1pjllq",
+          "HTMLCode": "<script type=\"text/javascript\" async\n  src=\"//l.getsitecontrol.com/y791lm48.js\">\n</script>",
           "alias": "witsec-custom-html",
           "_tags": [
             "Extension"
