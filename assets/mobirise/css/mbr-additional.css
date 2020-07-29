@@ -2076,69 +2076,41 @@ section.lazy-placeholder:after {
 @isScrollToTopButton: false;
 @isPublish: true;
 
-.cid-s6as1JmCJJ {
-@paddingTop: 0;
+.cid-zup5JsLHak {
+@fullScreen: false;
+@paddingTop: 1;
 @paddingBottom: 0;
-@bgColor: #232323;
-@uname__10: "file:///C:/Users/bacho/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-07-29_123711/assets/images/promo%C3%A7%C3%A3o_%C3%A9_aqui___1_-removebg-preview-810x308.png";
-@uname__11: true;
-@uname__12: #073b4c;
+@showArrow: false;
+@showTitle: true;
+@showSubTitle: false;
+@showText: false;
+@showButtons: false;
+@slantTop: 0;
+@slantBottom: 0;
+@uname__12: "https://i.imgur.com/faJTWBo.png";
+@uname__13: #073b4c;
 @bg-value: #073b4c;
 @bg-type: "color";
 @bg-color-value: #073b4c;
 @bg-parallax: false;
 @overlay: false;
-@overlayColor: #465052;
-@overlayOpacity: 0.5;
+@overlayColor: #232323;
+@overlayOpacity: 0.4;
 
-padding-top: (@paddingTop * 15px);
-padding-bottom: (@paddingBottom * 15px);
-& when (@bg-type = 'color') {
-  background-color: @bg-value;
+-webkit-clip-path: polygon(0 unit(@slantTop, ~"%"), 100% 0%, 100% unit(@slantBottom, ~"%"), 0% 100%);
+clip-path: polygon(0 unit(@slantTop, ~"%"), 100% 0%, 100% unit(@slantBottom, ~"%"), 0% 100%);
+& when not (@fullScreen) {
+  padding-top: (@paddingTop * 15px);
+  padding-bottom: (@paddingBottom * 15px);
 }
 & when (@bg-type = 'image') {
   background-image: url(../../../@bg-value);
 }
-& when (@bg-type = 'video') {
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
 }
-.mbr-section {
-  text-align: center;
-  color: #fff;
-}
-.banner-heading .cont {
-  color: #fff ;
-  font-size: 47px;
-  font-weight: 500;
-  text-decoration: none;
-  display: block;
-}
-.banner-heading P {
-  color: #fff;
-  padding-bottom: 20px;
-  font-size: 19px;
-  font-weight: 400;
-}
-.banner-heading span p {
-  color: #cd0e00;
-}
-.btn {
-  display: inline-block;
-  background-color: #ff7200;
-  color: #fff;
-  font-weight: 400;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  border: 1px solid #ff7200;
-  padding: .375rem .75rem;
-  font-size: 1rem;
-  line-height: 1.5;
-  border-radius: .25rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+H1 {
+  text-align: left;
 }
 }
 
