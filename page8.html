@@ -11,12 +11,11 @@
   
   
   <title>prestação de serviços</title>
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/facebook-plugin/style.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/facebook-plugin/style.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
@@ -24,32 +23,86 @@
   
 </head>
 <body>
-  <section class="header8 cid-kz5kQ1p3XJ" id="design-block-kz5kQ1p3XJ">
+  <section class="mbr-section typewriter_heading cid-6mQtp6D3QJ" id="design-block-6mQtp6D3QJ">
 
     
-
+    <!---->
+    <!--Overlay-->
     
-
-    
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-6 align-left img-block">
-                <div class="mbr-figure">
-                    <img src="assets/images/capturar-611x397.jpg" alt="Mobirise" title="">
-                </div>
-            </div>
-            <div class="mbr-white col-md-6">
-                
-                <h1 class="mbr-section-title mbr-white mbr-bold mbr-fonts-style align-left display-1">Prestação Serviços</h1>
-                
-                
-            </div>
+ <div class="banner-sektion banner-overlay" id="home">
+    <div class="container text-left">
+        <div class="col-md-12 col-xs-12">
+            <div class="banner-heading ">
+                <div class="cont"><span>SERVIÇOS PRESTADOS,<span><br><span class="typewrite text-primary" data-period="2000" data-type="[ &quot;Montador Moveis&quot;, &quot;Carpinteiro&quot;, &quot;Diarista&quot;, &quot;Pedreiro&quot; ]">
+                    <span class="wrap"></span></span></span></span></div>
         </div>
-    </div>
-    
-</section>
+    </div>    
 
-<div class="card promoting-card cid-s6a1eHRZJ5" id="custom-html-4e" data-rv-view="1363">
+</div>
+  <script>
+    //made by vipul mirajkar thevipulm.appspot.com
+var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+
+    </script>
+  
+</div></section>
+
+<div class="card promoting-card cid-s6a1eHRZJ5" id="custom-html-4e" data-rv-view="1521">
 
   <!-- Card content -->
   <div class="card-body d-flex flex-row">
@@ -73,10 +126,10 @@
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5"></script>
   <script src="https://apis.google.com/js/plusone.js"></script>
   <script src="assets/facebook-plugin/facebook-script.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/witsec-mailform/witsec-mailform.js"></script>

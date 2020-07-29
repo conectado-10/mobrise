@@ -2075,70 +2075,69 @@ section.lazy-placeholder:after {
 @isScrollToTopButton: false;
 @isPublish: true;
 
-.cid-kz5kQ1p3XJ {
-@fullScreen: false;
-@showArrow: true;
-@paddingTop: 2;
-@paddingBottom: 1;
-@showTitle: true;
-@showSubtitle: false;
-@showText: false;
-@showAnimatedText: false;
-@showButtons: false;
-@uname__13: "file:///C:/Users/Csaba/AppData/Local/Mobirise.com/Mobirise/chesswizardextra_0040gmail_002ecom/userblocks/mobirise4/header8_1/background4.jpg";
-@uname__14: true;
-@uname__15: #879a9f;
-@bg-value: #879a9f;
+.cid-6mQtp6D3QJ {
+@paddingTop: 1;
+@paddingBottom: 0;
+@bgColor: #ffffff;
+@uname__10: "file:///C:/Users/SINGA/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-07-15_230636/assets/images/mbr-1920x1279.jpg";
+@uname__11: true;
+@uname__12: #232323;
+@bg-value: #232323;
 @bg-type: "color";
-@bg-color-value: #879a9f;
+@bg-color-value: #232323;
 @bg-parallax: false;
-@bgColor2: #ec6963;
 @overlay: true;
-@overlayColor: #000000;
+@overlayColor: #465052;
 @overlayOpacity: 0.5;
-@textTitle: "menu";
-@textColor: #efefef;
-@textSize: 4;
-@textOpacity: 0.2;
-@textSpeed: 60;
 
-& when not (@fullScreen) {
-  padding-top: (@paddingTop * 15px);
-  padding-bottom: (@paddingBottom * 15px);
-}
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
 & when (@bg-type = 'color') {
-  background: linear-gradient(to right, @bgColor2 0%, @bgColor2 30%, @bg-value 30%, @bg-value 100%);
+  background-color: @bg-value;
 }
 & when (@bg-type = 'image') {
   background-image: url(../../../@bg-value);
 }
-overflow: hidden !important;
-.animated-element {
-  color: @textColor;
+& when (@bg-type = 'video') {
 }
-.img-block {
-  align-self: center;
+.mbr-section {
+  text-align: center;
+  color: #fff;
 }
-.mbr-section-subtitle {
-  color: #9c88bc;
+.banner-heading .cont {
+  color: #fff ;
+  font-size: 47px;
+  font-weight: 500;
+  text-decoration: none;
+  display: block;
 }
-@media (min-width: 992px) {
-  .img-block {
-    padding-right: 2rem;
-  }
+.banner-heading P {
+  color: #fff;
+  padding-bottom: 20px;
+  font-size: 19px;
+  font-weight: 400;
 }
-@media (max-width: 767px) {
-  .mbr-figure {
-    margin-top: 1rem;
-  }
+.banner-heading span p {
+  color: #cd0e00;
 }
-@media (max-width: 768px) {
-  .img-block {
-    padding-bottom: 2rem;
-  }
-  & when (@bg-type = 'color') {
-    background: @bg-value;
-  }
+.btn {
+  display: inline-block;
+  background-color: #ff7200;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #ff7200;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 }
 
