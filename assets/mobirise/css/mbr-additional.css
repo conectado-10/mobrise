@@ -2339,7 +2339,7 @@ background-color: @bgColor;
 @sliderHSize: 400;
 @bgColor: #ffffff;
 @slides__autoplay: "true";
-@slides__autoplayInterval: 4000;
+@slides__autoplayInterval: 2000;
 @slides__showBullets: true;
 @slides__embedded: "false";
 
@@ -2613,4 +2613,58 @@ background-color: @bgColor;
 .content-slider-wrap {
   width: (@sliderWSize * 1%);
 }
+}
+
+.cid-s6ah81HxnU {
+@paddingTop: 1;
+@paddingBottom: 3;
+@bgColor: #ffffff;
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+background-color: @bgColor;
+.google-map {
+  height: 25rem;
+  position: relative;
+  iframe {
+    height: 100%;
+    width: 100%;
+  }
+  [data-state-details] {
+    color: #6b6763;
+    font-family: Montserrat;
+    height: 1.5em;
+    margin-top: -0.75em;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+  }
+  &[data-state] {
+    background: #e9e5dc;
+  }
+  &[data-state="loading"] {
+    [data-state-details] {
+      display: none;
+    }
+    &::after {
+    }
+  }
+}
+}
+
+.cid-s6ajAJV66K {
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+background-color: @bgColor;
+.mbr-section {
+  text-align: center;
+  color: #fff;
+}
+}
+
+#witsec-custom-html-block-4j {
 }
