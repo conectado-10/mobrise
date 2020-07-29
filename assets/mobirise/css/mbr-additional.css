@@ -712,6 +712,7 @@ section.lazy-placeholder:after {
 }
 .cid-s55WteIvwy .mbr-section-title {
   color: #133996;
+  text-align: center;
 }
 .cid-s55WteIvwy .mbr-text,
 .cid-s55WteIvwy .mbr-section-btn {
@@ -2075,8 +2076,8 @@ section.lazy-placeholder:after {
 @isScrollToTopButton: false;
 @isPublish: true;
 
-.cid-6mQtp6D3QJ {
-@paddingTop: 1;
+.cid-MIKoZ6B9g0 {
+@paddingTop: 0;
 @paddingBottom: 0;
 @bgColor: #ffffff;
 @uname__10: "file:///C:/Users/SINGA/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-07-15_230636/assets/images/mbr-1920x1279.jpg";
