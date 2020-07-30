@@ -52,7 +52,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 173,
+    "uniqCompNum": 178,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "witsec-mailform-to": "sintoniabarra@gmail.com",
@@ -460,7 +460,7 @@
     "page1.html": {
       "settings": {
         "title": "Lojas",
-        "order": 8
+        "order": 9
       },
       "components": [
         {
@@ -598,7 +598,7 @@
     "page4.html": {
       "settings": {
         "title": "Planos",
-        "order": 9
+        "order": 10
       },
       "components": [
         {
@@ -1343,7 +1343,7 @@
     "page3.html": {
       "settings": {
         "title": "Joalheria",
-        "order": 7
+        "order": 8
       },
       "components": [
         {
@@ -1501,7 +1501,7 @@
     "page5.html": {
       "settings": {
         "title": "Polimentos Carro",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -1661,7 +1661,7 @@
     "page6.html": {
       "settings": {
         "title": "Protese Dentaria",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -1821,7 +1821,7 @@
     "page7.html": {
       "settings": {
         "title": "Massas",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -1981,7 +1981,7 @@
     "page8.html": {
       "settings": {
         "title": "prestação de serviços",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -2040,7 +2040,7 @@
     "page9.html": {
       "settings": {
         "title": "SILVIO MASSAS",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
