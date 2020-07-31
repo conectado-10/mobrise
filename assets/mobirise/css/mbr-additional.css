@@ -3396,35 +3396,3 @@ label {
   text-align: center;
 }
 }
-@primaryColor: #133996;
-@secondaryColor: #fc643f;
-@successColor: #00c48c;
-@infoColor: #fdece8;
-@warningColor: #ffcf5c;
-@dangerColor: #939bb4;
-@mainFont: DM Sans;
-@display1Font: 'DM Sans', sans-serif;
-@display1Size: 3.25;
-@display2Font: 'DM Sans', sans-serif;
-@display2Size: 2.125;
-@display5Font: 'DM Sans', sans-serif;
-@display5Size: 1.5;
-@display7Font: 'DM Sans', sans-serif;
-@display7Size: 1.0625;
-@display4Font: 'DM Sans', sans-serif;
-@display4Size: 0.875;
-@isRoundedButtons: false;
-@isAnimatedOnScroll: false;
-@isScrollToTopButton: false;
-@isPublish: true;
-
-.cid-s6jkVYM8uU {
-
-padding-top: (@paddingTop * 15px);
-padding-bottom: (@paddingBottom * 15px);
-background-color: @bgColor;
-.mbr-section {
-  text-align: center;
-  color: #fff;
-}
-}

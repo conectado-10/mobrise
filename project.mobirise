@@ -2025,7 +2025,7 @@
             }
           },
           "_name": "custom-html",
-          "_customHTML": "<br>\n<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <img src=\"@PROJECT_PATH@/assets/images/images-50x50.png\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">Refrigeração&nbsp;</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\">Tudo em Refrigeração</p>\n\n    </div>\n\n  </div>\n\n  ",
+          "_customHTML": "<!-- Just an image -->\n<nav class=\"navbar navbar-light bg-light\">\n  <a class=\"navbar-brand\" href=\"#\">\n    <img src=\"@PROJECT_PATH@/assets/images/capturar-611x397.jpg\" width=\"30\" height=\"30\" alt loading=\"lazy\" title>ASDADASDASDASDASD\n  </a>\n</nav>\n  \n<div class=\"dropdown\">\n  <a class=\"btn btn-secondary dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n    O QUE VOCÊ QUER ?\n  </a>\n\n  <div class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuLink\">\n    <a class=\"dropdown-item\" href=\"https://store17441987.ecwid.com/HIGIENIZA%C3%87%C3%83O-CASA-p184965008\">Casa</a>\n    <a class=\"dropdown-item\" href=\"https://store17441987.ecwid.com/HIGIENIZA%C3%87%C3%83O-CARRO-p185018788\">Carro</a>\n  </div></div>",
           "_anchor": "custom-html-4e",
           "_isUserblock": true,
           "_sourceTheme": "creativem4",
@@ -3219,7 +3219,7 @@
             }
           },
           "_name": "custom-html",
-          "_customHTML": "<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <a href=\"https://store17441987.ecwid.com/PROT%C3%89TICO-DANILO-c55577022\"><img src=\"@PROJECT_PATH@/assets/images/animation-1.gif\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title></a>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">Não perca tempo</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\"><a href=\"https://store17441987.ecwid.com/PROT%C3%89TICO-DANILO-c55577022\">Acesse a Minha Loja</a></p>\n\n    </div>\n\n  </div>\n\n  <!-- Card image --></div>\n<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <img src=\"@PROJECT_PATH@/assets/images/capturar-46x50.jpg\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">JUAN</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\">Agende uma Visita!</p>\n\n    </div>\n\n  </div>\n",
+          "_customHTML": "<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <a href=\"https://store17441987.ecwid.com/JUAN-POLIMENTOS-c47505491\"><img src=\"@PROJECT_PATH@/assets/images/animation-1.gif\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title></a>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">Não perca tempo</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\"><a href=\"https://store17441987.ecwid.com/JUAN-POLIMENTOS-c47505491\">Acesse a Minha Loja</a></p>\n\n    </div>\n\n  </div>\n\n  <!-- Card image --></div>\n<!-- Card -->\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <img src=\"@PROJECT_PATH@/assets/images/capturar-46x50.jpg\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">JUAN</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\">Agende uma Visita!</p>\n\n    </div>\n\n  </div></div>",
           "_isUserblock": true,
           "_sourceTheme": "creativem4",
           "_cid": "s6fRozUGNw",
@@ -3530,29 +3530,7 @@
         "title": "Page 12",
         "order": 1
       },
-      "components": [
-        {
-          "alias": "deltapi-code-editor",
-          "_isSecondary": true,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section": {
-              "text-align": "center",
-              "color": "#fff"
-            }
-          },
-          "_name": "custom-html",
-          "_customHTML": "<!-- Scrollable modal -->\n<div class=\"modal-dialog modal-dialog-scrollable\">\nsaddsadsdsdsd\n</div>",
-          "_cid": "s6jkVYM8uU",
-          "_anchor": "custom-html-56",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        }
-      ]
+      "components": []
     }
   }
 }
