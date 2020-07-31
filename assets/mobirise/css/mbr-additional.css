@@ -3353,3 +3353,78 @@ a.img {
 
 #witsec-custom-html-block-54 {
 }
+
+.cid-s6jLg4XBWj {
+@paddingTop: 0;
+@paddingBottom: 1;
+@showTitle: true;
+@showSubtitle: true;
+@showPhone: true;
+@showTerms: false;
+@uname__10: "file:///C:/Users/bacho/AppData/Local/Mobirise.com/Mobirise/sintoniabarra_0040gmail_002ecom/addons/witsec-mailform/witsec-mailform/../_images/background.jpg";
+@uname__11: true;
+@uname__12: #ffffff;
+@bg-value: #ffffff;
+@bg-type: "color";
+@bg-color-value: #ffffff;
+@bg-parallax: false;
+@overlay: true;
+@overlayColor: #c1c1c1;
+@overlayOpacity: 0.9;
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+}
+.title {
+  margin-bottom: 2rem;
+}
+.mbr-section-subtitle {
+  color: #767676;
+}
+textarea.form-control {
+  min-height: 188px;
+}
+label {
+  color: #232323;
+}
+.mbr-section-terms {
+  text-align: center;
+}
+}
+@primaryColor: #133996;
+@secondaryColor: #fc643f;
+@successColor: #00c48c;
+@infoColor: #fdece8;
+@warningColor: #ffcf5c;
+@dangerColor: #939bb4;
+@mainFont: DM Sans;
+@display1Font: 'DM Sans', sans-serif;
+@display1Size: 3.25;
+@display2Font: 'DM Sans', sans-serif;
+@display2Size: 2.125;
+@display5Font: 'DM Sans', sans-serif;
+@display5Size: 1.5;
+@display7Font: 'DM Sans', sans-serif;
+@display7Size: 1.0625;
+@display4Font: 'DM Sans', sans-serif;
+@display4Size: 0.875;
+@isRoundedButtons: false;
+@isAnimatedOnScroll: false;
+@isScrollToTopButton: false;
+@isPublish: true;
+
+.cid-s6jkVYM8uU {
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+background-color: @bgColor;
+.mbr-section {
+  text-align: center;
+  color: #fff;
+}
+}
