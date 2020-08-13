@@ -3203,9 +3203,9 @@ H3 {
 }
 
 .cid-3WbVT6D1h7 {
-@paddingTop: 4;
-@paddingBottom: 4;
-@borderradius: 15;
+@paddingTop: 1;
+@paddingBottom: 1;
+@borderradius: 12;
 @marginbottom: 2;
 @tabColor: #0f7699;
 @widthContent: 1;
@@ -3266,13 +3266,13 @@ position: relative;
   }
 }
 H4 {
-  color: #ffffff;
+  color: #0a1c44;
 }
 H2 {
-  color: #ffffff;
+  color: #0a1c44;
 }
 .panel-text {
-  color: #ffffff;
+  color: #0a1c44;
 }
 .accordion .card:not(:first-of-type) .card-header:first-child {
   border-radius: (@borderradius * 1px);
