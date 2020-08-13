@@ -3058,7 +3058,7 @@ a.img {
 .cid-s6fRoxLvmw {
 @paddingTop: 1;
 @paddingBottom: 0;
-@showTitle: true;
+@showTitle: false;
 @showSubtitle: false;
 @showtext: true;
 @fullWidth: true;
@@ -3204,7 +3204,7 @@ H3 {
 
 .cid-3WbVT6D1h7 {
 @paddingTop: 1;
-@paddingBottom: 1;
+@paddingBottom: 2;
 @borderradius: 12;
 @marginbottom: 2;
 @tabColor: #0f7699;
