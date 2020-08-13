@@ -3202,6 +3202,83 @@ H3 {
 }
 }
 
+.cid-3WbVT6D1h7 {
+@paddingTop: 4;
+@paddingBottom: 4;
+@borderradius: 15;
+@marginbottom: 2;
+@tabColor: #0f7699;
+@widthContent: 1;
+@showTitle: true;
+@bootstrapAccordion: "3";
+@uname__10: "file:///C:/Users/leo-j/AppData/Local/Mobirise.com/Mobirise/leonardo_002ecorsetti_0040gmail_002ecom/userblocks/mobirise4/design-block_1/background4.jpg";
+@uname__11: false;
+@uname__12: #55b4d4;
+@bg-value: #55b4d4;
+@bg-type: "color";
+@bg-color-value: #55b4d4;
+@bg-parallax: false;
+@overlay: true;
+@overlayColor: #ffffff;
+@overlayOpacity: 0.9;
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+position: relative;
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+}
+.card {
+  border-radius: (@borderradius * 1px);
+  margin-bottom: (@marginbottom * 1px);
+  .card-header {
+    border-radius: (@borderradius * 1px);
+    border: 0px;
+    padding: 0;
+    a.panel-title {
+      margin-bottom: 0;
+      font-style: normal;
+      font-weight: 500;
+      display: block;
+      text-decoration: none !important;
+      margin-top: -1px;
+      line-height: normal;
+      &:focus {
+        text-decoration: none !important;
+      }
+      h4 {
+        padding: 1.3rem 2rem;
+        border: 1px solid #dfdfdf;
+        border-radius: (@borderradius * 1px);
+        margin-bottom: 0;
+        background-color: @tabColor;
+        .sign {
+          padding-right: 1rem;
+        }
+      }
+    }
+  }
+  .panel-body {
+    color: #767676;
+  }
+}
+H4 {
+  color: #ffffff;
+}
+H2 {
+  color: #ffffff;
+}
+.panel-text {
+  color: #ffffff;
+}
+.accordion .card:not(:first-of-type) .card-header:first-child {
+  border-radius: (@borderradius * 1px);
+}
+}
+
 .cid-s6fRozUGNw {
 
 padding-top: (@paddingTop * 15px);
@@ -3441,6 +3518,9 @@ label {
 .mbr-section-terms {
   text-align: center;
 }
+}
+
+#witsec-modal-window-block-5i {
 }
 .cid-s6mnhoiSi2 {
   padding-top: 15px;
