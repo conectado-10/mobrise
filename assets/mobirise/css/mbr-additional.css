@@ -3522,6 +3522,25 @@ label {
 
 #witsec-modal-window-block-5j {
 }
+
+.cid-xjAUhQkphR {
+@preview: true;
+@padding: 7;
+@bgcolor: #242930;
+
+background-color: @bgcolor;
+.show {
+  visibility: visible;
+}
+& when not (@preview) {
+  iframe {
+    visibility: hidden;
+  }
+}
+.hide {
+  visibility: hidden;
+}
+}
 .cid-s6mnhoiSi2 {
   padding-top: 15px;
   padding-bottom: 0px;
