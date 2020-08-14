@@ -3469,10 +3469,10 @@ a.img {
 }
 
 .cid-s7DuI5XPF7 {
-@fullWidth: true;
+@fullWidth: false;
 @paddingTop: 4;
 @paddingBottom: 4;
-@videoSize: 54;
+@videoSize: 100;
 @bgColor: #149dcc;
 @gradientBg: true;
 @color2: #ffffff;
