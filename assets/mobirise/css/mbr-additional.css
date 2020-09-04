@@ -4777,7 +4777,7 @@ H3 {
 @paddingTop: 0;
 @paddingBottom: 0;
 @testimonialsSlides: 8;
-@showAutoplay: true;
+@showAutoplay: false;
 @interval: 3000;
 @showTitle: true;
 @showName: true;
@@ -4785,8 +4785,8 @@ H3 {
 @uname__11: "file:///C:/Users/bacho/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-07-29_123711/assets/images/background1.jpg";
 @uname__12: false;
 @uname__13: #ffffff;
-@bg-value: #ffffff;
-@bg-type: "color";
+@bg-value: "file:///C:/Users/bacho/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-07-29_123711/assets/images/background1.jpg";
+@bg-type: "image";
 @bg-color-value: #ffffff;
 @bg-parallax: false;
 @overlay: true;
