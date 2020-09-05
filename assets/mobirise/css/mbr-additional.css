@@ -4773,7 +4773,41 @@ H3 {
 }
 }
 
-.cid-s9CDyjWfL9 {
+.cid-s9CoBHbdqt {
+
+.google-map {
+  height: 34rem;
+  position: relative;
+  iframe {
+    height: 100%;
+    width: 100%;
+  }
+  [data-state-details] {
+    color: #6b6763;
+    font-family: Montserrat;
+    height: 1.5em;
+    margin-top: -0.75em;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+  }
+  &[data-state] {
+    background: #e9e5dc;
+  }
+  &[data-state="loading"] {
+    [data-state-details] {
+      display: none;
+    }
+    &::after {
+    }
+  }
+}
+}
+
+.cid-s9IxDwvAyw {
 @paddingTop: 0;
 @paddingBottom: 0;
 @testimonialsSlides: 8;
@@ -4845,40 +4879,6 @@ padding-bottom: (@paddingBottom * 15px);
   .user_image {
     width: 100%;
     height: auto;
-  }
-}
-}
-
-.cid-s9CoBHbdqt {
-
-.google-map {
-  height: 34rem;
-  position: relative;
-  iframe {
-    height: 100%;
-    width: 100%;
-  }
-  [data-state-details] {
-    color: #6b6763;
-    font-family: Montserrat;
-    height: 1.5em;
-    margin-top: -0.75em;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    width: 100%;
-  }
-  &[data-state] {
-    background: #e9e5dc;
-  }
-  &[data-state="loading"] {
-    [data-state-details] {
-      display: none;
-    }
-    &::after {
-    }
   }
 }
 }
