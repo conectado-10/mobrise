@@ -932,6 +932,117 @@ section.lazy-placeholder:after {
   padding: 0;
   margin: 0;
 }
+.cid-sdfhw8N4q1 {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-sdfhw8N4q1 .card-img {
+  margin: 0px !important;
+}
+.cid-sdfhw8N4q1 .card-box {
+  margin: 0px !important;
+  padding: 0rem 0.5rem 0.5rem 0.5rem;
+  background-color: #f2f2f0;
+  border-radius: 4px;
+}
+.cid-sdfhw8N4q1 h4 {
+  display: inline;
+  text-decoration: none;
+  background-image: linear-gradient(transparent calc(98%), currentColor 1px);
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: 0% 100%;
+  transition: 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.cid-sdfhw8N4q1 h3 {
+  margin-bottom: 0;
+  letter-spacing: 1px;
+}
+.cid-sdfhw8N4q1 img {
+  transition: all 0.3s;
+  margin: 0px !important;
+}
+.cid-sdfhw8N4q1 .mbr-text {
+  color: #ff3366;
+  text-align: center;
+}
+.cid-sdfhw8N4q1 .photogald-search-icon {
+  display: none;
+}
+.cid-sdfhw8N4q1 .card-wrapper {
+  margin: 0px !important;
+  height: 100%;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-sdfhw8N4q1 .card-wrapper:hover h4 {
+  background-size: 100% 100%;
+}
+.cid-sdfhw8N4q1 .card-wrapper:hover img {
+  filter: blur(2px);
+}
+.cid-sdfhw8N4q1 .card-wrapper:hover .photogald-search-icon {
+  display: block;
+  position: absolute;
+  left: 35%;
+  top: 25%;
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+.cid-sdfhw8N4q1 .card {
+  padding: 0rem;
+  break-inside: avoid-column;
+  display: inline-block;
+  min-width: 100%;
+  background-color: #f2f2f0;
+}
+@media (min-width: 992px) {
+  .cid-sdfhw8N4q1 .card-columns {
+    column-count: 3;
+    column-gap: 0rem;
+    column-gap: 0.5rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-sdfhw8N4q1 .card-columns {
+    column-count: 2;
+    column-gap: 0rem;
+    column-gap: 0.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-sdfhw8N4q1 .card-columns {
+    column-count: 1;
+    column-gap: 0rem;
+    column-gap: 0.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .cid-sdfhw8N4q1 .card-columns {
+    column-gap: 0rem;
+    column-gap: 0.5rem;
+  }
+}
+.cid-sdfhw8N4q1 .card-title {
+  color: #073b4c;
+  text-align: left;
+}
+.cid-sdfhw8N4q1 .dentaura-photogal-thumb {
+  border-style: solid;
+  border-width: 6px;
+  border-color: #f2f2f0;
+  border-radius: 4px;
+}
+.cid-sdfhw8N4q1 H1 {
+  color: #000000;
+  text-align: center;
+}
+.cid-sdfhw8N4q1 H2 {
+  text-align: left;
+  color: #f83055;
+}
 .cid-rZqGlWh0Mp {
   padding-top: 30px;
   padding-bottom: 0px;
