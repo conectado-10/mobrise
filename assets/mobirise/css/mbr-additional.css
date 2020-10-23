@@ -1043,6 +1043,110 @@ section.lazy-placeholder:after {
   text-align: left;
   color: #f83055;
 }
+.cid-QrIrfzQqEr {
+  background-color: #c1c1c1;
+  font-family: 'Cormorant', serif;
+  color: #707bf0;
+  background-repeat: no-repeat;
+}
+.cid-QrIrfzQqEr .container-fluid {
+  padding-top: 60px;
+  padding-bottom: 45px;
+}
+.cid-QrIrfzQqEr .rating {
+  padding-top: 5px;
+  color: #e2ce14;
+}
+.cid-QrIrfzQqEr .fa-star {
+  color: #e2ce14 !important;
+}
+.cid-QrIrfzQqEr .fa-star-o {
+  color: #e2ce14 !important;
+}
+.cid-QrIrfzQqEr .name {
+  background-color: #ffffff;
+  margin-top: -50px !important;
+  color: #465052;
+}
+.cid-QrIrfzQqEr .card {
+  background-color: #ffffff;
+  border-radius: 20px !important;
+  box-shadow: 2px 2px 5px 0px #767676;
+  transition: 0.8s;
+  backgorund-color: #ffffff;
+}
+.cid-QrIrfzQqEr .card-body div div p {
+  color: #5b686b;
+}
+.cid-QrIrfzQqEr .card-ico {
+  color: #ae91e4;
+}
+.cid-QrIrfzQqEr .card-header {
+  background-color: #ffffff;
+  border-radius: 20px !important;
+}
+.cid-QrIrfzQqEr .card-footer {
+  background-color: #ffffff;
+  border-radius: 20px !important;
+}
+.cid-QrIrfzQqEr p {
+  font-size: 17px;
+  margin-bottom: 7px;
+}
+.cid-QrIrfzQqEr .small {
+  letter-spacing: 0.5px !important;
+}
+.cid-QrIrfzQqEr .card-header img {
+  border: 5px solid;
+  border-color: #ffffff;
+}
+.cid-QrIrfzQqEr .outside {
+  position: inherit;
+  top: -50%;
+}
+.cid-QrIrfzQqEr hr {
+  background-color: #ae91e4;
+  border: 1px solid;
+  border-radius: 20px;
+  color: #ae91e4;
+  height: 5px;
+  width: 70px !important;
+}
+.cid-QrIrfzQqEr .bold {
+  font-weight: 500;
+}
+.cid-QrIrfzQqEr .profile-pic {
+  margin-bottom: 5px !important;
+}
+.cid-QrIrfzQqEr .quotes {
+  position: relative;
+  top: -10px;
+}
+.cid-QrIrfzQqEr .quotes-down {
+  position: relative;
+  top: -4 px;
+}
+.cid-QrIrfzQqEr .fa {
+  color: #ae91e4;
+}
+.cid-QrIrfzQqEr .card-footer .fa {
+  font-size: 20px !important;
+}
+.cid-QrIrfzQqEr .container-fluid:hover .card:not(:hover) {
+  transform: scale(0.9);
+}
+@media (max-width: 1000px) {
+  .cid-QrIrfzQqEr .container-fluid:hover .card:not(:hover) {
+    transform: scale(1);
+  }
+}
+.cid-QrIrfzQqEr P {
+  color: #000000;
+}
+.cid-QrIrfzQqEr h6 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 .cid-rZqGlWh0Mp {
   padding-top: 30px;
   padding-bottom: 0px;
