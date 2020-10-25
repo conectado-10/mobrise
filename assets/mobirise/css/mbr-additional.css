@@ -2455,7 +2455,7 @@ background-color: @bgColor;
 
 .cid-sestL1Jtwg {
 @paddingTop: 1;
-@paddingBottom: 4;
+@paddingBottom: 2;
 @showmainTitle: true;
 @showmainSubtitle: false;
 @showGap: true;
@@ -2468,9 +2468,9 @@ background-color: @bgColor;
 @crdColor: #f2f2f0;
 @cardsAmount: "6";
 @columnDesk: 6;
-@columnTab: 2;
+@columnTab: 3;
 @columnMobile: 2;
-@showIcon: true;
+@showIcon: false;
 @iconSize: 3;
 @positionX: 7;
 @positionY: 5;
