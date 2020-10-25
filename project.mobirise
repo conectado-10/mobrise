@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page1.html",
+    "currentPage": "page9.html",
     "theme": {
       "name": "creativem4",
       "title": "CreativeM4",
@@ -52,7 +52,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 233,
+    "uniqCompNum": 238,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "witsec-mailform-to": "sintoniabarra@gmail.com",
@@ -615,7 +615,7 @@
     "page1.html": {
       "settings": {
         "title": "Lojas",
-        "order": 17
+        "order": 19
       },
       "components": [
         {
@@ -756,7 +756,7 @@
     "page4.html": {
       "settings": {
         "title": "Planos",
-        "order": 18
+        "order": 20
       },
       "components": [
         {
@@ -1501,7 +1501,7 @@
     "page3.html": {
       "settings": {
         "title": "Joalheria",
-        "order": 16
+        "order": 18
       },
       "components": [
         {
@@ -1659,7 +1659,7 @@
     "page5.html": {
       "settings": {
         "title": "Polimentos Carro",
-        "order": 15
+        "order": 17
       },
       "components": [
         {
@@ -1819,7 +1819,7 @@
     "page6.html": {
       "settings": {
         "title": "Protese Dentaria",
-        "order": 14
+        "order": 16
       },
       "components": [
         {
@@ -1979,7 +1979,7 @@
     "page7.html": {
       "settings": {
         "title": "LOJA PRESENTE",
-        "order": 11,
+        "order": 13,
         "meta_descr": "",
         "meta_image": "@PROJECT_PATH@/assets/images/klassisch-geometrie-schmuck-logo-3.png"
       },
@@ -2141,7 +2141,7 @@
     "page8.html": {
       "settings": {
         "title": "prestação de serviços",
-        "order": 10
+        "order": 12
       },
       "components": [
         {
@@ -2308,7 +2308,7 @@
     "page9.html": {
       "settings": {
         "title": "PRESENTE PERFEITO",
-        "order": 8,
+        "order": 10,
         "meta_descr": ""
       },
       "components": [
@@ -2465,7 +2465,7 @@
             }
           },
           "_name": "custom-html",
-          "_customHTML": "<!-- Card -->\n<center>\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <a href=\"https://instabio.cc/21025KpCLQe\"><img src=\"@PROJECT_PATH@/assets/images/wooden-alphabet-or-font-blocks-with-letter-r-in-vector-23221231.jpg\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title></a>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">Qualidade é Aqui!!</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\">Participe seja um cliente VIP</p>\n\n    </div>\n\n  </div>\n  <div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <img src=\"@PROJECT_PATH@/assets/images/613ceaae3543acdf381af20da47612dc.png\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">Breve Marcação&nbsp;<br></h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\">Em breve fotos de eventos&nbsp;</p>\n\n    </div>\n\n  </div>\n  </div></div></center>",
+          "_customHTML": "<!-- Card -->\n<center>\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <a href=\"https://api.whatsapp.com/send?phone=5522999727713&text=Quero%20ser%20um%20revendedor%20atraves%3A(Grupo%20Conectado)\"><img src=\"@PROJECT_PATH@/assets/images/wooden-alphabet-or-font-blocks-with-letter-r-in-vector-23221231.jpg\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title></a>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">Qualidade é Aqui!!</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\"><a href=\"https://api.whatsapp.com/send?phone=5522999727713&text=Quero%20ser%20um%20revendedor%20atraves%3A(Grupo%20Conectado)\">Seja um Revendedor</a></p>\n\n    </div>\n\n  </div>\n  <div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <img src=\"@PROJECT_PATH@/assets/images/613ceaae3543acdf381af20da47612dc.png\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">Produtos Rústicos<br></h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\">Matrial personalizados&nbsp;</p>\n\n    </div>\n\n  </div>\n  </div></div></center>",
           "_anchor": "custom-html-4g",
           "_isUserblock": true,
           "_sourceTheme": "creativem4",
@@ -2476,394 +2476,182 @@
           "_params": {}
         },
         {
-          "_name": "slider2",
+          "_params": {
+            "HTMLCode": "<script type=\"text/javascript\" async\n  src=\"//l.getsitecontrol.com/y791lm48.js\">\n</script>",
+            "hideOnPublish": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "HTMLCode": "<script type=\"text/javascript\" async\n  src=\"//l.getsitecontrol.com/y791lm48.js\">\n</script>",
+          "alias": "witsec-custom-html",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-custom-html-block",
+          "_anchor": "witsec-custom-html-block-4j"
+        },
+        {
+          "_name": "masonrygallery",
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".content-slider": {
-              "display": "-webkit-flex",
-              "justify-content": "center",
-              "-webkit-justify-content": "center"
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             },
-            ".modal-body .close": {
-              "background": "#1b1b1b"
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
             },
-            ".modal-body .close span": {
-              "font-style": "normal"
+            ".card-img": {
+              "margin": "0px !important"
             },
-            ".carousel-inner > .active, .carousel-inner > .next, .carousel-inner > .prev": {
-              "display": "-webkit-flex"
-            },
-            ".carousel-control .icon-next, .carousel-control .icon-prev": {
-              "margin-top": "-18px",
-              "font-size": "40px",
-              "line-height": "27px"
-            },
-            ".carousel-control:hover": {
-              "background": "#1b1b1b",
-              "color": "#fff",
-              "opacity": "1"
-            },
-            "@media (max-width: 767px)": {
-              ".container .carousel-control": {
-                "margin-bottom": "0"
-              },
-              ".content-slider-wrap": {
-                "width": "100%!important"
+            ".card-box": {
+              "margin": "0px !important",
+              "& when (@crdBg)": {
+                "padding": "0rem 0.5rem 0.5rem 0.5rem",
+                "background-color": "@crdColor",
+                "border-radius": "4px"
               }
             },
-            ".boxed-slider": {
-              "position": "relative",
-              "padding": "93px 0"
-            },
-            ".boxed-slider > div": {
-              "position": "relative"
-            },
-            ".container img": {
-              "width": "100%"
-            },
-            ".container img + .row": {
-              "position": "absolute",
-              "top": "50%",
-              "left": "0",
-              "right": "0",
-              "-webkit-transform": "translateY(-50%)",
-              "-moz-transform": "translateY(-50%)",
-              "transform": "translateY(-50%)",
-              "z-index": "2"
-            },
-            ".mbr-section": {
-              "padding": "0",
-              "background-attachment": "scroll"
-            },
-            ".mbr-table-cell": {
-              "padding": "0"
-            },
-            ".container .carousel-indicators": {
-              "margin-bottom": "3px"
-            },
-            ".carousel-caption": {
-              "top": "50%",
-              "right": "0",
-              "bottom": "auto",
-              "left": "0",
-              "display": "-webkit-flex",
-              "align-items": "center",
-              "-webkit-transform": "translateY(-50%)",
-              "transform": "translateY(-50%)",
-              "-webkit-align-items": "center"
-            },
-            ".mbr-overlay": {
-              "z-index": "1"
-            },
-            ".container-slide.container": {
-              "width": "100%",
-              "min-height": "100vh",
-              "padding": "0"
-            },
-            ".carousel-item": {
-              "background-position": "50% 50%",
+            "h4": {
+              "display": "inline",
+              "text-decoration": "none",
+              "background-image": "linear-gradient(transparent calc(100% - 2px), currentColor 1px)",
               "background-repeat": "no-repeat",
-              "background-size": "cover",
-              "-o-transition": "-o-transform 0.6s ease-in-out",
-              "-webkit-transition": "-webkit-transform 0.6s ease-in-out",
-              "transition": "transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out, -o-transform 0.6s ease-in-out",
-              "-webkit-backface-visibility": "hidden",
-              "backface-visibility": "hidden",
-              "-webkit-perspective": "1000px",
-              "perspective": "1000px",
-              ".container": {
-                "@media (max-width: 576px)": {
-                  "width": "100%"
-                }
-              }
+              "background-position": "0",
+              "background-size": "0% 100%",
+              "transition": "0.6s cubic-bezier(0.215, 0.61, 0.355, 1)"
             },
-            ".carousel-item-next.carousel-item-left, .carousel-item-prev.carousel-item-right": {
-              "-webkit-transform": "translate3d(0, 0, 0)",
-              "transform": "translate3d(0, 0, 0)"
+            "h3": {
+              "margin-bottom": "0",
+              "letter-spacing": "1px"
             },
-            ".active.carousel-item-right, .carousel-item-next": {
-              "-webkit-transform": "translate3d(100%, 0, 0)",
-              "transform": "translate3d(100%, 0, 0)"
+            "img": {
+              "transition": "all 0.3s",
+              "margin": "0px !important"
             },
-            ".active.carousel-item-left, .carousel-item-prev": {
-              "-webkit-transform": "translate3d(-100%, 0, 0)",
-              "transform": "translate3d(-100%, 0, 0)"
-            },
-            ".mbr-slider": {
-              ".carousel-control": {
-                "top": "50%",
-                "width": "50px",
-                "height": "50px",
-                "margin-top": "-1.5rem",
-                "font-size": "35px",
-                "background-color": "rgba(0, 0, 0, 0.5)",
-                "border": "2px solid #fff",
-                "border-radius": "50%",
-                "transition": "all .3s",
-                "&.carousel-control-prev": {
-                  "left": "0",
-                  "margin-left": "2.5rem"
-                },
-                "&.carousel-control-next": {
-                  "right": "0",
-                  "margin-right": "2.5rem"
-                },
-                ".mbr-iconfont": {
-                  "font-size": "1.5rem"
-                },
-                "@media (max-width: 767px)": {
-                  "top": "auto",
-                  "bottom": "1rem"
-                }
-              },
-              ".carousel-indicators": {
-                "position": "absolute",
-                "bottom": "0",
-                "margin-bottom": "1.5rem !important",
-                "li": {
-                  "max-width": "15px",
-                  "height": "15px",
-                  "width": "15px",
-                  "max-height": "15px",
-                  "margin": "3px",
-                  "background-color": "rgba(0, 0, 0, 0.5)",
-                  "border": "2px solid #fff",
-                  "border-radius": "50%",
-                  "opacity": ".5",
-                  "transition": "all .3s",
-                  "&.active, &:hover": {
-                    "opacity": ".9"
-                  },
-                  "&::after, &::before": {
-                    "content": "none"
-                  }
-                },
-                "&.ie-fix": {
-                  "left": "50%",
-                  "display": "block",
-                  "width": "60%",
-                  "margin-left": "-30%",
-                  "text-align": "center"
-                },
-                "@media (max-width: 576px)": {
-                  "display": "none !important"
-                }
-              },
-              "> .container": {
-                "img": {
-                  "width": "100%",
-                  "+ .row": {
-                    "position": "absolute",
-                    "top": "50%",
-                    "right": "0",
-                    "left": "0",
-                    "z-index": "2",
-                    "-moz-transform": "translateY(-50%)",
-                    "-webkit-transform": "translateY(-50%)",
-                    "transform": "translateY(-50%)"
-                  }
-                },
-                ".carousel-indicators": {
-                  "margin-bottom": "3px"
-                },
-                "@media (max-width: 576px)": {
-                  ".carousel-control": {
-                    "margin-bottom": "0"
-                  }
-                }
-              },
-              ".mbr-section": {
-                "padding": "0",
-                "background-attachment": "scroll"
-              },
-              ".mbr-table-cell": {
-                "padding": "0"
-              }
-            },
-            ".carousel-item .container.container-slide": {
-              "position": "initial",
-              "width": "auto",
-              "min-height": "0"
-            },
-            ".full-screen": {
-              ".slider-fullscreen-image": {
-                "min-height": "100vh",
-                "background-repeat": "no-repeat",
-                "background-position": "50% 50%",
-                "background-size": "cover",
-                "&.active": {
-                  "display": "-o-flex"
-                }
-              },
-              "& .container": {
-                "width": "auto",
-                "padding-right": "0",
-                "padding-left": "0"
-              },
-              ".carousel-item .container.container-slide": {
-                "width": "100%",
-                "min-height": "100vh",
-                "padding": "0",
-                "& img": {
-                  "display": "none"
-                }
-              }
-            },
-            ".mbr-background-video-preview": {
-              "position": "absolute",
-              "top": "0",
-              "right": "0",
-              "bottom": "0",
-              "left": "0"
-            },
-            ".mbr-overlay ~ .container-slide": {
-              "z-index": "auto"
-            },
-            ".mbr-slider.slide .container": {
-              "overflow": "hidden",
-              "padding": "0"
-            },
-            ".carousel-inner": {
-              "height": "100%"
-            },
-            ".slider-fullscreen-image": {
-              "height": "100%",
-              "background": "transparent !important"
-            },
-            ".image_wrapper": {
-              "height": "(@sliderHSize * 1px)",
-              "width": "100%",
-              "position": "relative",
-              "display": "inline-block"
-            },
-            ".image_wrapper img": {
-              "width": "auto !important",
-              "height": "100%"
-            },
-            ".carousel-item .container-slide": {
+            ".mbr-text": {
+              "color": "#ff3366",
               "text-align": "center"
             },
-            ".content-slider-wrap": {
-              "width": "(@sliderWSize * 1%)"
+            ".photogald-search-icon": {
+              "display": "none"
+            },
+            ".card-wrapper": {
+              "margin": "0px !important",
+              "height": "100%",
+              "box-shadow": "0px 0px 0px 0px rgba(0, 0, 0, 0)",
+              "transition": "box-shadow 0.3s",
+              "&:hover": {
+                "h4": {
+                  "background-size": "100% 100%"
+                },
+                "img": {
+                  "filter": "blur(2px)"
+                },
+                ".photogald-search-icon": {
+                  "& when (@showIcon)": {
+                    "display": "block",
+                    "position": "absolute",
+                    "left": "(@positionX * 5%)",
+                    "top": "(@positionY * 5%)",
+                    "color": "#ffffff",
+                    "font-size": "(@iconSize * 0.5rem)",
+                    "text-shadow": "2px 2px 5px rgba(0, 0, 0, 0.6)"
+                  }
+                }
+              }
+            },
+            ".card": {
+              "padding": "0rem",
+              "break-inside": "avoid-column",
+              "display": "inline-block",
+              "min-width": "100%",
+              "& when (@showGap = false)": {
+                "margin-bottom": "0px !important"
+              },
+              "& when (@showText)": {
+                "margin-bottom": "0.5rem",
+                "border-radius": "4px !important"
+              },
+              "& when (@crdBg)": {
+                "background-color": "@crdColor"
+              }
+            },
+            "@media (min-width: 992px)": {
+              ".card-columns": {
+                "column-count": "@columnDesk",
+                "column-gap": "0rem",
+                "& when (@showGap)": {
+                  "column-gap": "0.5rem"
+                }
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".card-columns": {
+                "column-count": "@columnTab",
+                "column-gap": "0rem",
+                "& when (@showGap)": {
+                  "column-gap": "0.5rem"
+                }
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".card-columns": {
+                "column-count": "@columnMobile",
+                "column-gap": "0rem",
+                "& when (@showGap)": {
+                  "column-gap": "0.5rem"
+                }
+              }
+            },
+            "@media (min-width: 1200px)": {
+              ".card-columns": {
+                "column-gap": "0rem",
+                "& when (@showGap)": {
+                  "column-gap": "0.5rem"
+                }
+              }
+            },
+            ".card-title": {
+              "color": "#073b4c",
+              "text-align": "center"
+            },
+            "& when (@showGap)": {
+              ".dentaura-photogal-thumb": {
+                "& when (@showBorder)": {
+                  "border-style": "solid",
+                  "border-width": "(@borderThick * 1px)",
+                  "border-color": "@crdColor",
+                  "border-radius": "4px"
+                }
+              }
+            },
+            "H1": {
+              "color": "#000000",
+              "text-align": "center"
+            },
+            "H2": {
+              "text-align": "left",
+              "color": "#f83055"
             }
           },
-          "_customHTML": "<section class=\"carousel slide\" group=\"Sliders & Gallery\" plugins=\"YTPlayer,VimeoPlayer,SliderVideo,BootstrapCarouselSwipe\" data-interval=\"false\"> <mbr-parameters> <input type=\"hidden\" name=\"typeSlider\" value=\"headerSlider\" checked> <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" inline> <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" inline> <input type=\"range\" title=\"Width\" name=\"sliderWSize\" min=\"50\" max=\"100\" step=\"1\" value=\"60\" inline> <input type=\"range\" title=\"Height\" name=\"sliderHSize\" min=\"300\" max=\"700\" step=\"10\" value=\"400\" inline> <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\"> <input type=\"carousel\" title=\"Slides\" name=\"slides\"> </mbr-parameters> <div class=\"container content-slider\"> <div class=\"content-slider-wrap\"> <div mbr-carousel=\"slides\"></div></div></div></section>",
-          "_anchor": "slider2-4h",
+          "_customHTML": "<section class=\"features4\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"Dentauralightbox\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Show Main Title\" name=\"showmainTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Main Subtitle\" name=\"showmainSubtitle\">\n        <input type=\"checkbox\" title=\"Card Gap\" name=\"showGap\" checked>\n        <input type=\"checkbox\" title=\"Thumbnail border\" name=\"showBorder\" condition=\"showGap\" checked>\n<input type=\"range\" inline title=\"Thumbnail border Thickness\" name=\"borderThick\" min=\"1\" max=\"6\" step=\"1\" value=\"6\" condition=\"showBorder\">\n        <input type=\"checkbox\" title=\"Text below thumbnail\" name=\"showText\" condition=\"showGap\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" condition=\"showText && showGap\" checked>\n        <input type=\"checkbox\" title=\"Show Sub Title\" name=\"showSubtitle\" condition=\"showText && showGap\">\n        <input type=\"checkbox\" title=\"Card Background\" name=\"crdBg\" condition=\"showText && showGap\">\n        <input type=\"color\" title=\"Card Color, Thumbnail Border & Hover Border\" name=\"crdColor\" value=\"#f2f2f0\" condition=\"crdBg\">\n\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\" selected>6</option>\n            <option value=\"7\">7</option>\n            <option value=\"8\">8</option>\n            <option value=\"9\">9</option>\n            <option value=\"10\">10</option>\n            <option value=\"11\">11</option>\n            <option value=\"12\">12</option>\n            <option value=\"13\">13</option>\n            <option value=\"14\">14</option>\n            <option value=\"15\">15</option>\n            <option value=\"16\">16</option>\n            <option value=\"17\">17</option>\n            <option value=\"18\">18</option>\n            <option value=\"19\">19</option>\n            <option value=\"20\">20</option>\n            <option value=\"21\">21</option>\n            <option value=\"22\">22</option>\n            <option value=\"23\">23</option>\n            <option value=\"24\">24</option>\n            <option value=\"25\">25</option>\n            <option value=\"26\">26</option>\n            <option value=\"27\">27</option>\n            <option value=\"28\">28</option>\n            <option value=\"29\">29</option>\n            <option value=\"30\">30</option>\n            <option value=\"31\">31</option>\n            <option value=\"32\">32</option>\n            <option value=\"33\">33</option>\n            <option value=\"34\">34</option>\n            <option value=\"35\">35</option>\n            <option value=\"36\">36</option>\n            <option value=\"37\">37</option>\n            <option value=\"38\">38</option>\n            <option value=\"39\">39</option>\n            <option value=\"40\">40</option>\n            <option value=\"41\">41</option>\n            <option value=\"42\">42</option>\n            <option value=\"43\">43</option>\n            <option value=\"44\">44</option>\n            <option value=\"45\">45</option>\n            <option value=\"46\">46</option>\n            <option value=\"47\">47</option>\n            <option value=\"48\">48</option>\n            <option value=\"49\">49</option>\n            <option value=\"50\">50</option>\n            <option value=\"51\">51</option>\n            <option value=\"52\">52</option>\n            <option value=\"53\">53</option>\n            <option value=\"54\">54</option>\n            <option value=\"55\">55</option>\n            <option value=\"56\">56</option>\n            <option value=\"57\">57</option>\n            <option value=\"58\">58</option>\n            <option value=\"59\">59</option>\n            <option value=\"60\">60</option>\n            <option value=\"61\">61</option>\n            <option value=\"62\">62</option>\n            <option value=\"63\">63</option>\n            <option value=\"64\">64</option>\n            <option value=\"65\">65</option>\n            <option value=\"66\">66</option>\n            <option value=\"67\">67</option>\n            <option value=\"68\">68</option>\n            <option value=\"69\">69</option>\n            <option value=\"70\">70</option>\n            <option value=\"71\">71</option>\n            <option value=\"72\">72</option>\n            <option value=\"73\">73</option>\n            <option value=\"74\">74</option>\n            <option value=\"75\">75</option>\n            <option value=\"76\">76</option>\n            <option value=\"77\">77</option>\n            <option value=\"78\">78</option>\n            <option value=\"79\">79</option>\n            <option value=\"80\">80</option>\n            <option value=\"81\">81</option>\n            <option value=\"82\">82</option>\n            <option value=\"83\">83</option>\n            <option value=\"84\">84</option>\n            <option value=\"85\">85</option>\n            <option value=\"86\">86</option>\n            <option value=\"87\">87</option>\n            <option value=\"88\">88</option>\n            <option value=\"89\">89</option>\n            <option value=\"90\">90</option>\n            <option value=\"91\">91</option>\n            <option value=\"92\">92</option>\n            <option value=\"93\">93</option>\n            <option value=\"94\">94</option>\n            <option value=\"95\">95</option>\n            <option value=\"96\">96</option>\n            <option value=\"97\">97</option>\n            <option value=\"98\">98</option>\n            <option value=\"99\">99</option>\n            <option value=\"100\">100</option>\n        </select>\n<input type=\"range\" inline title=\"Card Column in Desktop\" name=\"columnDesk\" min=\"3\" max=\"6\" step=\"1\" value=\"6\">\n<input type=\"range\" inline title=\"Card Column in Tab\" name=\"columnTab\" min=\"2\" max=\"3\" step=\"1\" value=\"3\">\n<input type=\"range\" inline title=\"Card Column in Mobile\" name=\"columnMobile\" min=\"1\" max=\"2\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Icon\" name=\"showIcon\">\n    <input type=\"range\" inline title=\"Icon Size\" name=\"iconSize\" min=\"3\" max=\"6\" step=\"1\" value=\"3\" condition=\"showIcon\">\n    <input type=\"range\" inline title=\"Icon Position X\" name=\"positionX\" min=\"3\" max=\"10\" step=\"1\" value=\"7\" condition=\"showIcon\">\n    <input type=\"range\" inline title=\"Icon Position Y\" name=\"positionY\" min=\"3\" max=\"10\" step=\"1\" value=\"5\" condition=\"showIcon\">    \n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\"><div class=\"row justify-content-center\">\n            <div class=\"title col-12 col-md-12\">\n                <h1 mbr-if=\"showmainTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\"><b>CONFIRA NOSSA LOJA</b></h1>\n                <h2 mbr-if=\"showmainSubtitle\" class=\"align-center mbr-fonts-style pb-5\" mbr-theme-style=\"display-5\">This is a masonry gallery with vertical order. REMEMBER THIS GALLERY IS SUITABLE FOR ADVANCED USERS WHO KNOW TO EDIT HTML &amp; CSS.<br>1. Upto 100 images you can add with separate thumbnails, and link each thumbnail to the respective original image.\n All images should have thumbnail. Preferred thumbnail size width should be 200px or depending on number of columns used.<br>2. The photogallery now works with a thumbnail and then a link to the large image. The large image will be shown in lightbox gallery with provision to slide to next image and also caption for each image. So adding bulk images are not possible.<br>3. Click on image, we can add image as thumbnail by browsing. For enlarged image we have to take image location and add in the link box.<br>4. In html we can add the link of large image and also the large image Caption(title=\"Coded by Dentaura.Com\"). If you do not change the large image caption the default will appear in your published file.<br><div>4. Provision to add or remove icon. Provision to adjust size and position of icon.\n</div><div>5. Can add title or description to each card.<br>6. If icon is enabled, you can click on the icon to view the lightbox in the app itself. If icon is not enabled also lightbox will work in published files.<br>7. If using more than one gallery in a single page, the lightbox id has to be changed to avoid showing images from next gallery in the lightbox. Find rel=\"lightbox[dentaura-id]\" for each image. Replace <b>dentaura-id</b> for each category.<br></div></h2>\n            </div>\n        </div>\n        <div class=\"card-columns\">\n            <div class=\"card\" mbr-if=\"cardsAmount > 0\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"page20.html\"><img src=\"@PROJECT_PATH@/assets/images/klassisch-geometrie-schmuck-logo-5-removebg-preview.png\" class=\"dentaura-photogal-thumb\" alt title></a>\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">ADEGAS</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"></h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <img src=\"@PROJECT_PATH@/assets/images/klassisch-geometrie-schmuck-logo-7.png\" class=\"dentaura-photogal-thumb\" alt title>\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">BANQUETAS</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/klassisch-geometrie-schmuck-logo-6.png\" class=\"dentaura-photogal-thumb\" alt title>\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">LUMINARIAS</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"page21.html\"><img src=\"@PROJECT_PATH@/assets/images/klassisch-geometrie-schmuck-logo-8.png\" class=\"dentaura-photogal-thumb\" alt title></a>\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">COZINHA</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 4\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <img src=\"@PROJECT_PATH@/assets/images/klassisch-geometrie-schmuck-logo-9.png\" class=\"dentaura-photogal-thumb\" alt title>\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">PLATELEIRAS</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 5\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <img src=\"@PROJECT_PATH@/assets/images/klassisch-geometrie-schmuck-logo-10.png\" class=\"dentaura-photogal-thumb\" alt title>\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">OUTROS</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 6\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 7</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 7\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 8</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 8\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 9</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 9\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title10</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 10\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 11</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 11\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 12</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 12\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 13</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 13\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 14</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 14\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 15</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 15\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 16</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 16\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 17</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 17\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 18</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 18\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 19</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 19\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 20</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 20\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 21</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 21\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 22</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 22\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 23</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 23\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 24</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 24\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 25</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 25\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 26</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 26\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 27</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 27\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 28</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 28\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 29</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 29\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 30</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 30\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 31</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 31\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 32</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 32\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 33</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 33\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 34</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 34\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 35</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 35\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 36</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 36\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 37</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 37\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 38</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 38\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 39</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 39\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 40</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 40\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 41</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 41\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 42</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 42\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 43</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 43\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 44</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 44\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 45</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 45\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 46</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 46\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 47</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 47\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 48</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 48\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 49</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 49\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 50</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 50\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/whatsapp-image-2020-10-05-at-08.26.00-714x402.jpg\" class=\"dentaura-photogal-thumb\" alt title>\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 51</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 51\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 52</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 52\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 53</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 53\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 54</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 54\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 55</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 55\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 56</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 56\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 57</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 57\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 58</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 58\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 59</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 59\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 60</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 60\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 61</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 61\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 62</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 62\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 63</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 63\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 64</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 64\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 65</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 65\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 66</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 66\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 67</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 67\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 68</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 68\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 69</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 69\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 70</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 70\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 71</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 71\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 72</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 72\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 73</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 73\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 74</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 74\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 75</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 75\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 76</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 76\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 77</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 77\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 78</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 78\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 79</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 79\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 80</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 80\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 81</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 81\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 82</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 82\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 83</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 83\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 84</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 84\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 85</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 85\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 86</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 86\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 87</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 87\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 88</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 88\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 89</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 89\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 90</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 90\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 91</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 91\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 92</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 92\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 93</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 93\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 94</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 94\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 95</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 95\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 96</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 96\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 97</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 97\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 98</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 98\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 99</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\" mbr-if=\"cardsAmount > 99\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                            <a href=\"https://cdn.pixabay.com/photo/2017/12/18/15/23/finger-3026348_960_720.jpg\" rel=\"lightbox[dentaura-id]\" title=\"Coded by Dentaura.Com\"><img src=\"@PROJECT_PATH@/assets/images/thumbnail-dummy.jpg\" class=\"dentaura-photogal-thumb\">\n<span class=\"mbri-search mbr-iconfont mbr-iconfont-btn photogald-search-icon\"></span></a>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText && showGap\">\n                        <h3 class=\"card-title pt-2 pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Title 100</h3>\n                        <h4 class=\"sub-title mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Description</h4>\n                    </div>\n                </div>\n            </div>\n\n\n\n        </div>\n    </div>\n</section>",
+          "_anchor": "masonrygallery-6h",
           "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "s6adrFHvNB",
-          "_protectedParams": [
-            "slides__autoplay",
-            "slides__autoplayInterval",
-            "slides__showBullets",
-            "slides"
-          ],
+          "_sourceTheme": "dentauram4",
+          "_cid": "sestL1Jtwg",
+          "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {
-            "slides__autoplay": "true",
-            "slides__autoplayInterval": "2000",
-            "slides__showBullets": true,
-            "slides": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/0407-lasanha-524x393.jpg",
-                "active": true,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-2",
-                "customStyle2": "display-7",
-                "customStyle3": "display-4",
-                "alt": "",
-                "title": "",
-                "textTitle": "Imagem do Slider",
-                "overlay": false,
-                "contentAlign": "right",
-                "text": "Escolha a partir da grande seleção de blocos pré-fabricados mais recentes - jumbotrons, imagens de heróis, rolagem de paralaxe, fundos de vídeo, menu de hambúrguer, cabeçalho e mais.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA MAC</a>"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/152741-original.webp",
-                "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-2",
-                "customStyle2": "display-7",
-                "customStyle3": "display-4",
-                "alt": "",
-                "title": "",
-                "textTitle": "Imagem do Slider",
-                "overlay": false,
-                "contentAlign": "center",
-                "text": "Escolha a partir da grande seleção de blocos pré-fabricados mais recentes - jumbotrons, imagens de heróis, rolagem de paralaxe, fundos de vídeo, menu de hambúrguer, cabeçalho e mais.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA MAC</a>"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/massa-fresca-460x307.jpg",
-                "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-2",
-                "customStyle2": "display-7",
-                "customStyle3": "display-4",
-                "alt": "",
-                "title": "",
-                "textTitle": "Imagem do Slider",
-                "overlay": false,
-                "contentAlign": "center",
-                "text": "Escolha a partir da grande seleção de blocos pré-fabricados mais recentes - jumbotrons, imagens de heróis, rolagem de paralaxe, fundos de vídeo, menu de hambúrguer, cabeçalho e mais.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA MAC</a>"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/receitas-de-molho-para-massas-630x385.jpg",
-                "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-2",
-                "customStyle2": "display-7",
-                "customStyle3": "display-4",
-                "alt": "",
-                "title": "",
-                "textTitle": "Imagem do Slider",
-                "overlay": false,
-                "contentAlign": "center",
-                "text": "Escolha a partir da grande seleção de blocos pré-fabricados mais recentes - jumbotrons, imagens de heróis, rolagem de paralaxe, fundos de vídeo, menu de hambúrguer, cabeçalho e mais.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA MAC</a>"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/gnocchi-recheado-570x300.jpg",
-                "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-2",
-                "customStyle2": "display-7",
-                "customStyle3": "display-4",
-                "alt": "",
-                "title": "",
-                "textTitle": "Imagem do Slider",
-                "overlay": false,
-                "contentAlign": "center",
-                "text": "Escolha a partir da grande seleção de blocos pré-fabricados mais recentes - jumbotrons, imagens de heróis, rolagem de paralaxe, fundos de vídeo, menu de hambúrguer, cabeçalho e mais.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">PARA MAC</a>"
-              }
-            ]
-          }
+          "_params": {}
         },
         {
           "_name": "map2",
@@ -2901,7 +2689,7 @@
               }
             }
           },
-          "_customHTML": "<center>\n<section class=\"map2\" group=\"Maps\"> MINHA LOCALIZAÇÃO\n  <br>\n    <br>\n    <mbr-parameters>\n    <!-- Block of parameters for component -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"1\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"3\" step=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"iframe\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.8252409958577!2d-41.974977384424804!3d-22.548218330844502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x97b3b3a26d8921%3A0x1fc5bfefa5676303!2sAv.%20Oceanica%2C%20393%20-%20Cidade%20Beira%20Mar%2C%20Rio%20das%20Ostras%20-%20RJ%2C%2028890-000!5e0!3m2!1spt-BR!2sbr!4v1596055290424!5m2!1spt-BR!2sbr&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; aria-hidden=&quot;false&quot; tabindex=&quot;0&quot;></iframe>\">\n    <!-- End block of parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-md-8\">\n                <div class=\"google-map\" mbr-map=\"googleMap\">\n            </div>\n        </div>\n    </div>\n</div></section>\n    </center>",
+          "_customHTML": "<center>\n<section class=\"map2\" group=\"Maps\"> MINHA LOCALIZAÇÃO\n  <br>\n    <br>\n    <mbr-parameters>\n    <!-- Block of parameters for component -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"1\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"3\" step=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"iframe\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.970219702231!2d-41.95868968504157!3d-22.50530048521743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDMwJzE5LjEiUyA0McKwNTcnMjMuNCJX!5e0!3m2!1spt-BR!2sbr!4v1603653187085!5m2!1spt-BR!2sbr&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; aria-hidden=&quot;false&quot; tabindex=&quot;0&quot;></iframe>\">\n    <!-- End block of parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-md-8\">\n                <div class=\"google-map\" mbr-map=\"googleMap\">\n            </div>\n        </div>\n    </div>\n</div></section>\n    </center>",
           "_anchor": "map2-4i",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -2910,57 +2698,13 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "alias": "deltapi-code-editor",
-          "_isSecondary": true,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section": {
-              "text-align": "center",
-              "color": "#fff"
-            }
-          },
-          "_name": "custom-html",
-          "_customHTML": "<h3 style=\"text-align: center;\">\nESCOLHA SUA OPÇÃO!\n</h3>\n<center>\n<div style=\"float: left; width: 50%;\">\n<div class=\"separator\" style=\"clear: both; text-align: center;\">\n<a href=\"https://store17441987.ecwid.com/MASSAS-c55012153\"><img border=\"0\" data-original-height=\"256\" data-original-width=\"256\" height=\"100\" src=\"https://4.bp.blogspot.com/-9RMd3MdHVg4/XyFvZCAQnDI/AAAAAAAANPM/EpGmjZ2-HZYSpvhFag5wGi0tW-9-_XzHgCPcBGAYYCw/s320/Dish_Pasta_Spaghetti_26373.png\" width=\"100\" /></a></div>\n<div class=\"separator\" style=\"clear: both; text-align: center;\">\nMASSAS</div>\n</div>\n<div style=\"float: left; width: 50%;\">\n<div class=\"separator\" style=\"clear: both; text-align: center;\">\n<a href=\"https://store17441987.ecwid.com/MOLHOS-c54997119\"><img border=\"0\" data-original-height=\"256\" data-original-width=\"256\" height=\"100\" src=\"https://4.bp.blogspot.com/-R9wpI8uXs_g/XyFvDUtdphI/AAAAAAAANPE/DSnWQnqw4FgjF2VN78ewTK63504czqVEgCPcBGAYYCw/s320/recipesouptomatoicon_109885.png\" width=\"100\" /></a></div>\n<div class=\"separator\" style=\"clear: both; text-align: center;\">\nMOLHOS</div>\n</div>\n</center>\n",
-          "_cid": "s6ajAJV66K",
-          "_anchor": "custom-html-4k",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_params": {
-            "HTMLCode": "<script type=\"text/javascript\" async\n  src=\"//l.getsitecontrol.com/y791lm48.js\">\n</script>",
-            "hideOnPublish": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "HTMLCode": "<script type=\"text/javascript\" async\n  src=\"//l.getsitecontrol.com/y791lm48.js\">\n</script>",
-          "alias": "witsec-custom-html",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "witsec-custom-html-block",
-          "_anchor": "witsec-custom-html-block-4j"
         }
       ]
     },
     "page10.html": {
       "settings": {
         "title": "DANILO PROTESE",
-        "order": 3
+        "order": 5
       },
       "components": [
         {
@@ -3332,7 +3076,7 @@
     "page11.html": {
       "settings": {
         "title": "POLIMENTO JUAN",
-        "order": 7
+        "order": 9
       },
       "components": [
         {
@@ -3930,7 +3674,7 @@
     "page12.html": {
       "settings": {
         "title": "CARDS REFRIGERAÇÃO",
-        "order": 2
+        "order": 4
       },
       "components": [
         {
@@ -4088,7 +3832,7 @@
     "page13.html": {
       "settings": {
         "title": "WILTON REFRIGERAÇÃO",
-        "order": 6
+        "order": 8
       },
       "components": [
         {
@@ -4460,7 +4204,7 @@
     "page14.html": {
       "settings": {
         "title": "frutos do mar",
-        "order": 1
+        "order": 3
       },
       "components": [
         {
@@ -4618,7 +4362,7 @@
     "page15.html": {
       "settings": {
         "title": "PESCADOS RIO DAS OSTRAS",
-        "order": 5
+        "order": 7
       },
       "components": [
         {
@@ -4948,7 +4692,7 @@
     "page16.html": {
       "settings": {
         "title": "Saude",
-        "order": 12
+        "order": 14
       },
       "components": [
         {
@@ -5108,7 +4852,7 @@
     "page17.html": {
       "settings": {
         "title": "plano de saude",
-        "order": 4
+        "order": 6
       },
       "components": [
         {
@@ -6065,7 +5809,7 @@
     "page18.html": {
       "settings": {
         "title": "frets",
-        "order": 13
+        "order": 15
       },
       "components": [
         {
@@ -6225,7 +5969,7 @@
     "page19.html": {
       "settings": {
         "title": "FRETE E CIA",
-        "order": 9
+        "order": 11
       },
       "components": [
         {
@@ -6596,6 +6340,232 @@
           ],
           "_name": "witsec-custom-html-block",
           "_anchor": "witsec-custom-html-block-6c"
+        }
+      ]
+    },
+    "page20.html": {
+      "settings": {
+        "title": "ADEGA-",
+        "order": 1
+      },
+      "components": [
+        {
+          "alias": "Singa4real-mobishop/components",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".showcartimg": {
+              "cursor": "pointer",
+              "height": "40px",
+              "width": "40px"
+            },
+            ".image-div": {
+              "text-align": "right"
+            },
+            "h3.h3": {
+              "text-align": "center",
+              "margin": "1em",
+              "text-transform": "capitalize",
+              "font-size": "1.7em"
+            },
+            "body": {
+              "background-color": "#eeeeee"
+            },
+            ".product": {
+              "padding": "10px",
+              "background-color": "#fff",
+              "position": "relative"
+            },
+            ".about h4": {
+              "margin-bottom": "-3px"
+            },
+            ".about h3": {
+              "color": "@tColor"
+            },
+            ".about span": {
+              "font-size": "13px"
+            },
+            ".dot": {
+              "height": "40px",
+              "width": "40px",
+              "background-color": "@tColor",
+              "border-radius": "50%",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "position": "absolute",
+              "cursor": "pointer",
+              "right": "10%",
+              "z-index": "10",
+              "bottom": "-5%"
+            },
+            ".inner-dot": {
+              "height": "30px",
+              "width": "30px",
+              "background-color": "#fff",
+              "border-radius": "50%",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "position": "absolute",
+              "cursor": "pointer"
+            },
+            "DIV": {
+              "text-align": "right"
+            }
+          },
+          "_name": "furniture",
+          "_customHTML": "<section mbr-id=\"_anchor\" plugins=\"Singa4real-mobishop\" class=\"mbr-section shopfront4 content1\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Theme Color\" name=\"tColor\" value=\"#ffcf5c\">\n       <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n      <input type=\"checkbox\" title=\"Show Cart Image\" name=\"showCart\" checked>\n      <input type=\"range\" inline title=\"Product No\" name=\"ProductCount\" min=\"1\" max=\"32\" step=\"1\" value=\"1\">\n      <select title=\"Product ID\" name=\"Proid\">\n            <option value=\"1\" selected>Update Product ID</option>\n            <option value=\"2\">Save Product ID</option>\n        </select>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n \n<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n  \n<div class=\"container mt-5\">\n <div class=\"text-right image-div\" mbr-if=\"showCart\"><img class=\"showcartimg\" data-toggle=\"modal\" data-target=\"#singa4realcartModal\" src=\"@PROJECT_PATH@/assets/images/klassisch-geometrie-schmuck-logo-3-removebg-preview.png\" alt title></div>    \n      <div class=\"border-bottom mb-3\">\n    <h3 class=\"h3\" mbr-if=\"showTitle\"><b>ADEGA - VINHO</b></h3>\n      </div>  \n    <div class=\"row d-flex justify-content-center g-1\" mbr-list mbr-list-grow=\"ProductCount\">\n        <div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <a href=\"https://api.whatsapp.com/send?phone=5522999727713&text=Adega%20de%20Vinho%20R%24130%2C00%20Grupo%20Conectado%20(C%C3%B3d.W1)\"><img src=\"@PROJECT_PATH@/assets/images/pfirsichfarben-pinselstrich-fotografie-logo.png\" width=\"100%\" alt title></a>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text>COD w1</span>\n                <div class=\"about text-left px-3\">\n                    <h4>ADEGA DE VINHO</h4> <span class=\"text-muted\" mbr-text>4 Garrafas - Material Rustico</span>\n                    <h3><a href=\"https://api.whatsapp.com/send?phone=5522999727713&text=Adega%20de%20Vinho%20R%24130%2C00%20Grupo%20Conectado%20(C%C3%B3d.W1)\">R$130,00</a></h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div>\n        \n        \n      \n      \n    </div>\n</div>\n  \n <div mbr-text class=\"text-center mt-5\">Tudo para você!!!!</div>\n</section>",
+          "_cid": "sesCRN2Lse",
+          "_anchor": "furniture-6i",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page21.html": {
+      "settings": {
+        "title": "COZINHA-",
+        "order": 2
+      },
+      "components": [
+        {
+          "alias": "Singa4real-mobishop/components",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".showcartimg": {
+              "cursor": "pointer",
+              "height": "40px",
+              "width": "40px"
+            },
+            ".image-div": {
+              "text-align": "right"
+            },
+            ".main-image": {
+              "cursor": "pointer",
+              "width": "100%",
+              "height": "250px"
+            },
+            "h3": {
+              "text-align": "center",
+              "margin": "1em",
+              "text-transform": "capitalize",
+              "font-size": "1.7em"
+            },
+            ".btn": {
+              "font-size": "15px",
+              "width": "90%"
+            },
+            ".singa4real-add-to-cart": {
+              "background-color": "@tColor",
+              "color": "#fff"
+            },
+            ".wrapper": {
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "background-color": "@cardColor"
+            },
+            ".card": {
+              "border": "none",
+              "padding": "0px",
+              "width": "100%"
+            },
+            ".off": {
+              "position": "absolute",
+              "background-color": "@tColor",
+              "left": "76%",
+              "top": "0%",
+              "width": "72px",
+              "text-align": "center",
+              "height": "25px",
+              "line-height": "8px",
+              "border-radius": "4px",
+              "font-size": "13px",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "color": "#ffffff"
+            },
+            ".thumbnail": {
+              "margin-top": "20px"
+            },
+            ".thumbnail img": {
+              "display": "inline-block",
+              "width": "50px",
+              "height": "50px",
+              "border": "1px solid #eee",
+              "padding": "5px",
+              "cursor": "pointer",
+              "border-radius": "4px"
+            },
+            ".thumbnail img:hover": {
+              "border": "1px solid #000000 59"
+            },
+            ".about": {
+              "margin-top": "10px"
+            },
+            ".product_fav i": {
+              "line-height": "40px",
+              "color": "#343a40",
+              "font-size": "15px"
+            },
+            ".product_fav": {
+              "display": "inline-block",
+              "width": "36px",
+              "height": "39px",
+              "background": "#FFFFFF",
+              "box-shadow": "0px 1px 5px rgba(0, 0, 0, 0.1)",
+              "border-radius": "11%",
+              "text-align": "center",
+              "cursor": "pointer",
+              "margin-left": "3px",
+              "-webkit-transition": "all 200ms ease",
+              "-moz-transition": "all 200ms ease",
+              "-ms-transition": "all 200ms ease",
+              "-o-transition": "all 200ms ease",
+              "transition": "all 200ms ease"
+            },
+            ".product_fav:hover": {
+              "background": "#343a40"
+            },
+            ".product_fav:hover i": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "quick-view",
+          "_customHTML": "<section mbr-id=\"_anchor\" plugins=\"Singa4real-mobishop\" class=\"mbr-section shopfront6 content1\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Theme Color\" name=\"tColor\" value=\"#cc2952\">\n      <input type=\"color\" title=\"Card Color\" name=\"cardColor\" value=\"#ffffff\">\n       <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n      <input type=\"checkbox\" title=\"Show Cart Image\" name=\"showCart\" checked>\n      <input type=\"range\" inline title=\"Product No\" name=\"ProductCount\" min=\"1\" max=\"32\" step=\"1\" value=\"1\">\n      <select title=\"Product ID\" name=\"Proid\">\n            <option value=\"1\">Update Product ID</option>\n            <option value=\"2\" selected>Save Product ID</option>\n        </select>\n       <select title=\"Product Description\" name=\"Prodesc\">\n            <option value=\"1\" selected>Update Description</option>\n            <option value=\"2\">Save Description</option>\n        </select>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n \n<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n  \n      \n    <div class=\"container\">\n      <div class=\"text-right image-div\" mbr-if=\"showCart\"><img class=\"showcartimg\" data-toggle=\"modal\" data-target=\"#singa4realcartModal\" src=\"@PROJECT_PATH@/assets/images/klassisch-geometrie-schmuck-logo-8.png\" alt title></div>  \n      <div class=\"border-bottom mb-3\">\n    <h3 class=\"h3\" mbr-if=\"showTitle\">COZINHA</h3>\n      </div>\n        <div class=\"row g-1\" mbr-list mbr-list-grow=\"ProductCount\">\n            <div class=\"col-md-6 col-sm-12 col-lg-3 cart-item\">\n                <div class=\"wrapper mt-3 border\">\n    <div class=\"card\"> \n      <span class=\"off\" mbr-text>Promoção</span>\n        <div class=\"text-center p-4 main-image\"> <img class=\"main-image\" src=\"@PROJECT_PATH@/assets/images/122253770-158313182664306-118177849370693701-o.jpg\" alt title> <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n\n         <br>\n          \n         \n      </div>\n        <div class=\"thumbnail text-center\"> \n      <img class=\"multi-image\" src=\"@PROJECT_PATH@/assets/images/122293472-158313022664322-6113692504213210386-o.jpg\" width=\"70\" alt title> \n          <img class=\"multi-image\" src=\"@PROJECT_PATH@/assets/images/122214384-158313089330982-1917634913948117336-o.jpg\" width=\"70\" alt title> \n          <img class=\"multi-image\" src=\"@PROJECT_PATH@/assets/images/122203314-158313069330984-6964536073694897975-o.jpg\" width=\"70\" alt title> </div>\n        <div class=\"about text-center\">\n            <h6 class=\"product-name\">Guarda Tudo 1,20cm</h6> <span class=\"product-price\">R$300,00</span><br>\n            <p mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text>P001</p>\n          <p mbr-class=\"{'product-desc': Prodesc == '1',\n                             'product-desc d-none': Prodesc == '2'}\" mbr-text>Guarda condimento, pratos, copos e outros utensilios.</p>\n          <button class=\"https://api.whatsapp.com/send?phone=5522999727713&text=Eu%20vi%20o%20anuncio%20porta%20xicara%2Fpratos%20R%24300%20(Grupo%20Conectado%20Cod.W1)\">Comprar Agora</button>\n        </div>\n      \n     \n    </div>\n</div>\n            </div>\n            \n            \n            \n        </div>\n    </div>\n\n <div mbr-text class=\"text-center mt-5\"> <a href=\"https://realtime.com.ng/extensions.php\" target=\"_blank\">P</a>resente é aqui mesmo!!!!!</div>\n\n  <div class=\"modal fade\" id=\"singa4realqvModal\" tabindex=\"-1\" aria-labelledby=\"singa4realqvModal\" aria-modal=\"true\" role=\"dialog\">\n    <div class=\"modal-dialog modal-lg\" style=\"height:auto\" role=\"document\">\n        <div class=\"modal-content\">\n            <div class=\"modal-header\">\n                <h6 class=\"modal-title\" id=\"exampleModalLabel\">Product Information</h6>\n                <button type=\"button\" class=\"close\" aria-label=\"Close\" data-dismiss=\"modal\">\n                    <span aria-hidden=\"true\">×</span>\n                </button>\n            </div>\n            <div class=\"modal-body qv-content row g-1 cart-item\">\n             \n             <div class=\"col-md-6 col-sm-12 col-lg-6 border-right\">\n                <div class=\"wrapper\">\n    <div class=\"card\"> <span class=\"off qv-off\" mbr-text>-25% OFF</span>\n        <div class=\"text-center p-4\"> \n          <img class=\"qv-main-image main-image\" src=\"#\"> <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n           </div>\n        <div class=\"thumbnail qv-thumbnail text-center\"> </div>\n    </div>\n</div>\n            </div> \n              \n              <div class=\"col-md-6 col-sm-12 col-lg-6\">\n              <h5 class=\"qv-product-code product-code mt-2\"></h5>\n               <div class=\"about mt-2\">\n                 <br> \n           <h5 class=\"qv-product-name mt-2\"></h5>  \n                 <br> \n           <h6 class=\"qv-product-desc\"></h6>\n           <br><h5 class=\"qv-product-price mt-2\"></h5><br><br>\n          <button class=\"btn-sm btn singa4real-add-to-cart mt-3 \" aria-label=\"Close\" data-dismiss=\"modal\">Add to cart</button>\n        </div> \n              </div>\n              \n              \n            </div>\n           \n        </div>\n    </div>\n</div>  \n</section>",
+          "_cid": "sesOiYtxP8",
+          "_anchor": "quick-view-6l",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     }
