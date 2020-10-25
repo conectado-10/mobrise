@@ -2034,8 +2034,8 @@ section.lazy-placeholder:after {
 }
 .cid-s6a0bzELya {
   padding-top: 15px;
-  padding-bottom: 75px;
-  background: #ffffff;
+  padding-bottom: 15px;
+  background: #ffdbc9;
 }
 .cid-s6a0bzELya .card-wrap {
   margin-bottom: 3rem;
@@ -2046,14 +2046,14 @@ section.lazy-placeholder:after {
   -webkit-flex-grow: 0;
   flex-grow: 0;
   padding: 1.4rem 0rem 5.8rem 0rem;
-  background-color: #2a8b6f;
+  background-color: #00c48c;
   border-radius: 30px;
 }
 .cid-s6a0bzELya .card-wrap .card-block .image-wrap {
   position: relative;
   height: 250px;
   width: 250px;
-  background-color: #2a8b6f;
+  background-color: #00c48c;
   overflow: auto;
   border-radius: 20px;
   margin-left: auto;
