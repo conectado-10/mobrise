@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page9.html",
+    "currentPage": "page21.html",
     "theme": {
       "name": "creativem4",
       "title": "CreativeM4",
@@ -52,7 +52,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 247,
+    "uniqCompNum": 249,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "witsec-mailform-to": "sintoniabarra@gmail.com",
@@ -2145,6 +2145,142 @@
       },
       "components": [
         {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@noSpacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding-left": "0",
+                "padding-right": "0"
+              }
+            },
+            "& when not (@noSpacing)": {
+              ".item": {
+                "padding-bottom": "2rem"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".carousel-control, .carousel-indicators, .modal .close": {
+                "position": "fixed"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-slider .carousel-control": {
+                "top": "auto",
+                "bottom": "20px"
+              },
+              ".mbr-slider > .container .carousel-control": {
+                "margin-bottom": "0"
+              }
+            },
+            ".carousel-indicators": {
+              "bottom": "0",
+              "margin-bottom": "3px",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "3.625rem !important",
+                "padding-left": "2.5rem",
+                "padding-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "display": "none"
+              }
+            },
+            ".carousel-indicators .active, .carousel-indicators li": {
+              "width": "7px",
+              "height": "7px",
+              "margin": "3px",
+              "background": "#1b1b1b",
+              "opacity": "0.5",
+              "border": "4px solid #1b1b1b"
+            },
+            ".carousel-indicators .active": {
+              "background": "#fff"
+            },
+            ".carousel-indicators li": {
+              "max-width": "15px",
+              "max-height": "15px",
+              "border-radius": "50%"
+            },
+            ".modal": {
+              "padding-left": "0 !important",
+              "position": "fixed",
+              "overflow": "hidden",
+              "padding-right": "0 !important"
+            },
+            ".modal-dialog": {
+              "margin": "0 auto",
+              "max-width": "100%",
+              "padding-left": "1rem",
+              "padding-right": "1rem"
+            },
+            ".modal-content": {
+              "border-radius": "0",
+              "border": "none",
+              "background": "transparent"
+            },
+            ".modal-body": {
+              "padding": "0",
+              "display": "flex",
+              "align-items": "center",
+              ".carousel-item": {
+                "top": "50%",
+                "transform": "translateY(-50%)"
+              },
+              "img": {
+                "width": "100%",
+                "object-fit": "contain",
+                "max-height": "~\"calc(100vh - 1.75rem)\""
+              }
+            },
+            ".carousel": {
+              "width": "100%"
+            },
+            ".modal-backdrop.in": {
+              "opacity": "0.8"
+            },
+            ".modal.fade .modal-dialog": {
+              "-webkit-transition": "margin-top 0.3s ease-out",
+              "-moz-transition": "margin-top 0.3s ease-out",
+              "-o-transition": "margin-top 0.3s ease-out",
+              "transition": "margin-top 0.3s ease-out"
+            },
+            ".modal.fade .modal-dialog, .modal.in .modal-dialog": {
+              "-webkit-transform": "none",
+              "-ms-transform": "none",
+              "-o-transform": "none",
+              "transform": "none"
+            },
+            ".mbr-gallery .item-wrapper": {
+              "cursor": "pointer"
+            },
+            "a": {
+              "display": "block"
+            },
+            "a.img": {
+              "pointer-events": "none"
+            }
+          },
+          "_name": "design-block",
+          "_customHTML": "<section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type=='video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\"> <mbr-parameters> <header>Size</header> <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\"> <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\"> <header>Show/Hide</header> <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\"> <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\"> <input type=\"checkbox\" title=\"Show Text\" name=\"showtext\" checked> <header>Images</header> <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked> <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\"> <header>Background</header> <fieldset type=\"background\" name=\"bg\" parallax> <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax> <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected> <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\"> </fieldset> <header condition=\"bg.type!==color\">Overlay</header> <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !=='color'\"> <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !=='color'\"> <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !=='color'\"> </mbr-parameters> <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!=='color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"> </div><div mbr-class=\"{'container': !fullWidth}\"> <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"> Prestação de Serviços</h3> <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"> Ache aqui o que você deseja</h4> <div class=\"row mbr-gallery\" data-toggle=\"modal\"> <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\"> <div class=\"item-wrapper\"> <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/picasion.com-fe2fa83f6d6ec307205efefd0e3dd4d2.gif\" alt data-slide-to=\"3\" title><p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\"><a href=\"https://forums.mobirise.com/\" class=\"text-black\">PRESTAÇÃO DE SERVIÇOS</a></p></div><div class=\"list-group\"> <a href=\"#!\" class=\"list-group-item list-group-item-action active\"> O QUE TEMOS AQUI? </a> <a href=\"https://conectado-10.github.io/mobrise/page12.html\" class=\"list-group-item list-group-item-action\">&gt; REFRIGERAÇÃO</a> <a href=\"#!\" class=\"list-group-item list-group-item-action\">Pedreiro - EM BREVE</a> <a href=\"#!\" class=\"list-group-item list-group-item-action\">Eletricista - EM BREVE</a> <a href=\"#!\" class=\"list-group-item list-group-item-action disabled\">Pintor - EM BREVE</a></div></div></div></div></section>",
+          "_cid": "zfmFTZtHW6",
+          "_anchor": "design-block-zfmFTZtHW6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
           "_params": {
             "HTMLCode": "<script type=\"text/javascript\" async\n  src=\"//l.getsitecontrol.com/y791lm48.js\">\n</script>",
             "hideOnPublish": true,
@@ -2176,6 +2312,146 @@
         "meta_descr": ""
       },
       "components": [
+        {
+          "_name": "design-block",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@noSpacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding-left": "0",
+                "padding-right": "0"
+              }
+            },
+            "& when not (@noSpacing)": {
+              ".item": {
+                "padding-bottom": "2rem"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".carousel-control, .carousel-indicators, .modal .close": {
+                "position": "fixed"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-slider .carousel-control": {
+                "top": "auto",
+                "bottom": "20px"
+              },
+              ".mbr-slider > .container .carousel-control": {
+                "margin-bottom": "0"
+              }
+            },
+            ".carousel-indicators": {
+              "bottom": "0",
+              "margin-bottom": "3px",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "3.625rem !important",
+                "padding-left": "2.5rem",
+                "padding-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "display": "none"
+              }
+            },
+            ".carousel-indicators .active, .carousel-indicators li": {
+              "width": "7px",
+              "height": "7px",
+              "margin": "3px",
+              "background": "#1b1b1b",
+              "opacity": "0.5",
+              "border": "4px solid #1b1b1b"
+            },
+            ".carousel-indicators .active": {
+              "background": "#fff"
+            },
+            ".carousel-indicators li": {
+              "max-width": "15px",
+              "max-height": "15px",
+              "border-radius": "50%"
+            },
+            ".modal": {
+              "padding-left": "0 !important",
+              "position": "fixed",
+              "overflow": "hidden",
+              "padding-right": "0 !important"
+            },
+            ".modal-dialog": {
+              "margin": "0 auto",
+              "max-width": "100%",
+              "padding-left": "1rem",
+              "padding-right": "1rem"
+            },
+            ".modal-content": {
+              "border-radius": "0",
+              "border": "none",
+              "background": "transparent"
+            },
+            ".modal-body": {
+              "padding": "0",
+              "display": "flex",
+              "align-items": "center",
+              ".carousel-item": {
+                "top": "50%",
+                "transform": "translateY(-50%)"
+              },
+              "img": {
+                "width": "100%",
+                "object-fit": "contain",
+                "max-height": "~\"calc(100vh - 1.75rem)\""
+              }
+            },
+            ".carousel": {
+              "width": "100%"
+            },
+            ".modal-backdrop.in": {
+              "opacity": "0.8"
+            },
+            ".modal.fade .modal-dialog": {
+              "-webkit-transition": "margin-top 0.3s ease-out",
+              "-moz-transition": "margin-top 0.3s ease-out",
+              "-o-transition": "margin-top 0.3s ease-out",
+              "transition": "margin-top 0.3s ease-out"
+            },
+            ".modal.fade .modal-dialog, .modal.in .modal-dialog": {
+              "-webkit-transform": "none",
+              "-ms-transform": "none",
+              "-o-transform": "none",
+              "transform": "none"
+            },
+            ".mbr-gallery .item-wrapper": {
+              "cursor": "pointer"
+            },
+            "a": {
+              "display": "block"
+            },
+            "a.img": {
+              "pointer-events": "none"
+            },
+            "H3": {
+              "text-align": "center"
+            }
+          },
+          "_customHTML": "<center><section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type=='video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\"> <mbr-parameters> <header>Size</header> <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\"> <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\"> <header>Show/Hide</header> <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked> <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\"> <input type=\"checkbox\" title=\"Show Text\" name=\"showtext\" checked> <header>Images</header> <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked> <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\" checked> <header>Background</header> <fieldset type=\"background\" name=\"bg\" parallax> <input type=\"image\" title=\"Background Image\" value parallax> <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected> <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\"> </fieldset> <header condition=\"bg.type!==color\">Overlay</header> <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !=='color'\"> <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !=='color'\"> <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !=='color'\"> </mbr-parameters> <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!=='color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"> </div><div mbr-class=\"{'container': !fullWidth}\"> <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><i> PRESENTE PERFEITO</i><i><br></i></h3> <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"> Enter Gallery Subtitle here. </h4> <div class=\"row mbr-gallery\" data-toggle=\"modal\"> <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\"> <div class=\"item-wrapper\"> <a href=\"https://store17441987.ecwid.com/Silvio-Massas-c54997117\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/klassisch-geometrie-schmuck-logo-3.png\" alt title> </a><p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b><i><a href=\"https://store17441987.ecwid.com/Silvio-Massas-c54997117\">MOVEIS RÚSTICOS&nbsp;</a></i></b><i><b></b></i></p><center><i><b><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"tel:22999727713\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/phone-30029-100x100.png\" width=\"50\" alt title></a></div></div><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://wa.me/5522999727713\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/whatsapp-37229-100x100.png\" width=\"50\" alt title></a></div></div><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://www.facebook.com/104592084703083/posts/123065862855705/\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"512\" data-original-width=\"512\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/facebook-108044-100x100.png\" width=\"50\" alt title></a></div></div></b></i></center><i><b><br><br></b></i></div><i><b> <br></b></i></div></div></div></section><i><b><div class=\"list-group\"> </div></b></i></center>",
+          "_anchor": "design-block-4f",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "s6a9dZf2bE",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
         {
           "alias": "deltapi-code-editor",
           "_isSecondary": true,
@@ -2413,7 +2689,7 @@
               }
             }
           },
-          "_customHTML": "<center>\n<section class=\"map2\" group=\"Maps\"> MINHA LOCALIZAÇÃO\n  <br>\n    <br>\n    <mbr-parameters>\n    <!-- Block of parameters for component -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"1\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"iframe\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.970219702231!2d-41.95868968504157!3d-22.50530048521743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDMwJzE5LjEiUyA0McKwNTcnMjMuNCJX!5e0!3m2!1spt-BR!2sbr!4v1603653187085!5m2!1spt-BR!2sbr&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; aria-hidden=&quot;false&quot; tabindex=&quot;0&quot;></iframe>\">\n    <!-- End block of parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-md-8\">\n                <div class=\"google-map\" mbr-map=\"googleMap\">\n            </div>\n        </div>\n    </div>\n</div></section>\n    </center>",
+          "_customHTML": "<center>\n<section class=\"map2\" group=\"Maps\"> MINHA LOCALIZAÇÃO\n  <br>\n    <br>\n    <mbr-parameters>\n    <!-- Block of parameters for component -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"1\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"3\" step=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"iframe\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.970219702231!2d-41.95868968504157!3d-22.50530048521743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDMwJzE5LjEiUyA0McKwNTcnMjMuNCJX!5e0!3m2!1spt-BR!2sbr!4v1603653187085!5m2!1spt-BR!2sbr&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; aria-hidden=&quot;false&quot; tabindex=&quot;0&quot;></iframe>\">\n    <!-- End block of parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-md-8\">\n                <div class=\"google-map\" mbr-map=\"googleMap\">\n            </div>\n        </div>\n    </div>\n</div></section>\n    </center>",
           "_anchor": "map2-4i",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -2431,6 +2707,146 @@
         "order": 5
       },
       "components": [
+        {
+          "_name": "design-block",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@noSpacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding-left": "0",
+                "padding-right": "0"
+              }
+            },
+            "& when not (@noSpacing)": {
+              ".item": {
+                "padding-bottom": "2rem"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".carousel-control, .carousel-indicators, .modal .close": {
+                "position": "fixed"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-slider .carousel-control": {
+                "top": "auto",
+                "bottom": "20px"
+              },
+              ".mbr-slider > .container .carousel-control": {
+                "margin-bottom": "0"
+              }
+            },
+            ".carousel-indicators": {
+              "bottom": "0",
+              "margin-bottom": "3px",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "3.625rem !important",
+                "padding-left": "2.5rem",
+                "padding-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "display": "none"
+              }
+            },
+            ".carousel-indicators .active, .carousel-indicators li": {
+              "width": "7px",
+              "height": "7px",
+              "margin": "3px",
+              "background": "#1b1b1b",
+              "opacity": "0.5",
+              "border": "4px solid #1b1b1b"
+            },
+            ".carousel-indicators .active": {
+              "background": "#fff"
+            },
+            ".carousel-indicators li": {
+              "max-width": "15px",
+              "max-height": "15px",
+              "border-radius": "50%"
+            },
+            ".modal": {
+              "padding-left": "0 !important",
+              "position": "fixed",
+              "overflow": "hidden",
+              "padding-right": "0 !important"
+            },
+            ".modal-dialog": {
+              "margin": "0 auto",
+              "max-width": "100%",
+              "padding-left": "1rem",
+              "padding-right": "1rem"
+            },
+            ".modal-content": {
+              "border-radius": "0",
+              "border": "none",
+              "background": "transparent"
+            },
+            ".modal-body": {
+              "padding": "0",
+              "display": "flex",
+              "align-items": "center",
+              ".carousel-item": {
+                "top": "50%",
+                "transform": "translateY(-50%)"
+              },
+              "img": {
+                "width": "100%",
+                "object-fit": "contain",
+                "max-height": "~\"calc(100vh - 1.75rem)\""
+              }
+            },
+            ".carousel": {
+              "width": "100%"
+            },
+            ".modal-backdrop.in": {
+              "opacity": "0.8"
+            },
+            ".modal.fade .modal-dialog": {
+              "-webkit-transition": "margin-top 0.3s ease-out",
+              "-moz-transition": "margin-top 0.3s ease-out",
+              "-o-transition": "margin-top 0.3s ease-out",
+              "transition": "margin-top 0.3s ease-out"
+            },
+            ".modal.fade .modal-dialog, .modal.in .modal-dialog": {
+              "-webkit-transform": "none",
+              "-ms-transform": "none",
+              "-o-transform": "none",
+              "transform": "none"
+            },
+            ".mbr-gallery .item-wrapper": {
+              "cursor": "pointer"
+            },
+            "a": {
+              "display": "block"
+            },
+            "a.img": {
+              "pointer-events": "none"
+            },
+            "H3": {
+              "text-align": "center"
+            }
+          },
+          "_customHTML": "<center><section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type=='video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\"> <mbr-parameters> <header>Size</header> <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\"> <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\"> <header>Show/Hide</header> <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked> <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\"> <input type=\"checkbox\" title=\"Show Text\" name=\"showtext\" checked> <header>Images</header> <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked> <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\" checked> <header>Background</header> <fieldset type=\"background\" name=\"bg\" parallax> <input type=\"image\" title=\"Background Image\" value parallax> <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected> <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\"> </fieldset> <header condition=\"bg.type!==color\">Overlay</header> <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !=='color'\"> <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !=='color'\"> <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !=='color'\"> </mbr-parameters> <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!=='color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"> </div><div mbr-class=\"{'container': !fullWidth}\"> <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><i>PROTÉTICO DANILO</i></h3> <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"> Enter Gallery Subtitle here. </h4> <div class=\"row mbr-gallery\" data-toggle=\"modal\"> <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\"> <div class=\"item-wrapper\"> <a href=\"https://store17441987.ecwid.com/PROT%C3%89TICO-DANILO-c55577022\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/design-ohne-titel-3-960x960.png\" alt title> </a><p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\">TÉCNICO EM PROTESE DENTÁRIA<i><b></b></i></p><center><i><b><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"tel:22998987726\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/phone-30029-100x100.png\" width=\"50\" alt title></a>LIGAR</div></div><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://wa.me/5522998987726\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/whatsapp-37229-100x100.png\" width=\"50\" alt title></a>WHAT</div></div><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://www.facebook.com/danilo.docarmo.900\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"512\" data-original-width=\"512\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/facebook-108044-100x100.png\" width=\"50\" alt title></a>FACE</div></div></b></i></center><i><b><br><br></b></i></div><i><b> <br></b></i></div></div></div></section><i><b><div class=\"list-group\"> <button type=\"button\" class=\"list-group-item list-group-item-action active\" aria-current=\"true\"> TRABALHAMOS COM </button> <button type=\"button\" class=\"list-group-item list-group-item-action\"> DENTADURA-ROSA/INCOLOR </button> <button type=\"button\" class=\"list-group-item list-group-item-action\"> PRÓTESE FLEXIVEL/E CONJUGADA </button> <button type=\"button\" class=\"list-group-item list-group-item-action\"> CLAREAMENTO </button> <button type=\"button\" class=\"list-group-item list-group-item-action\" disabled> PONTE MOVEL </button> <button type=\"button\" class=\"list-group-item list-group-item-action\" disabled> CONSERTOS E RESTAURAÇÃO </button> <button type=\"button\" class=\"list-group-item list-group-item-action\" disabled> DENTADURA E OUTROS SERVIÇOS </button></div></b></i></center>",
+          "_anchor": "design-block-4n",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "s6dtGnFwWR",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
         {
           "alias": "deltapi-code-editor",
           "_isSecondary": true,
@@ -2497,6 +2913,142 @@
           "_params": {}
         },
         {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@noSpacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding-left": "0",
+                "padding-right": "0"
+              }
+            },
+            "& when not (@noSpacing)": {
+              ".item": {
+                "padding-bottom": "2rem"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".carousel-control, .carousel-indicators, .modal .close": {
+                "position": "fixed"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-slider .carousel-control": {
+                "top": "auto",
+                "bottom": "20px"
+              },
+              ".mbr-slider > .container .carousel-control": {
+                "margin-bottom": "0"
+              }
+            },
+            ".carousel-indicators": {
+              "bottom": "0",
+              "margin-bottom": "3px",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "3.625rem !important",
+                "padding-left": "2.5rem",
+                "padding-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "display": "none"
+              }
+            },
+            ".carousel-indicators .active, .carousel-indicators li": {
+              "width": "7px",
+              "height": "7px",
+              "margin": "3px",
+              "background": "#1b1b1b",
+              "opacity": "0.5",
+              "border": "4px solid #1b1b1b"
+            },
+            ".carousel-indicators .active": {
+              "background": "#fff"
+            },
+            ".carousel-indicators li": {
+              "max-width": "15px",
+              "max-height": "15px",
+              "border-radius": "50%"
+            },
+            ".modal": {
+              "padding-left": "0 !important",
+              "position": "fixed",
+              "overflow": "hidden",
+              "padding-right": "0 !important"
+            },
+            ".modal-dialog": {
+              "margin": "0 auto",
+              "max-width": "100%",
+              "padding-left": "1rem",
+              "padding-right": "1rem"
+            },
+            ".modal-content": {
+              "border-radius": "0",
+              "border": "none",
+              "background": "transparent"
+            },
+            ".modal-body": {
+              "padding": "0",
+              "display": "flex",
+              "align-items": "center",
+              ".carousel-item": {
+                "top": "50%",
+                "transform": "translateY(-50%)"
+              },
+              "img": {
+                "width": "100%",
+                "object-fit": "contain",
+                "max-height": "~\"calc(100vh - 1.75rem)\""
+              }
+            },
+            ".carousel": {
+              "width": "100%"
+            },
+            ".modal-backdrop.in": {
+              "opacity": "0.8"
+            },
+            ".modal.fade .modal-dialog": {
+              "-webkit-transition": "margin-top 0.3s ease-out",
+              "-moz-transition": "margin-top 0.3s ease-out",
+              "-o-transition": "margin-top 0.3s ease-out",
+              "transition": "margin-top 0.3s ease-out"
+            },
+            ".modal.fade .modal-dialog, .modal.in .modal-dialog": {
+              "-webkit-transform": "none",
+              "-ms-transform": "none",
+              "-o-transform": "none",
+              "transform": "none"
+            },
+            ".mbr-gallery .item-wrapper": {
+              "cursor": "pointer"
+            },
+            "a": {
+              "display": "block"
+            },
+            "a.img": {
+              "pointer-events": "none"
+            }
+          },
+          "_name": "design-block",
+          "_customHTML": "<section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type=='video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\"> <mbr-parameters> <header>Size</header> <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\"> <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\"> <header>Show/Hide</header> <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked> <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked> <input type=\"checkbox\" title=\"Show Text\" name=\"showtext\"> <header>Images</header> <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked> <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\"> <header>Background</header> <fieldset type=\"background\" name=\"bg\" parallax> <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax> <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected> <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\"> </fieldset> <header condition=\"bg.type!==color\">Overlay</header> <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !=='color'\"> <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !=='color'\"> <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !=='color'\"> </mbr-parameters> <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!=='color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"> </div><div mbr-class=\"{'container': !fullWidth}\"> <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">ALGUNS TRABALHOS</h3> <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Executados</h4> <div class=\"row mbr-gallery\" data-toggle=\"modal\"> <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\"> <div class=\"item-wrapper\"> <a href=\"https://www.mercedes-benz.be\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/picasion.com-7079baa3da39543243648eccdad59bee.gif\" alt data-slide-to=\"3\" title></a><p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\"><a href=\"https://forums.mobirise.com/\" class=\"text-black\">Text</a></p></div></div></div></div></section>",
+          "_cid": "16m7qYFWw6",
+          "_anchor": "design-block-16m7qYFWw6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
           "_params": {
             "HTMLCode": "<script type=\"text/javascript\" async\n  src=\"//l.getsitecontrol.com/y791lm48.js\">\n</script>",
             "hideOnPublish": false,
@@ -2527,6 +3079,146 @@
         "order": 9
       },
       "components": [
+        {
+          "_name": "design-block",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@noSpacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding-left": "0",
+                "padding-right": "0"
+              }
+            },
+            "& when not (@noSpacing)": {
+              ".item": {
+                "padding-bottom": "2rem"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".carousel-control, .carousel-indicators, .modal .close": {
+                "position": "fixed"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-slider .carousel-control": {
+                "top": "auto",
+                "bottom": "20px"
+              },
+              ".mbr-slider > .container .carousel-control": {
+                "margin-bottom": "0"
+              }
+            },
+            ".carousel-indicators": {
+              "bottom": "0",
+              "margin-bottom": "3px",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "3.625rem !important",
+                "padding-left": "2.5rem",
+                "padding-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "display": "none"
+              }
+            },
+            ".carousel-indicators .active, .carousel-indicators li": {
+              "width": "7px",
+              "height": "7px",
+              "margin": "3px",
+              "background": "#1b1b1b",
+              "opacity": "0.5",
+              "border": "4px solid #1b1b1b"
+            },
+            ".carousel-indicators .active": {
+              "background": "#fff"
+            },
+            ".carousel-indicators li": {
+              "max-width": "15px",
+              "max-height": "15px",
+              "border-radius": "50%"
+            },
+            ".modal": {
+              "padding-left": "0 !important",
+              "position": "fixed",
+              "overflow": "hidden",
+              "padding-right": "0 !important"
+            },
+            ".modal-dialog": {
+              "margin": "0 auto",
+              "max-width": "100%",
+              "padding-left": "1rem",
+              "padding-right": "1rem"
+            },
+            ".modal-content": {
+              "border-radius": "0",
+              "border": "none",
+              "background": "transparent"
+            },
+            ".modal-body": {
+              "padding": "0",
+              "display": "flex",
+              "align-items": "center",
+              ".carousel-item": {
+                "top": "50%",
+                "transform": "translateY(-50%)"
+              },
+              "img": {
+                "width": "100%",
+                "object-fit": "contain",
+                "max-height": "~\"calc(100vh - 1.75rem)\""
+              }
+            },
+            ".carousel": {
+              "width": "100%"
+            },
+            ".modal-backdrop.in": {
+              "opacity": "0.8"
+            },
+            ".modal.fade .modal-dialog": {
+              "-webkit-transition": "margin-top 0.3s ease-out",
+              "-moz-transition": "margin-top 0.3s ease-out",
+              "-o-transition": "margin-top 0.3s ease-out",
+              "transition": "margin-top 0.3s ease-out"
+            },
+            ".modal.fade .modal-dialog, .modal.in .modal-dialog": {
+              "-webkit-transform": "none",
+              "-ms-transform": "none",
+              "-o-transform": "none",
+              "transform": "none"
+            },
+            ".mbr-gallery .item-wrapper": {
+              "cursor": "pointer"
+            },
+            "a": {
+              "display": "block"
+            },
+            "a.img": {
+              "pointer-events": "none"
+            },
+            "H3": {
+              "text-align": "center"
+            }
+          },
+          "_customHTML": "<center>\n<section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showtext\" checked>\n        <header>Images</header>\n\t    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\" checked>\n      \n        <!-- <input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"3\" step=\"0.1\" value=\"1\"> -->\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <header condition=\"bg.type!==color\">Overlay</header>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n   <div mbr-class=\"{'container': !fullWidth}\">\n        <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"></h3>\n        <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n            Enter Gallery Subtitle here.\n        </h4>\n        <div class=\"row mbr-gallery\" data-toggle=\"modal\">\n            <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                   <a href=\"https://www.123formbuilder.com/form-5596780/\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/wei-einfach-symbol-dental-logo-500x500.png\" alt title>\n                </a><p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\"><a href=\"https://www.123formbuilder.com/form-5596780/\">ESTÉTICA AUTOMOTIVA</a><i><b><!---rede social--></b></i></p><center><i><b>\n<div style=\"float: left; width: 33%;\">\n<div class=\"separator\" style=\"clear: both; text-align: center;\">\n<a href=\"tel:22998227404\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/phone-30029-100x100.png\" width=\"50\" alt title></a></div>\n</div>\n<div style=\"float: left; width: 33%;\">\n<div class=\"separator\" style=\"clear: both; text-align: center;\">\n<a href=\"https://wa.me/5522998227404\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/whatsapp-37229-100x100.png\" width=\"50\" alt title></a></div>\n</div>\n<div style=\"float: left; width: 33%;\">\n<div class=\"separator\" style=\"clear: both; text-align: center;\">\n<a href=\"https://www.facebook.com/danilo.docarmo.900\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"512\" data-original-width=\"512\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/facebook-108044-100x100.png\" width=\"50\" alt title></a></div>\n</div>\n</b></i></center><i><b>\n<br>\n<br>\n              \n   </b></i></div><i><b>\n          <br>\n</b></i></div></div></div></section><i><b>\n\n  <div class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuLink\">\n    <a class=\"dropdown-item\" href=\"https://store17441987.ecwid.com/HIGIENIZA%C3%87%C3%83O-CASA-p184965008\">Casa</a>\n    <a class=\"dropdown-item\" href=\"https://store17441987.ecwid.com/HIGIENIZA%C3%87%C3%83O-CARRO-p185018788\">Carro</a>\n  </div>\n\n</b></i></center>",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "s6fRoxLvmw",
+          "_anchor": "design-block-4y",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
         {
           "alias": false,
           "_styles": {
@@ -2655,6 +3347,142 @@
           "_customHTML": "<center>\n<section class=\"map1\" group=\"Maps\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"iframe\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.7682859593892!2d-41.979125984611834!3d-22.550351185194284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x97b24ad720a181%3A0x5963e6dc11962297!2sR.%20Paran%C3%A1%2C%20599%20-%20Cidade%20Praiana%2C%20Rio%20das%20Ostras%20-%20RJ%2C%2028890-242!5e0!3m2!1spt-BR!2sbr!4v1596142421048!5m2!1spt-BR!2sbr&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; aria-hidden=&quot;false&quot; tabindex=&quot;0&quot;></iframe>\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>\n</center>",
           "_cid": "s6fRoAYp1e",
           "_anchor": "map01-50",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@noSpacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding-left": "0",
+                "padding-right": "0"
+              }
+            },
+            "& when not (@noSpacing)": {
+              ".item": {
+                "padding-bottom": "2rem"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".carousel-control, .carousel-indicators, .modal .close": {
+                "position": "fixed"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-slider .carousel-control": {
+                "top": "auto",
+                "bottom": "20px"
+              },
+              ".mbr-slider > .container .carousel-control": {
+                "margin-bottom": "0"
+              }
+            },
+            ".carousel-indicators": {
+              "bottom": "0",
+              "margin-bottom": "3px",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "3.625rem !important",
+                "padding-left": "2.5rem",
+                "padding-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "display": "none"
+              }
+            },
+            ".carousel-indicators .active, .carousel-indicators li": {
+              "width": "7px",
+              "height": "7px",
+              "margin": "3px",
+              "background": "#1b1b1b",
+              "opacity": "0.5",
+              "border": "4px solid #1b1b1b"
+            },
+            ".carousel-indicators .active": {
+              "background": "#fff"
+            },
+            ".carousel-indicators li": {
+              "max-width": "15px",
+              "max-height": "15px",
+              "border-radius": "50%"
+            },
+            ".modal": {
+              "padding-left": "0 !important",
+              "position": "fixed",
+              "overflow": "hidden",
+              "padding-right": "0 !important"
+            },
+            ".modal-dialog": {
+              "margin": "0 auto",
+              "max-width": "100%",
+              "padding-left": "1rem",
+              "padding-right": "1rem"
+            },
+            ".modal-content": {
+              "border-radius": "0",
+              "border": "none",
+              "background": "transparent"
+            },
+            ".modal-body": {
+              "padding": "0",
+              "display": "flex",
+              "align-items": "center",
+              ".carousel-item": {
+                "top": "50%",
+                "transform": "translateY(-50%)"
+              },
+              "img": {
+                "width": "100%",
+                "object-fit": "contain",
+                "max-height": "~\"calc(100vh - 1.75rem)\""
+              }
+            },
+            ".carousel": {
+              "width": "100%"
+            },
+            ".modal-backdrop.in": {
+              "opacity": "0.8"
+            },
+            ".modal.fade .modal-dialog": {
+              "-webkit-transition": "margin-top 0.3s ease-out",
+              "-moz-transition": "margin-top 0.3s ease-out",
+              "-o-transition": "margin-top 0.3s ease-out",
+              "transition": "margin-top 0.3s ease-out"
+            },
+            ".modal.fade .modal-dialog, .modal.in .modal-dialog": {
+              "-webkit-transform": "none",
+              "-ms-transform": "none",
+              "-o-transform": "none",
+              "transform": "none"
+            },
+            ".mbr-gallery .item-wrapper": {
+              "cursor": "pointer"
+            },
+            "a": {
+              "display": "block"
+            },
+            "a.img": {
+              "pointer-events": "none"
+            }
+          },
+          "_name": "design-block",
+          "_customHTML": "<section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showtext\" checked>\n        <header>Images</header>\n\t    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\">\n \n        <!-- <input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"3\" step=\"0.1\" value=\"1\"> -->\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <header condition=\"bg.type!==color\">Overlay</header>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n   <div mbr-class=\"{'container': !fullWidth}\">\n        <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">ALGUNS TRABALHOS</h3>\n        <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Executados</h4>\n        <div class=\"row mbr-gallery\" data-toggle=\"modal\">\n            \n          \n            <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                     <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/picasion.com-3bd66c2843f2a8ccabdaed39a975f286.gif\" alt data-slide-to=\"1\" title>\n<p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\">Clareamento Farois</p>                </div>\n\n            </div>\n\n        </div>\n\n\n    </div>\n</section>",
+          "_cid": "s6fRoBXlwN",
+          "_anchor": "design-block-51",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -3008,6 +3836,146 @@
       },
       "components": [
         {
+          "_name": "design-block",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@noSpacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding-left": "0",
+                "padding-right": "0"
+              }
+            },
+            "& when not (@noSpacing)": {
+              ".item": {
+                "padding-bottom": "2rem"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".carousel-control, .carousel-indicators, .modal .close": {
+                "position": "fixed"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-slider .carousel-control": {
+                "top": "auto",
+                "bottom": "20px"
+              },
+              ".mbr-slider > .container .carousel-control": {
+                "margin-bottom": "0"
+              }
+            },
+            ".carousel-indicators": {
+              "bottom": "0",
+              "margin-bottom": "3px",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "3.625rem !important",
+                "padding-left": "2.5rem",
+                "padding-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "display": "none"
+              }
+            },
+            ".carousel-indicators .active, .carousel-indicators li": {
+              "width": "7px",
+              "height": "7px",
+              "margin": "3px",
+              "background": "#1b1b1b",
+              "opacity": "0.5",
+              "border": "4px solid #1b1b1b"
+            },
+            ".carousel-indicators .active": {
+              "background": "#fff"
+            },
+            ".carousel-indicators li": {
+              "max-width": "15px",
+              "max-height": "15px",
+              "border-radius": "50%"
+            },
+            ".modal": {
+              "padding-left": "0 !important",
+              "position": "fixed",
+              "overflow": "hidden",
+              "padding-right": "0 !important"
+            },
+            ".modal-dialog": {
+              "margin": "0 auto",
+              "max-width": "100%",
+              "padding-left": "1rem",
+              "padding-right": "1rem"
+            },
+            ".modal-content": {
+              "border-radius": "0",
+              "border": "none",
+              "background": "transparent"
+            },
+            ".modal-body": {
+              "padding": "0",
+              "display": "flex",
+              "align-items": "center",
+              ".carousel-item": {
+                "top": "50%",
+                "transform": "translateY(-50%)"
+              },
+              "img": {
+                "width": "100%",
+                "object-fit": "contain",
+                "max-height": "~\"calc(100vh - 1.75rem)\""
+              }
+            },
+            ".carousel": {
+              "width": "100%"
+            },
+            ".modal-backdrop.in": {
+              "opacity": "0.8"
+            },
+            ".modal.fade .modal-dialog": {
+              "-webkit-transition": "margin-top 0.3s ease-out",
+              "-moz-transition": "margin-top 0.3s ease-out",
+              "-o-transition": "margin-top 0.3s ease-out",
+              "transition": "margin-top 0.3s ease-out"
+            },
+            ".modal.fade .modal-dialog, .modal.in .modal-dialog": {
+              "-webkit-transform": "none",
+              "-ms-transform": "none",
+              "-o-transform": "none",
+              "transform": "none"
+            },
+            ".mbr-gallery .item-wrapper": {
+              "cursor": "pointer"
+            },
+            "a": {
+              "display": "block"
+            },
+            "a.img": {
+              "pointer-events": "none"
+            },
+            "H3": {
+              "text-align": "center"
+            }
+          },
+          "_customHTML": "<center><section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type=='video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\"> <mbr-parameters> <header>Size</header> <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\"> <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\"> <header>Show/Hide</header> <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked> <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\"> <input type=\"checkbox\" title=\"Show Text\" name=\"showtext\" checked> <header>Images</header> <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked> <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\" checked> <header>Background</header> <fieldset type=\"background\" name=\"bg\" parallax> <input type=\"image\" title=\"Background Image\" value parallax> <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected> <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\"> </fieldset> <header condition=\"bg.type!==color\">Overlay</header> <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !=='color'\"> <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !=='color'\"> <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !=='color'\"> </mbr-parameters> <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!=='color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"> </div><div mbr-class=\"{'container': !fullWidth}\"> <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><i>TÉCNICO REFRIGERAÇÃO</i><br><i>Seja Bem Vindo</i></h3> <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"> Enter Gallery Subtitle here. </h4> <div class=\"row mbr-gallery\" data-toggle=\"modal\"> <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\"> <div class=\"item-wrapper\"> <a href=\"https://www.123formbuilder.com/form-5363535/\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/design-ohne-titel-5-952x952.png\" alt title> </a><p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\">WILTON LUIZ VIEIRA<br>Prestação de Serviços<i><b></b></i></p><center><i><b><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"tel:22997869658\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/phone-30029-100x100.png\" width=\"50\" alt title></a></div></div><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://wa.me/5522997869658\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/whatsapp-37229-100x100.png\" width=\"50\" alt title></a></div></div><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://www.facebook.com/profile.php?id=100010219086679&sk=photos_all\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"512\" data-original-width=\"512\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/facebook-108044-100x100.png\" width=\"50\" alt title></a></div></div></b></i></center><i><b><br><br></b></i></div><i><b> <br></b></i></div></div></div></section><i><b><div class=\"list-group\"> <button type=\"button\" class=\"list-group-item list-group-item-action active\" aria-current=\"true\"> TRABALHAMOS COM </button> <button type=\"button\" class=\"list-group-item list-group-item-action\"> TODOS OS TIPOS DE FREZER </button> <button type=\"button\" class=\"list-group-item list-group-item-action\"> GELADEIRA </button> <button type=\"button\" class=\"list-group-item list-group-item-action\"> AR CONDICIONADO </button> <button type=\"button\" class=\"list-group-item list-group-item-action\" disabled> COLOCAÇÃO DE GÁS </button> <button type=\"button\" class=\"list-group-item list-group-item-action\" disabled> VENDA D ACESSORIOS </button> <button type=\"button\" class=\"list-group-item list-group-item-action\" disabled> INSTALAÇÃO DE AR CONDICIONADO </button></div></b></i></center>",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "s6mpXLFypf",
+          "_anchor": "design-block-59",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
           "alias": "deltapi-code-editor",
           "_isSecondary": true,
           "_styles": {
@@ -3067,6 +4035,142 @@
           "_customHTML": "<center><section class=\"map1\" group=\"Maps\"> <mbr-parameters> <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"iframe\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117981.02082783768!2d-42.01131625751694!3d-22.47013258037239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x97b359153013c9%3A0x134a864175a81692!2sRio%20das%20Ostras%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1596236939221!5m2!1spt-BR!2sbr&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; aria-hidden=&quot;false&quot; tabindex=&quot;0&quot;></iframe>\"> </mbr-parameters> <div class=\"google-map\" mbr-map=\"googleMap\"> </div></section></center>",
           "_cid": "s6mpXPmaYM",
           "_anchor": "map01-5b",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@noSpacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding-left": "0",
+                "padding-right": "0"
+              }
+            },
+            "& when not (@noSpacing)": {
+              ".item": {
+                "padding-bottom": "2rem"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".carousel-control, .carousel-indicators, .modal .close": {
+                "position": "fixed"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-slider .carousel-control": {
+                "top": "auto",
+                "bottom": "20px"
+              },
+              ".mbr-slider > .container .carousel-control": {
+                "margin-bottom": "0"
+              }
+            },
+            ".carousel-indicators": {
+              "bottom": "0",
+              "margin-bottom": "3px",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "3.625rem !important",
+                "padding-left": "2.5rem",
+                "padding-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "display": "none"
+              }
+            },
+            ".carousel-indicators .active, .carousel-indicators li": {
+              "width": "7px",
+              "height": "7px",
+              "margin": "3px",
+              "background": "#1b1b1b",
+              "opacity": "0.5",
+              "border": "4px solid #1b1b1b"
+            },
+            ".carousel-indicators .active": {
+              "background": "#fff"
+            },
+            ".carousel-indicators li": {
+              "max-width": "15px",
+              "max-height": "15px",
+              "border-radius": "50%"
+            },
+            ".modal": {
+              "padding-left": "0 !important",
+              "position": "fixed",
+              "overflow": "hidden",
+              "padding-right": "0 !important"
+            },
+            ".modal-dialog": {
+              "margin": "0 auto",
+              "max-width": "100%",
+              "padding-left": "1rem",
+              "padding-right": "1rem"
+            },
+            ".modal-content": {
+              "border-radius": "0",
+              "border": "none",
+              "background": "transparent"
+            },
+            ".modal-body": {
+              "padding": "0",
+              "display": "flex",
+              "align-items": "center",
+              ".carousel-item": {
+                "top": "50%",
+                "transform": "translateY(-50%)"
+              },
+              "img": {
+                "width": "100%",
+                "object-fit": "contain",
+                "max-height": "~\"calc(100vh - 1.75rem)\""
+              }
+            },
+            ".carousel": {
+              "width": "100%"
+            },
+            ".modal-backdrop.in": {
+              "opacity": "0.8"
+            },
+            ".modal.fade .modal-dialog": {
+              "-webkit-transition": "margin-top 0.3s ease-out",
+              "-moz-transition": "margin-top 0.3s ease-out",
+              "-o-transition": "margin-top 0.3s ease-out",
+              "transition": "margin-top 0.3s ease-out"
+            },
+            ".modal.fade .modal-dialog, .modal.in .modal-dialog": {
+              "-webkit-transform": "none",
+              "-ms-transform": "none",
+              "-o-transform": "none",
+              "transform": "none"
+            },
+            ".mbr-gallery .item-wrapper": {
+              "cursor": "pointer"
+            },
+            "a": {
+              "display": "block"
+            },
+            "a.img": {
+              "pointer-events": "none"
+            }
+          },
+          "_name": "design-block",
+          "_customHTML": "<section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type=='video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\"> <mbr-parameters> <header>Size</header> <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\"> <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\"> <header>Show/Hide</header> <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked> <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked> <input type=\"checkbox\" title=\"Show Text\" name=\"showtext\"> <header>Images</header> <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked> <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\"> <header>Background</header> <fieldset type=\"background\" name=\"bg\" parallax> <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax> <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected> <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\"> </fieldset> <header condition=\"bg.type!==color\">Overlay</header> <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !=='color'\"> <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !=='color'\"> <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !=='color'\"> </mbr-parameters> <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!=='color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"> </div><div mbr-class=\"{'container': !fullWidth}\"> <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">ALGUNS TRABALHOS</h3> <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Executados</h4> <div class=\"row mbr-gallery\" data-toggle=\"modal\"> <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\"> <div class=\"item-wrapper\"> <a href=\"https://www.mercedes-benz.be\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/picasion.com-b770e30f2f68f4f3dc9c3c9853b1b377.gif\" alt data-slide-to=\"3\" title></a><p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\"><a href=\"https://forums.mobirise.com/\" class=\"text-black\">Text</a></p></div></div></div></div></section>",
+          "_cid": "s6mpXW1vhp",
+          "_anchor": "design-block-5c",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -3262,6 +4366,146 @@
       },
       "components": [
         {
+          "_name": "design-block",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@noSpacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding-left": "0",
+                "padding-right": "0"
+              }
+            },
+            "& when not (@noSpacing)": {
+              ".item": {
+                "padding-bottom": "2rem"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".carousel-control, .carousel-indicators, .modal .close": {
+                "position": "fixed"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-slider .carousel-control": {
+                "top": "auto",
+                "bottom": "20px"
+              },
+              ".mbr-slider > .container .carousel-control": {
+                "margin-bottom": "0"
+              }
+            },
+            ".carousel-indicators": {
+              "bottom": "0",
+              "margin-bottom": "3px",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "3.625rem !important",
+                "padding-left": "2.5rem",
+                "padding-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "display": "none"
+              }
+            },
+            ".carousel-indicators .active, .carousel-indicators li": {
+              "width": "7px",
+              "height": "7px",
+              "margin": "3px",
+              "background": "#1b1b1b",
+              "opacity": "0.5",
+              "border": "4px solid #1b1b1b"
+            },
+            ".carousel-indicators .active": {
+              "background": "#fff"
+            },
+            ".carousel-indicators li": {
+              "max-width": "15px",
+              "max-height": "15px",
+              "border-radius": "50%"
+            },
+            ".modal": {
+              "padding-left": "0 !important",
+              "position": "fixed",
+              "overflow": "hidden",
+              "padding-right": "0 !important"
+            },
+            ".modal-dialog": {
+              "margin": "0 auto",
+              "max-width": "100%",
+              "padding-left": "1rem",
+              "padding-right": "1rem"
+            },
+            ".modal-content": {
+              "border-radius": "0",
+              "border": "none",
+              "background": "transparent"
+            },
+            ".modal-body": {
+              "padding": "0",
+              "display": "flex",
+              "align-items": "center",
+              ".carousel-item": {
+                "top": "50%",
+                "transform": "translateY(-50%)"
+              },
+              "img": {
+                "width": "100%",
+                "object-fit": "contain",
+                "max-height": "~\"calc(100vh - 1.75rem)\""
+              }
+            },
+            ".carousel": {
+              "width": "100%"
+            },
+            ".modal-backdrop.in": {
+              "opacity": "0.8"
+            },
+            ".modal.fade .modal-dialog": {
+              "-webkit-transition": "margin-top 0.3s ease-out",
+              "-moz-transition": "margin-top 0.3s ease-out",
+              "-o-transition": "margin-top 0.3s ease-out",
+              "transition": "margin-top 0.3s ease-out"
+            },
+            ".modal.fade .modal-dialog, .modal.in .modal-dialog": {
+              "-webkit-transform": "none",
+              "-ms-transform": "none",
+              "-o-transform": "none",
+              "transform": "none"
+            },
+            ".mbr-gallery .item-wrapper": {
+              "cursor": "pointer"
+            },
+            "a": {
+              "display": "block"
+            },
+            "a.img": {
+              "pointer-events": "none"
+            },
+            "H3": {
+              "text-align": "center"
+            }
+          },
+          "_customHTML": "<center><section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type=='video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\"> <mbr-parameters> <header>Size</header> <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\"> <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\"> <header>Show/Hide</header> <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked> <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\"> <input type=\"checkbox\" title=\"Show Text\" name=\"showtext\" checked> <header>Images</header> <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked> <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\" checked> <header>Background</header> <fieldset type=\"background\" name=\"bg\" parallax> <input type=\"image\" title=\"Background Image\" value parallax> <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected> <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\"> </fieldset> <header condition=\"bg.type!==color\">Overlay</header> <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !=='color'\"> <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !=='color'\"> <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !=='color'\"> </mbr-parameters> <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!=='color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"> </div><div mbr-class=\"{'container': !fullWidth}\"> <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><i>FRUTOS DO MAR</i></h3> <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"> Enter Gallery Subtitle here. </h4> <div class=\"row mbr-gallery\" data-toggle=\"modal\"> <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\"> <div class=\"item-wrapper\"> <a href=\"https://store17441987.ecwid.com/FRUTOS-DO-MAR-c57892408\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/faxina-6-min-952x952.png\" alt title> </a><p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\">DELIVERY DE 09:00 as 19:00<br>Terça a Domingo</p><center><i><b><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"tel:22992572818\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/phone-30029-100x100.png\" width=\"50\" alt title></a></div></div><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://wa.me/5522992572818\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/whatsapp-37229-100x100.png\" width=\"50\" alt title></a></div></div><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://www.facebook.com/Pescados-Rio-das-Ostras-100204208423754\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"512\" data-original-width=\"512\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/facebook-108044-100x100.png\" width=\"50\" alt title></a></div></div></b></i></center><i><b><br><br></b></i></div><i><b> <br></b></i></div></div></div></section><i><b><div class=\"list-group\"> <button type=\"button\" class=\"list-group-item list-group-item-action active\" aria-current=\"true\"> TRABALHAMOS COM </button> <button type=\"button\" class=\"list-group-item list-group-item-action\"> CAMARÃO COM CASCA </button> <button type=\"button\" class=\"list-group-item list-group-item-action\"> CAMARÃO SEM CASCA </button> <button type=\"button\" class=\"list-group-item list-group-item-action\"> FILE DE PEIXE </button> <button type=\"button\" class=\"list-group-item list-group-item-action\" disabled> POSTA DE PEIXE </button></div></b></i></center>",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "s7OX0SnZzZ",
+          "_anchor": "design-block-5n",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
           "alias": "deltapi-code-editor",
           "_isSecondary": true,
           "_styles": {
@@ -3279,6 +4523,142 @@
           "_sourceTheme": "creativem4",
           "_cid": "s7OX0U9TOH",
           "_anchor": "custom-html-5o",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@noSpacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding-left": "0",
+                "padding-right": "0"
+              }
+            },
+            "& when not (@noSpacing)": {
+              ".item": {
+                "padding-bottom": "2rem"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".carousel-control, .carousel-indicators, .modal .close": {
+                "position": "fixed"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-slider .carousel-control": {
+                "top": "auto",
+                "bottom": "20px"
+              },
+              ".mbr-slider > .container .carousel-control": {
+                "margin-bottom": "0"
+              }
+            },
+            ".carousel-indicators": {
+              "bottom": "0",
+              "margin-bottom": "3px",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "3.625rem !important",
+                "padding-left": "2.5rem",
+                "padding-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "display": "none"
+              }
+            },
+            ".carousel-indicators .active, .carousel-indicators li": {
+              "width": "7px",
+              "height": "7px",
+              "margin": "3px",
+              "background": "#1b1b1b",
+              "opacity": "0.5",
+              "border": "4px solid #1b1b1b"
+            },
+            ".carousel-indicators .active": {
+              "background": "#fff"
+            },
+            ".carousel-indicators li": {
+              "max-width": "15px",
+              "max-height": "15px",
+              "border-radius": "50%"
+            },
+            ".modal": {
+              "padding-left": "0 !important",
+              "position": "fixed",
+              "overflow": "hidden",
+              "padding-right": "0 !important"
+            },
+            ".modal-dialog": {
+              "margin": "0 auto",
+              "max-width": "100%",
+              "padding-left": "1rem",
+              "padding-right": "1rem"
+            },
+            ".modal-content": {
+              "border-radius": "0",
+              "border": "none",
+              "background": "transparent"
+            },
+            ".modal-body": {
+              "padding": "0",
+              "display": "flex",
+              "align-items": "center",
+              ".carousel-item": {
+                "top": "50%",
+                "transform": "translateY(-50%)"
+              },
+              "img": {
+                "width": "100%",
+                "object-fit": "contain",
+                "max-height": "~\"calc(100vh - 1.75rem)\""
+              }
+            },
+            ".carousel": {
+              "width": "100%"
+            },
+            ".modal-backdrop.in": {
+              "opacity": "0.8"
+            },
+            ".modal.fade .modal-dialog": {
+              "-webkit-transition": "margin-top 0.3s ease-out",
+              "-moz-transition": "margin-top 0.3s ease-out",
+              "-o-transition": "margin-top 0.3s ease-out",
+              "transition": "margin-top 0.3s ease-out"
+            },
+            ".modal.fade .modal-dialog, .modal.in .modal-dialog": {
+              "-webkit-transform": "none",
+              "-ms-transform": "none",
+              "-o-transform": "none",
+              "transform": "none"
+            },
+            ".mbr-gallery .item-wrapper": {
+              "cursor": "pointer"
+            },
+            "a": {
+              "display": "block"
+            },
+            "a.img": {
+              "pointer-events": "none"
+            }
+          },
+          "_name": "design-block",
+          "_customHTML": "<section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type=='video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\"> <mbr-parameters> <header>Size</header> <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\"> <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\"> <header>Show/Hide</header> <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked> <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked> <input type=\"checkbox\" title=\"Show Text\" name=\"showtext\"> <header>Images</header> <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked> <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\"> <header>Background</header> <fieldset type=\"background\" name=\"bg\" parallax> <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax> <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected> <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\"> </fieldset> <header condition=\"bg.type!==color\">Overlay</header> <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !=='color'\"> <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !=='color'\"> <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !=='color'\"> </mbr-parameters> <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!=='color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"> </div><div mbr-class=\"{'container': !fullWidth}\"> <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Qualidade é Aqui !!</h3> <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">ENTREGA GRATIS</h4> <div class=\"row mbr-gallery\" data-toggle=\"modal\"> <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\"> <div class=\"item-wrapper\"> <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/picasion.com-9394c3f9f72a639e9f61c508b6848d06-1.gif\" alt data-slide-to=\"3\" title><p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\"><a href=\"https://forums.mobirise.com/\" class=\"text-black\">Text</a></p></div></div></div></div></section>",
+          "_cid": "s7OX0W1Baf",
+          "_anchor": "design-block-5q",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -3476,6 +4856,146 @@
       },
       "components": [
         {
+          "_name": "design-block",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@noSpacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding-left": "0",
+                "padding-right": "0"
+              }
+            },
+            "& when not (@noSpacing)": {
+              ".item": {
+                "padding-bottom": "2rem"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".carousel-control, .carousel-indicators, .modal .close": {
+                "position": "fixed"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-slider .carousel-control": {
+                "top": "auto",
+                "bottom": "20px"
+              },
+              ".mbr-slider > .container .carousel-control": {
+                "margin-bottom": "0"
+              }
+            },
+            ".carousel-indicators": {
+              "bottom": "0",
+              "margin-bottom": "3px",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "3.625rem !important",
+                "padding-left": "2.5rem",
+                "padding-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "display": "none"
+              }
+            },
+            ".carousel-indicators .active, .carousel-indicators li": {
+              "width": "7px",
+              "height": "7px",
+              "margin": "3px",
+              "background": "#1b1b1b",
+              "opacity": "0.5",
+              "border": "4px solid #1b1b1b"
+            },
+            ".carousel-indicators .active": {
+              "background": "#fff"
+            },
+            ".carousel-indicators li": {
+              "max-width": "15px",
+              "max-height": "15px",
+              "border-radius": "50%"
+            },
+            ".modal": {
+              "padding-left": "0 !important",
+              "position": "fixed",
+              "overflow": "hidden",
+              "padding-right": "0 !important"
+            },
+            ".modal-dialog": {
+              "margin": "0 auto",
+              "max-width": "100%",
+              "padding-left": "1rem",
+              "padding-right": "1rem"
+            },
+            ".modal-content": {
+              "border-radius": "0",
+              "border": "none",
+              "background": "transparent"
+            },
+            ".modal-body": {
+              "padding": "0",
+              "display": "flex",
+              "align-items": "center",
+              ".carousel-item": {
+                "top": "50%",
+                "transform": "translateY(-50%)"
+              },
+              "img": {
+                "width": "100%",
+                "object-fit": "contain",
+                "max-height": "~\"calc(100vh - 1.75rem)\""
+              }
+            },
+            ".carousel": {
+              "width": "100%"
+            },
+            ".modal-backdrop.in": {
+              "opacity": "0.8"
+            },
+            ".modal.fade .modal-dialog": {
+              "-webkit-transition": "margin-top 0.3s ease-out",
+              "-moz-transition": "margin-top 0.3s ease-out",
+              "-o-transition": "margin-top 0.3s ease-out",
+              "transition": "margin-top 0.3s ease-out"
+            },
+            ".modal.fade .modal-dialog, .modal.in .modal-dialog": {
+              "-webkit-transform": "none",
+              "-ms-transform": "none",
+              "-o-transform": "none",
+              "transform": "none"
+            },
+            ".mbr-gallery .item-wrapper": {
+              "cursor": "pointer"
+            },
+            "a": {
+              "display": "block"
+            },
+            "a.img": {
+              "pointer-events": "none"
+            },
+            "H3": {
+              "text-align": "center"
+            }
+          },
+          "_customHTML": "<center><section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type=='video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\"> <mbr-parameters> <header>Size</header> <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\"> <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\"> <header>Show/Hide</header> <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked> <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\"> <input type=\"checkbox\" title=\"Show Text\" name=\"showtext\" checked> <header>Images</header> <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked> <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\" checked> <header>Background</header> <fieldset type=\"background\" name=\"bg\" parallax> <input type=\"image\" title=\"Background Image\" value parallax> <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected> <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\"> </fieldset> <header condition=\"bg.type!==color\">Overlay</header> <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !=='color'\"> <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !=='color'\"> <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !=='color'\"> </mbr-parameters> <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!=='color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"> </div><div mbr-class=\"{'container': !fullWidth}\"> <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><i>Plano de Saúde</i></h3> <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"> Enter Gallery Subtitle here. </h4> <div class=\"row mbr-gallery\" data-toggle=\"modal\"> <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\"> <div class=\"item-wrapper\"> <a href=\"https://www.123formbuilder.com/form-5627383/\"><img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/rio-das-ostras-4-952x952.png\" alt title></a> <p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\">SEJA BEM VINDO&nbsp;</p><center><i><b><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"tel:22998002306\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/phone-30029-100x100.png\" width=\"50\" alt title></a>LIGAR</div></div><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://wa.me/5522998002306\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/whatsapp-37229-100x100.png\" width=\"50\" alt title></a>WHAT</div></div><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://www.facebook.com/andreluiz.moura.5070\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"512\" data-original-width=\"512\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/facebook-108044-100x100.png\" width=\"50\" alt title></a>FACE</div></div></b></i></center><i><b><br><br></b></i></div><i><b> <br></b></i></div></div></div></section><i><b><div class=\"list-group\"> <button type=\"button\" class=\"list-group-item list-group-item-action active\" aria-current=\"true\"> PENSANDO EM VOCÊ</button> <button type=\"button\" class=\"list-group-item list-group-item-action\">SAÚDE </button> <button type=\"button\" class=\"list-group-item list-group-item-action\">BELEZA </button> <button type=\"button\" class=\"list-group-item list-group-item-action\"> ESTÉTICA</button> <button type=\"button\" class=\"list-group-item list-group-item-action\" disabled> ALIMENTAÇÃO </button> <button type=\"button\" class=\"list-group-item list-group-item-action\" disabled> HABITOS </button></div></b></i></center>",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "s9CoBeu1R3",
+          "_anchor": "design-block-5t",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
           "alias": false,
           "_styles": {
             ".google-map": {
@@ -3512,6 +5032,142 @@
           "_customHTML": "<center>\n<section class=\"map1\" group=\"Maps\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"iframe\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.7496063387816!2d-41.94756468461231!3d-22.513575885213136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x97b49f2625a873%3A0xa40c86d4f2ae050f!2sR.%20Bangu%20-%20Nova%20Cidade%2C%20Rio%20das%20Ostras%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1599227961282!5m2!1spt-BR!2sbr&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; aria-hidden=&quot;false&quot; tabindex=&quot;0&quot;></iframe>\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>\n</center>",
           "_cid": "s9CoBHbdqt",
           "_anchor": "map01-5v",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@noSpacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding-left": "0",
+                "padding-right": "0"
+              }
+            },
+            "& when not (@noSpacing)": {
+              ".item": {
+                "padding-bottom": "2rem"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".carousel-control, .carousel-indicators, .modal .close": {
+                "position": "fixed"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-slider .carousel-control": {
+                "top": "auto",
+                "bottom": "20px"
+              },
+              ".mbr-slider > .container .carousel-control": {
+                "margin-bottom": "0"
+              }
+            },
+            ".carousel-indicators": {
+              "bottom": "0",
+              "margin-bottom": "3px",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "3.625rem !important",
+                "padding-left": "2.5rem",
+                "padding-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "display": "none"
+              }
+            },
+            ".carousel-indicators .active, .carousel-indicators li": {
+              "width": "7px",
+              "height": "7px",
+              "margin": "3px",
+              "background": "#1b1b1b",
+              "opacity": "0.5",
+              "border": "4px solid #1b1b1b"
+            },
+            ".carousel-indicators .active": {
+              "background": "#fff"
+            },
+            ".carousel-indicators li": {
+              "max-width": "15px",
+              "max-height": "15px",
+              "border-radius": "50%"
+            },
+            ".modal": {
+              "padding-left": "0 !important",
+              "position": "fixed",
+              "overflow": "hidden",
+              "padding-right": "0 !important"
+            },
+            ".modal-dialog": {
+              "margin": "0 auto",
+              "max-width": "100%",
+              "padding-left": "1rem",
+              "padding-right": "1rem"
+            },
+            ".modal-content": {
+              "border-radius": "0",
+              "border": "none",
+              "background": "transparent"
+            },
+            ".modal-body": {
+              "padding": "0",
+              "display": "flex",
+              "align-items": "center",
+              ".carousel-item": {
+                "top": "50%",
+                "transform": "translateY(-50%)"
+              },
+              "img": {
+                "width": "100%",
+                "object-fit": "contain",
+                "max-height": "~\"calc(100vh - 1.75rem)\""
+              }
+            },
+            ".carousel": {
+              "width": "100%"
+            },
+            ".modal-backdrop.in": {
+              "opacity": "0.8"
+            },
+            ".modal.fade .modal-dialog": {
+              "-webkit-transition": "margin-top 0.3s ease-out",
+              "-moz-transition": "margin-top 0.3s ease-out",
+              "-o-transition": "margin-top 0.3s ease-out",
+              "transition": "margin-top 0.3s ease-out"
+            },
+            ".modal.fade .modal-dialog, .modal.in .modal-dialog": {
+              "-webkit-transform": "none",
+              "-ms-transform": "none",
+              "-o-transform": "none",
+              "transform": "none"
+            },
+            ".mbr-gallery .item-wrapper": {
+              "cursor": "pointer"
+            },
+            "a": {
+              "display": "block"
+            },
+            "a.img": {
+              "pointer-events": "none"
+            }
+          },
+          "_name": "design-block",
+          "_customHTML": "<section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showtext\" checked>\n        <header>Images</header>\n\t    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\">\n      \n        <!-- <input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"3\" step=\"0.1\" value=\"1\"> -->\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <header condition=\"bg.type!==color\">Overlay</header>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n   <div mbr-class=\"{'container': !fullWidth}\">\n        <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n            TIPO DE PLANOS</h3>\n        <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n            Enter Gallery Subtitle here.\n        </h4>\n        <div class=\"row mbr-gallery\" data-toggle=\"modal\">\n            <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                   <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/rio-das-ostras-11-510x510.png\" alt title>\n                <p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\">AMIL</p></div>\n\n                  \n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/rio-das-ostras-10-510x510.png\" alt title data-slide-to=\"1\">\n                <p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\">NOTREDAME</p></div>\n\n            </div>\n          <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                     <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/rio-das-ostras-9-510x510.png\" alt title data-slide-to=\"2\">\n<p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\">UNIMED</p>                </div>\n\n            </div>\n            <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                     <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/rio-das-ostras-8-510x510.png\" alt data-slide-to=\"3\" title>\n<p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\">BRADESCO SAÚDE</p>                </div>\n\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                     <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/rio-das-ostras-7-1654x1654.png\" alt data-slide-to=\"4\" title>\n<p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\">GOLDEN CROSS</p>                </div>\n\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                     <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/rio-das-ostras-6-1654x1654.png\" alt data-slide-to=\"5\" title>\n<p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\">SULAMERICA</p>                </div>\n\n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                     <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/rio-das-ostras-5-1654x1654.png\" alt data-slide-to=\"6\" title>\n<p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\">ASSIM SAÚDE</p>                </div>\n\n            </div>\n\n        </div>\n\n\n    </div>\n</section>",
+          "_cid": "BnCnziBH5h",
+          "_anchor": "design-block-BnCnziBH5h",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -3687,6 +5343,143 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
+            "& when (@noSpacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding-left": "0",
+                "padding-right": "0"
+              }
+            },
+            "& when not (@noSpacing)": {
+              ".item": {
+                "padding-bottom": "2rem"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".carousel-control, .carousel-indicators, .modal .close": {
+                "position": "fixed"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-slider .carousel-control": {
+                "top": "auto",
+                "bottom": "20px"
+              },
+              ".mbr-slider > .container .carousel-control": {
+                "margin-bottom": "0"
+              }
+            },
+            ".carousel-indicators": {
+              "bottom": "0",
+              "margin-bottom": "3px",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "3.625rem !important",
+                "padding-left": "2.5rem",
+                "padding-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "display": "none"
+              }
+            },
+            ".carousel-indicators .active, .carousel-indicators li": {
+              "width": "7px",
+              "height": "7px",
+              "margin": "3px",
+              "background": "#1b1b1b",
+              "opacity": "0.5",
+              "border": "4px solid #1b1b1b"
+            },
+            ".carousel-indicators .active": {
+              "background": "#fff"
+            },
+            ".carousel-indicators li": {
+              "max-width": "15px",
+              "max-height": "15px",
+              "border-radius": "50%"
+            },
+            ".modal": {
+              "padding-left": "0 !important",
+              "position": "fixed",
+              "overflow": "hidden",
+              "padding-right": "0 !important"
+            },
+            ".modal-dialog": {
+              "margin": "0 auto",
+              "max-width": "100%",
+              "padding-left": "1rem",
+              "padding-right": "1rem"
+            },
+            ".modal-content": {
+              "border-radius": "0",
+              "border": "none",
+              "background": "transparent"
+            },
+            ".modal-body": {
+              "padding": "0",
+              "display": "flex",
+              "align-items": "center",
+              ".carousel-item": {
+                "top": "50%",
+                "transform": "translateY(-50%)"
+              },
+              "img": {
+                "width": "100%",
+                "object-fit": "contain",
+                "max-height": "~\"calc(100vh - 1.75rem)\""
+              }
+            },
+            ".carousel": {
+              "width": "100%"
+            },
+            ".modal-backdrop.in": {
+              "opacity": "0.8"
+            },
+            ".modal.fade .modal-dialog": {
+              "-webkit-transition": "margin-top 0.3s ease-out",
+              "-moz-transition": "margin-top 0.3s ease-out",
+              "-o-transition": "margin-top 0.3s ease-out",
+              "transition": "margin-top 0.3s ease-out"
+            },
+            ".modal.fade .modal-dialog, .modal.in .modal-dialog": {
+              "-webkit-transform": "none",
+              "-ms-transform": "none",
+              "-o-transform": "none",
+              "transform": "none"
+            },
+            ".mbr-gallery .item-wrapper": {
+              "cursor": "pointer"
+            },
+            "a": {
+              "display": "block"
+            },
+            "a.img": {
+              "pointer-events": "none"
+            }
+          },
+          "_customHTML": "<section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showtext\" checked>\n        <header>Images</header>\n\t    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\">\n      \n        <!-- <input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"3\" step=\"0.1\" value=\"1\"> -->\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <header condition=\"bg.type!==color\">Overlay</header>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n   <div mbr-class=\"{'container': !fullWidth}\">\n        <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">FAÇA SUA COTAÇÃO</h3>\n        <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n            Enter Gallery Subtitle here.\n        </h4>\n        <div class=\"row mbr-gallery\" data-toggle=\"modal\">\n            <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                   <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/unnamed-510x279.jpg\" alt title>\n                <p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\">Sua familia é importante</p></div>\n\n                  \n            </div>\n          \n            \n\n        </div>\n\n\n    </div>\n</section>",
+          "_anchor": "design-block-60",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "s9D6iSuyjk",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
             ".mbr-section-subtitle": {
               "color": "#767676"
             },
@@ -3775,6 +5568,110 @@
           "_isUserblock": true,
           "_sourceTheme": "creativem4",
           "_cid": "s9DiWFM4TF",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            },
+            ".container-table": {
+              "margin": "0 auto"
+            },
+            ".scroll": {
+              "overflow-x": "auto",
+              "padding": "0"
+            },
+            ".dataTables_wrapper": {
+              "display": "block",
+              ".search": {
+                "margin-bottom": ".5rem"
+              },
+              ".table": {
+                "overflow-x": "auto"
+              }
+            },
+            "table": {
+              "width": "100% !important",
+              "margin-top": "6px",
+              "border": "1px solid @tbColor",
+              "margin-bottom": "0",
+              "th": {
+                "border-top": "none",
+                "transition": "all .2s",
+                "border-bottom": "none",
+                "&:hover": {
+                  "background": "@tbColor",
+                  "color": "contrast(@tbColor)"
+                }
+              },
+              "td": {
+                "border-top": "1px solid @tbColor"
+              },
+              "&.table": {
+                "& when (@tbBackground)": {
+                  "background": "@tbBgColor"
+                }
+              }
+            },
+            ".dataTables_filter": {
+              "text-align": "right",
+              "margin-bottom": ".5rem",
+              "label": {
+                "display": "inline",
+                "white-space": "normal !important"
+              },
+              "input": {
+                "display": "inline",
+                "width": "auto",
+                "margin-left": ".5rem",
+                "border-radius": "100px",
+                "padding-left": "1rem"
+              }
+            },
+            ".dataTables_info": {
+              "padding-bottom": "1rem",
+              "padding-top": "1rem",
+              "white-space": "normal !important"
+            },
+            "@media (max-width: 992px)": {
+              ".dataTables_filter": {
+                "text-align": "center"
+              }
+            },
+            "@media (max-width: 350px)": {
+              ".dataTables_filter": {
+                "text-align": "center",
+                "input": {
+                  "width": "100% !important",
+                  "margin-left": "0 !important"
+                }
+              }
+            },
+            ".body-item": {
+              "text-align": "center"
+            },
+            ".head-item": {
+              "text-align": "center"
+            }
+          },
+          "_customHTML": "<section class=\"section-table\" group=\"Tables\" plugins=\"dataTables\" data-bg-video=\"{{bg.type=='video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\"> <mbr-parameters> <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\"> <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\"> <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\"> <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\"> <input type=\"range\" inline title=\"Columns\" name=\"tableColumns\" min=\"1\" max=\"50\" step=\"1\" value=\"1\"> <input type=\"range\" inline title=\"Rows\" name=\"tableRows\" min=\"1\" max=\"50\" step=\"1\" value=\"9\"> <input type=\"color\" title=\"Table Border Color\" name=\"tbColor\" value=\"#cccccc\"> <input type=\"checkbox\" title=\"Table Background\" name=\"tbBackground\"> <input type=\"color\" title=\"Table Background Color\" name=\"tbBgColor\" value=\"#ffffff\" condition=\"tbBackground\"> <input type=\"checkbox\" title=\"Search\" name=\"isSearch\" checked> <fieldset type=\"background\" name=\"bg\" parallax> <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax> <input type=\"color\" title=\"Background Color\" value=\"#f9f9f9\" selected> <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\"> </fieldset> <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !=='color'\" checked> <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !=='color'\"> <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !=='color'\"> </mbr-parameters> <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!=='color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"> </div><div class=\"container container-table\"> <h2 class=\"mbr-section-title mbr-fonts-style align-center pb-3\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\"> Tabela de Preço</h2> <h3 class=\"mbr-section-subtitle mbr-fonts-style align-center pb-5 mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"> Abaixo tabela de preço para o Grupo Conectado</h3> <div class=\"table-wrapper\"> <div class=\"container\"> <div class=\"row search\" mbr-if=\"isSearch\"> <div class=\"col-md-6\"></div><div class=\"col-md-6\"> <div class=\"dataTables_filter\"> <label mbr-text class=\"searchInfo mbr-fonts-style\" mbr-theme-style=\"display-7\">Item:</label> <input class=\"form-control input-sm\" disabled> </div></div></div></div><div class=\"container scroll\"> <table class=\"table\" mbr-class=\"{'isSearch':isSearch}\" cellspacing=\"0\"> <thead> <tr class=\"table-heads \" mbr-list mbr-list-grow=\"tableColumns\"> <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\" data-sortable=\"false\">UNIMED RIO</th> </tr></thead> <tbody mbr-list mbr-list-grow=\"tableRows\"> <tr mbr-list mbr-list-grow=\"tableColumns\"> <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">0 até  18 anos  R$ 191.00</td></tr><tr mbr-list mbr-list-grow=\"tableColumns\"> <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">19 até 23 anos R$ 258.00</td></tr><tr mbr-list mbr-list-grow=\"tableColumns\"> <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">24 até 28 anos R$ 284.00</td></tr><tr mbr-list mbr-list-grow=\"tableColumns\"> <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">29 até 33 anos R$ 312.00</td></tr><tr mbr-list mbr-list-grow=\"tableColumns\"> <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">34 até 38 anos R$ 322.00</td></tr><tr mbr-list mbr-list-grow=\"tableColumns\"> <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">39 até 43 anos R$ 332.00</td></tr><tr mbr-list mbr-list-grow=\"tableColumns\"> <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">44 até 48 anos R$ 470.00</td></tr><tr mbr-list mbr-list-grow=\"tableColumns\"> <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">49 até 53 anos R$ 609.00</td></tr><tr mbr-list mbr-list-grow=\"tableColumns\"> <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">54 até 58 anos R$ 670.00</td></tr></tbody> </table> </div><div class=\"container table-info-container\"> <div class=\"row info\" mbr-if=\"isSearch\"> <div class=\"col-md-6\"> <div class=\"dataTables_info mbr-fonts-style\" mbr-theme-style=\"display-7\"> <span mbr-text class=\"infoBefore\" data-app-selector=\".dataTables_info\">PRODUTOS</span> <span class=\"inactive infoRows\"></span> <span mbr-text class=\"infoAfter\" data-app-selector=\".dataTables_info\">entries</span> <span mbr-text class=\"infoFilteredBefore\" data-app-selector=\".dataTables_info\">(Grupo Conectado</span> <span class=\"inactive infoRows\"></span> <span mbr-text class=\"infoFilteredAfter\" data-app-selector=\".dataTables_info\"> total entries)</span> </div></div><div class=\"col-md-6\"></div></div></div></div></div></section>",
+          "_anchor": "design-block-62",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "s9DjUFXUsC",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -4076,6 +5973,146 @@
       },
       "components": [
         {
+          "_name": "design-block",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@noSpacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding-left": "0",
+                "padding-right": "0"
+              }
+            },
+            "& when not (@noSpacing)": {
+              ".item": {
+                "padding-bottom": "2rem"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".carousel-control, .carousel-indicators, .modal .close": {
+                "position": "fixed"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-slider .carousel-control": {
+                "top": "auto",
+                "bottom": "20px"
+              },
+              ".mbr-slider > .container .carousel-control": {
+                "margin-bottom": "0"
+              }
+            },
+            ".carousel-indicators": {
+              "bottom": "0",
+              "margin-bottom": "3px",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "3.625rem !important",
+                "padding-left": "2.5rem",
+                "padding-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "display": "none"
+              }
+            },
+            ".carousel-indicators .active, .carousel-indicators li": {
+              "width": "7px",
+              "height": "7px",
+              "margin": "3px",
+              "background": "#1b1b1b",
+              "opacity": "0.5",
+              "border": "4px solid #1b1b1b"
+            },
+            ".carousel-indicators .active": {
+              "background": "#fff"
+            },
+            ".carousel-indicators li": {
+              "max-width": "15px",
+              "max-height": "15px",
+              "border-radius": "50%"
+            },
+            ".modal": {
+              "padding-left": "0 !important",
+              "position": "fixed",
+              "overflow": "hidden",
+              "padding-right": "0 !important"
+            },
+            ".modal-dialog": {
+              "margin": "0 auto",
+              "max-width": "100%",
+              "padding-left": "1rem",
+              "padding-right": "1rem"
+            },
+            ".modal-content": {
+              "border-radius": "0",
+              "border": "none",
+              "background": "transparent"
+            },
+            ".modal-body": {
+              "padding": "0",
+              "display": "flex",
+              "align-items": "center",
+              ".carousel-item": {
+                "top": "50%",
+                "transform": "translateY(-50%)"
+              },
+              "img": {
+                "width": "100%",
+                "object-fit": "contain",
+                "max-height": "~\"calc(100vh - 1.75rem)\""
+              }
+            },
+            ".carousel": {
+              "width": "100%"
+            },
+            ".modal-backdrop.in": {
+              "opacity": "0.8"
+            },
+            ".modal.fade .modal-dialog": {
+              "-webkit-transition": "margin-top 0.3s ease-out",
+              "-moz-transition": "margin-top 0.3s ease-out",
+              "-o-transition": "margin-top 0.3s ease-out",
+              "transition": "margin-top 0.3s ease-out"
+            },
+            ".modal.fade .modal-dialog, .modal.in .modal-dialog": {
+              "-webkit-transform": "none",
+              "-ms-transform": "none",
+              "-o-transform": "none",
+              "transform": "none"
+            },
+            ".mbr-gallery .item-wrapper": {
+              "cursor": "pointer"
+            },
+            "a": {
+              "display": "block"
+            },
+            "a.img": {
+              "pointer-events": "none"
+            },
+            "H3": {
+              "text-align": "center"
+            }
+          },
+          "_customHTML": "<center><section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type=='video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\"> <mbr-parameters> <header>Size</header> <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\"> <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\"> <header>Show/Hide</header> <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked> <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\"> <input type=\"checkbox\" title=\"Show Text\" name=\"showtext\" checked> <header>Images</header> <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked> <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\" checked> <header>Background</header> <fieldset type=\"background\" name=\"bg\" parallax> <input type=\"image\" title=\"Background Image\" value parallax> <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected> <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\"> </fieldset> <header condition=\"bg.type!==color\">Overlay</header> <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !=='color'\"> <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !=='color'\"> <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !=='color'\"> </mbr-parameters> <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!=='color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"> </div><div mbr-class=\"{'container': !fullWidth}\"> <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><i> FRETE &amp; CIA</i><i><br></i></h3> <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"> Enter Gallery Subtitle here. </h4> <div class=\"row mbr-gallery\" data-toggle=\"modal\"> <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\"> <div class=\"item-wrapper\"> <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/emprestimo-2-952x952.png\" alt title> <p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b><i><a href=\"https://store17441987.ecwid.com/Silvio-Massas-c54997117\">SAVEIRO (Carro Pequeno)</a></i></b><i><b></b></i></p><center><i><b><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"tel:22992572818\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/phone-30029-100x100.png\" width=\"50\" alt title></a></div></div><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://wa.me/5522992572818\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"96\" data-original-width=\"96\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/whatsapp-37229-100x100.png\" width=\"50\" alt title></a></div></div><div style=\"float: left; width: 33%;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><img border=\"0\" data-original-height=\"512\" data-original-width=\"512\" height=\"50\" src=\"@PROJECT_PATH@/assets/images/facebook-108044-100x100.png\" width=\"50\" alt title></div></div></b></i></center><i><b><br><br></b></i></div><i><b> <br></b></i></div></div></div></section><i><b><div class=\"list-group\"> <button type=\"button\" class=\"list-group-item list-group-item-action active\" aria-current=\"true\"> TRABALHAMOS COM </button> <button type=\"button\" class=\"list-group-item list-group-item-action\">RIO DE JANEIRO </button> <button type=\"button\" class=\"list-group-item list-group-item-action\"> RIO DAS OSTRAS </button> <button type=\"button\" class=\"list-group-item list-group-item-action\">CASIMIRO </button> <button type=\"button\" class=\"list-group-item list-group-item-action\" disabled>MACAE </button> </div></b></i></center>",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "s9ZOjgNByA",
+          "_anchor": "design-block-67",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
           "alias": "deltapi-code-editor",
           "_isSecondary": true,
           "_styles": {
@@ -4145,6 +6182,143 @@
           "_params": {}
         },
         {
+          "_name": "design-block",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@noSpacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding-left": "0",
+                "padding-right": "0"
+              }
+            },
+            "& when not (@noSpacing)": {
+              ".item": {
+                "padding-bottom": "2rem"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".carousel-control, .carousel-indicators, .modal .close": {
+                "position": "fixed"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-slider .carousel-control": {
+                "top": "auto",
+                "bottom": "20px"
+              },
+              ".mbr-slider > .container .carousel-control": {
+                "margin-bottom": "0"
+              }
+            },
+            ".carousel-indicators": {
+              "bottom": "0",
+              "margin-bottom": "3px",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "3.625rem !important",
+                "padding-left": "2.5rem",
+                "padding-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "display": "none"
+              }
+            },
+            ".carousel-indicators .active, .carousel-indicators li": {
+              "width": "7px",
+              "height": "7px",
+              "margin": "3px",
+              "background": "#1b1b1b",
+              "opacity": "0.5",
+              "border": "4px solid #1b1b1b"
+            },
+            ".carousel-indicators .active": {
+              "background": "#fff"
+            },
+            ".carousel-indicators li": {
+              "max-width": "15px",
+              "max-height": "15px",
+              "border-radius": "50%"
+            },
+            ".modal": {
+              "padding-left": "0 !important",
+              "position": "fixed",
+              "overflow": "hidden",
+              "padding-right": "0 !important"
+            },
+            ".modal-dialog": {
+              "margin": "0 auto",
+              "max-width": "100%",
+              "padding-left": "1rem",
+              "padding-right": "1rem"
+            },
+            ".modal-content": {
+              "border-radius": "0",
+              "border": "none",
+              "background": "transparent"
+            },
+            ".modal-body": {
+              "padding": "0",
+              "display": "flex",
+              "align-items": "center",
+              ".carousel-item": {
+                "top": "50%",
+                "transform": "translateY(-50%)"
+              },
+              "img": {
+                "width": "100%",
+                "object-fit": "contain",
+                "max-height": "~\"calc(100vh - 1.75rem)\""
+              }
+            },
+            ".carousel": {
+              "width": "100%"
+            },
+            ".modal-backdrop.in": {
+              "opacity": "0.8"
+            },
+            ".modal.fade .modal-dialog": {
+              "-webkit-transition": "margin-top 0.3s ease-out",
+              "-moz-transition": "margin-top 0.3s ease-out",
+              "-o-transition": "margin-top 0.3s ease-out",
+              "transition": "margin-top 0.3s ease-out"
+            },
+            ".modal.fade .modal-dialog, .modal.in .modal-dialog": {
+              "-webkit-transform": "none",
+              "-ms-transform": "none",
+              "-o-transform": "none",
+              "transform": "none"
+            },
+            ".mbr-gallery .item-wrapper": {
+              "cursor": "pointer"
+            },
+            "a": {
+              "display": "block"
+            },
+            "a.img": {
+              "pointer-events": "none"
+            }
+          },
+          "_customHTML": "<section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showtext\" checked=\"\">\n        <header>Images</header>\n\t    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\">\n      \n        <!-- <input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"3\" step=\"0.1\" value=\"1\"> -->\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <header condition=\"bg.type!==color\">Overlay</header>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked=\"\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n   <div mbr-class=\"{'container': !fullWidth}\">\n        <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">FOTO DO CARRO</h3>\n        <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n            Enter Gallery Subtitle here.\n        </h4>\n        <div class=\"row mbr-gallery\" data-toggle=\"modal\">\n            <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                   <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/884cc13e80bfedf834ae60fc2dedaff5-thumbjpg-volkswagen-saveiro-8406017-1000-750-70-510x383.jpg\" alt=\"\" title=\"\">\n                <p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\">savero</p></div>\n\n                  \n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                   <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/pp-1-640x640.jpg\" alt=\"\" title=\"\" data-slide-to=\"1\">\n                <p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\">SAVEIRO</p></div>\n\n                  \n            </div><div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                   <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/3438106294d256a3161b3ccf343cbb0d.gif\" alt=\"\" title=\"\" data-slide-to=\"2\">\n                <p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showtext\" data-app-selector=\".mbr-text, .mbr-section-btn\">SAVEIRO</p></div>\n\n                  \n            </div>\n          \n            \n\n        </div>\n\n\n    </div>\n</section>",
+          "_anchor": "design-block-6d",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "s9ZRA5SEyv",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
           "_params": {
             "HTMLCode": "<script type=\"text/javascript\" async\n  src=\"//l.getsitecontrol.com/y791lm48.js\">\n</script>",
             "hideOnPublish": true,
@@ -4176,36 +6350,78 @@
       },
       "components": [
         {
+          "alias": "deltapi-code-editor",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            }
+          },
+          "_name": "custom-html",
+          "_customHTML": "<center>\n<div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/picasion.com-97405880ce6de70766244b1c81fc3fa8.gif\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text>codW1</span>\n                <div class=\"about text-left px-3\">\n                    <h4>Porta Condimentos</h4> <span class=\"text-muted\" mbr-text>Material Rustico</span>\n                    <h3>R$300,00</h3> \n  <div class=\"card-body\">\n    <center>\n    <p class=\"card-text\">Porta condimentos/pratos e xicaras e outros utensilios, Material trabalhado na mão.</p>\n    <a href=\"https://api.whatsapp.com/send?phone=5522999727713&text=Eu%20quero%20porta%20condimentos%20R%24300%20reais%20(grupo%20conectado%20codw1)\" class=\"btn btn-primary\">Quero Agora</a>\n    </center>\n  </div>\n</div></div>\n  </div>\n  </center>",
+          "_anchor": "custom-html-6p",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "sew5qDlVRU",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
           "alias": false,
           "_styles": {
-            "padding-top": "(@paddingTop * 25px)",
-            "padding-bottom": "(@paddingBottom * 25px)",
-            "background-color": "@bgcolor",
-            ".news": {
-              "width": "(@newswidth * 1px)",
-              "background-color": "@newscolor"
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             },
-            ".news-scroll a": {
-              "text-decoration": "none"
+            "hr": {
+              "border": "0",
+              "clear": "both",
+              "display": "block",
+              "margin": "2.4rem auto",
+              "text-align": "center",
+              "width": "(@SizeWidth * 1%)"
             },
-            ".dot": {
-              "height": "6px",
-              "width": "6px",
-              "margin-left": "3px",
-              "margin-right": "3px",
-              "margin-top": "2px !important",
-              "background-color": "@dotscolor",
-              "border-radius": "50%",
-              "display": "inline-block"
+            ".progress": {
+              "background": "@Linecolor",
+              "opacity": "@Opacity",
+              "height": "(@CurThickness * 1px)",
+              "overflow": "hidden",
+              "position": "relative"
             },
-            "DIV": {
-              "color": "#ffffff"
+            ".progress::before": {
+              "animation-duration": "(@Speed * 1s)",
+              "animation-timing-function": "ease",
+              "animation-iteration-count": "infinite",
+              "animation-name": "progress",
+              "background": "@Progresscolor",
+              "content": "\"\"",
+              "display": "block",
+              "height": "(@CurThickness * 1px)",
+              "position": "absolute",
+              "width": "100px"
+            },
+            "@keyframes progress": {
+              "from": {
+                "margin-left": "(@Start * 1%)",
+                "width": "(@CursorSize * 1px)"
+              },
+              "to": {
+                "margin-left": "(@Stop * 1%)",
+                "width": "(@CursorSize * 1px)"
+              }
             }
           },
           "_name": "design-block",
-          "_customHTML": "<section>\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <header>News</header>\n                <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" name=\"textWidth\" title=\"Box Width\" min=\"4\" max=\"12\" value=\"6\" step=\"1\">\n        <input type=\"range\" inline title=\"News Width\" name=\"newswidth\" min=\"100\" max=\"250\" step=\"1\" value=\"175\">\n        <input type=\"color\" title=\"News Color\" name=\"newscolor\" value=\"#55b4d4\">\n        <input type=\"color\" title=\"Dots Color\" name=\"dotscolor\" value=\"#ff3366\">\n                \n\n        <header>Text</header>\n      <input type=\"color\" title=\"Text BG Color\" name=\"textbgcolor\" value=\"#ffffff\">\n\n        <header>Background</header>\n        <input type=\"color\" title=\"Background Color\" name=\"bgcolor\" value=\"#ffffff\">\n               <!-- End block parameters -->\n        </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n<div class=\"container mt-10 col-lg-{{textWidth}}\">\n    <div class=\"row\">\n        <div class=\"col-md-12 \">\n            <div class=\"d-flex justify-content-between align-items-center breaking-news\" style=\"background: {{textbgcolor}}\">\n                <div class=\"d-flex flex-row flex-grow-1 flex-fill justify-content-center py-2  px-2 news\"><span class=\"d-flex align-items-center\"><div mbr-text>Informativo</div></span></div>\n                <marquee class=\"news-scroll\" behavior=\"scroll\" direction=\"left\" onmouseover=\"this.stop();\" onmouseout=\"this.start();\"> <a href=\"#\"></a><div mbr-text><a href=\"#\" class=\"text-primary\">Só entregamos em Rio das Ostras, as demais localidades e cobrado uma taxa de deslocamento </a> <span class=\"dot\"></span> <a href=\"#\">É possivel ressaltar que todo produto é de inteira qualidade  </a> <span class=\"dot\"></span> <a href=\"#\">Quer ser um revendendor click aqui agora e converse conosco </a></div> </marquee>\n            </div>\n        </div>\n    </div>\n\n     </div>\n\n\n   \n</div></section>",
-          "_cid": "MGnD3iJ86E",
-          "_anchor": "design-block-MGnD3iJ86E",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"_customHTML\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n       <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">\n      <header>Size / Speed / Direction</header>\n      <input type=\"range\" inline title=\"Cursor Length (px)\" name=\"CursorSize\" min=\"10\" max=\"200\" step=\"1\" value=\"96\">\n      <input type=\"range\" inline title=\"Thickness  (px)\" name=\"CurThickness\" min=\"1\" max=\"10\" step=\"1\" value=\"3\">\n      <input type=\"range\" inline title=\"Width (%)\" name=\"SizeWidth\" min=\"1\" max=\"100\" step=\"1\" value=\"85\">\n      <input type=\"range\" inline title=\"Speed (s)\" name=\"Speed\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n       <input type=\"range\" inline title=\"Start (%)\" name=\"Start\" min=\"0\" max=\"49\" step=\"1\" value=\"0\">\n       <input type=\"range\" inline title=\"Stop (%)\" name=\"Stop\" min=\"49\" max=\"100\" step=\"1\" value=\"100\">\n\n  \n      \n      <header>Color</header> \n       <input type=\"color\" title=\"Line Color\" name=\"Linecolor\" value=\"#cccccc\" selected>\n       <input type=\"color\" title=\"Progress Color\" name=\"Progresscolor\" value=\"#cc2952\" selected>\n      <input type=\"range\" inline title=\"Opacity\" name=\"Opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\">\n     \n        <!-- <input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"3\" step=\"0.1\" value=\"1\"> -->\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n<hr class=\"progress\">\n  \n</section>",
+          "_cid": "NpGD5rYWph",
+          "_anchor": "design-block-NpGD5rYWph",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -4224,9 +6440,248 @@
             }
           },
           "_name": "custom-html",
-          "_customHTML": "<center>\n<div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/121785183-158313002664324-7755241158008677037-o.jpg\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text>codW1</span>\n                <div class=\"about text-left px-3\">\n                    <h4>Porta Condimentos</h4> <span class=\"text-muted\" mbr-text>Material Rustico</span>\n                    <h3>R$300,00</h3> \n  <div class=\"card-body\">\n    <center>\n    <p class=\"card-text\">Porta condimentos/pratos e xicaras e outros utensilios, Material trabalhado na mão.</p>\n    <a href=\"https://api.whatsapp.com/send?phone=5522999727713&text=Eu%20quero%20porta%20condimentos%20R%24300%20reais%20(grupo%20conectado%20codw1)\" class=\"btn btn-primary\">Quero Agora</a>\n    </center>\n  </div>\n</div></div>\n  </div>\n  </center>",
-          "_cid": "set2Z97T6Z",
-          "_anchor": "custom-html-6n",
+          "_customHTML": "<center>\n<div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/pfirsichfarben-pinselstrich-fotografie-logo.png\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text>codW1</span>\n                <div class=\"about text-left px-3\">\n                    <h4>Adega de Vinho</h4> <span class=\"text-muted\" mbr-text>Material Rustico</span>\n                    <h3>R$130,00</h3> \n  <div class=\"card-body\">\n    <center>\n    <p class=\"card-text\">Adega de vinho modelo rustico para seu espaço gourment, cabe 4garrafas,BOM ESTILO, e ainda vem um porta chaves.</p>\n    <a href=\"https://api.whatsapp.com/send?phone=5522999727713&text=Eu%20quero%20adega%20de%20vinho%20(grupo%20Conectado%20cW1)\" class=\"btn btn-primary\">Quero Agora</a>\n    </center>\n  </div>\n</div></div>\n  </div>\n  </center>",
+          "_anchor": "custom-html-6q",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "sew8fnvv7U",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "hr": {
+              "border": "0",
+              "clear": "both",
+              "display": "block",
+              "margin": "2.4rem auto",
+              "text-align": "center",
+              "width": "(@SizeWidth * 1%)"
+            },
+            ".progress": {
+              "background": "@Linecolor",
+              "opacity": "@Opacity",
+              "height": "(@CurThickness * 1px)",
+              "overflow": "hidden",
+              "position": "relative"
+            },
+            ".progress::before": {
+              "animation-duration": "(@Speed * 1s)",
+              "animation-timing-function": "ease",
+              "animation-iteration-count": "infinite",
+              "animation-name": "progress",
+              "background": "@Progresscolor",
+              "content": "\"\"",
+              "display": "block",
+              "height": "(@CurThickness * 1px)",
+              "position": "absolute",
+              "width": "100px"
+            },
+            "@keyframes progress": {
+              "from": {
+                "margin-left": "(@Start * 1%)",
+                "width": "(@CursorSize * 1px)"
+              },
+              "to": {
+                "margin-left": "(@Stop * 1%)",
+                "width": "(@CursorSize * 1px)"
+              }
+            }
+          },
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"_customHTML\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n       <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">\n      <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">\n      <header>Size / Speed / Direction</header>\n      <input type=\"range\" inline=\"\" title=\"Cursor Length (px)\" name=\"CursorSize\" min=\"10\" max=\"200\" step=\"1\" value=\"96\">\n      <input type=\"range\" inline=\"\" title=\"Thickness  (px)\" name=\"CurThickness\" min=\"1\" max=\"10\" step=\"1\" value=\"3\">\n      <input type=\"range\" inline=\"\" title=\"Width (%)\" name=\"SizeWidth\" min=\"1\" max=\"100\" step=\"1\" value=\"85\">\n      <input type=\"range\" inline=\"\" title=\"Speed (s)\" name=\"Speed\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n       <input type=\"range\" inline=\"\" title=\"Start (%)\" name=\"Start\" min=\"0\" max=\"49\" step=\"1\" value=\"0\">\n       <input type=\"range\" inline=\"\" title=\"Stop (%)\" name=\"Stop\" min=\"49\" max=\"100\" step=\"1\" value=\"100\">\n\n  \n      \n      <header>Color</header> \n       <input type=\"color\" title=\"Line Color\" name=\"Linecolor\" value=\"#cccccc\" selected=\"\">\n       <input type=\"color\" title=\"Progress Color\" name=\"Progresscolor\" value=\"#cc2952\" selected=\"\">\n      <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"Opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\">\n     \n        <!-- <input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"3\" step=\"0.1\" value=\"1\"> -->\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n<hr class=\"progress\">\n  \n</section>",
+          "_anchor": "design-block-6r",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "sewgQyn3dt",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "deltapi-code-editor",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            }
+          },
+          "_name": "custom-html",
+          "_customHTML": "<center>\n<div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/capturar.jpg\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text>codW1</span>\n                <div class=\"about text-left px-3\">\n                    <h4>Prateleira Com Suporte</h4> <span class=\"text-muted\" mbr-text>Material Rustico</span>\n                    <h3>Apenas R$70,00</h3> \n  <div class=\"card-body\">\n    <center>\n    <p class=\"card-text\">Prateleira peque com suporte e acabamento personalizado.</p>\n    <a href=\"https://api.whatsapp.com/send?phone=5522999727713&text=Eu%20quero%20plateleira%20R%2470%2C00%20(grupo%20conectado%20cod.w1)\" class=\"btn btn-primary\">Quero Agora</a>\n    </center>\n  </div>\n</div></div>\n  </div>\n  </center>",
+          "_anchor": "custom-html-6s",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "sewh5a1yrf",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "hr": {
+              "border": "0",
+              "clear": "both",
+              "display": "block",
+              "margin": "2.4rem auto",
+              "text-align": "center",
+              "width": "(@SizeWidth * 1%)"
+            },
+            ".progress": {
+              "background": "@Linecolor",
+              "opacity": "@Opacity",
+              "height": "(@CurThickness * 1px)",
+              "overflow": "hidden",
+              "position": "relative"
+            },
+            ".progress::before": {
+              "animation-duration": "(@Speed * 1s)",
+              "animation-timing-function": "ease",
+              "animation-iteration-count": "infinite",
+              "animation-name": "progress",
+              "background": "@Progresscolor",
+              "content": "\"\"",
+              "display": "block",
+              "height": "(@CurThickness * 1px)",
+              "position": "absolute",
+              "width": "100px"
+            },
+            "@keyframes progress": {
+              "from": {
+                "margin-left": "(@Start * 1%)",
+                "width": "(@CursorSize * 1px)"
+              },
+              "to": {
+                "margin-left": "(@Stop * 1%)",
+                "width": "(@CursorSize * 1px)"
+              }
+            }
+          },
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"_customHTML\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n       <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">\n      <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">\n      <header>Size / Speed / Direction</header>\n      <input type=\"range\" inline=\"\" title=\"Cursor Length (px)\" name=\"CursorSize\" min=\"10\" max=\"200\" step=\"1\" value=\"96\">\n      <input type=\"range\" inline=\"\" title=\"Thickness  (px)\" name=\"CurThickness\" min=\"1\" max=\"10\" step=\"1\" value=\"3\">\n      <input type=\"range\" inline=\"\" title=\"Width (%)\" name=\"SizeWidth\" min=\"1\" max=\"100\" step=\"1\" value=\"85\">\n      <input type=\"range\" inline=\"\" title=\"Speed (s)\" name=\"Speed\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n       <input type=\"range\" inline=\"\" title=\"Start (%)\" name=\"Start\" min=\"0\" max=\"49\" step=\"1\" value=\"0\">\n       <input type=\"range\" inline=\"\" title=\"Stop (%)\" name=\"Stop\" min=\"49\" max=\"100\" step=\"1\" value=\"100\">\n\n  \n      \n      <header>Color</header> \n       <input type=\"color\" title=\"Line Color\" name=\"Linecolor\" value=\"#cccccc\" selected=\"\">\n       <input type=\"color\" title=\"Progress Color\" name=\"Progresscolor\" value=\"#cc2952\" selected=\"\">\n      <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"Opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\">\n     \n        <!-- <input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"3\" step=\"0.1\" value=\"1\"> -->\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n<hr class=\"progress\">\n  \n</section>",
+          "_anchor": "design-block-6u",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "sewnZMFoEZ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "deltapi-code-editor",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            }
+          },
+          "_name": "custom-html",
+          "_customHTML": "<center>\n<div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/picasion.com-c13e14ebe4af8b0d921c7a6150dcdca1.gif\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text>codW1</span>\n                <div class=\"about text-left px-3\">\n                    <h4>Suporte para Plantas</h4> <span class=\"text-muted\" mbr-text>Material Rustico</span>\n                    <h3>Apenas R$110,00</h3> \n  <div class=\"card-body\">\n    <center>\n    <p class=\"card-text\">Trio suporte para planta japonesa, com material rustico.</p>\n    <a href=\"https://api.whatsapp.com/send?phone=5522999727713&text=Eu%20quero%20trio%20sup.planta%20(grupo%20conectado%20cod%20w1)\" class=\"btn btn-primary\">Quero Agora</a>\n    </center>\n  </div>\n</div></div>\n  </div>\n  </center>",
+          "_anchor": "custom-html-6t",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "sewnYCAPA0",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "hr": {
+              "border": "0",
+              "clear": "both",
+              "display": "block",
+              "margin": "2.4rem auto",
+              "text-align": "center",
+              "width": "(@SizeWidth * 1%)"
+            },
+            ".progress": {
+              "background": "@Linecolor",
+              "opacity": "@Opacity",
+              "height": "(@CurThickness * 1px)",
+              "overflow": "hidden",
+              "position": "relative"
+            },
+            ".progress::before": {
+              "animation-duration": "(@Speed * 1s)",
+              "animation-timing-function": "ease",
+              "animation-iteration-count": "infinite",
+              "animation-name": "progress",
+              "background": "@Progresscolor",
+              "content": "\"\"",
+              "display": "block",
+              "height": "(@CurThickness * 1px)",
+              "position": "absolute",
+              "width": "100px"
+            },
+            "@keyframes progress": {
+              "from": {
+                "margin-left": "(@Start * 1%)",
+                "width": "(@CursorSize * 1px)"
+              },
+              "to": {
+                "margin-left": "(@Stop * 1%)",
+                "width": "(@CursorSize * 1px)"
+              }
+            }
+          },
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"_customHTML\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n       <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">\n      <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">\n      <header>Size / Speed / Direction</header>\n      <input type=\"range\" inline=\"\" title=\"Cursor Length (px)\" name=\"CursorSize\" min=\"10\" max=\"200\" step=\"1\" value=\"96\">\n      <input type=\"range\" inline=\"\" title=\"Thickness  (px)\" name=\"CurThickness\" min=\"1\" max=\"10\" step=\"1\" value=\"3\">\n      <input type=\"range\" inline=\"\" title=\"Width (%)\" name=\"SizeWidth\" min=\"1\" max=\"100\" step=\"1\" value=\"85\">\n      <input type=\"range\" inline=\"\" title=\"Speed (s)\" name=\"Speed\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n       <input type=\"range\" inline=\"\" title=\"Start (%)\" name=\"Start\" min=\"0\" max=\"49\" step=\"1\" value=\"0\">\n       <input type=\"range\" inline=\"\" title=\"Stop (%)\" name=\"Stop\" min=\"49\" max=\"100\" step=\"1\" value=\"100\">\n\n  \n      \n      <header>Color</header> \n       <input type=\"color\" title=\"Line Color\" name=\"Linecolor\" value=\"#cccccc\" selected=\"\">\n       <input type=\"color\" title=\"Progress Color\" name=\"Progresscolor\" value=\"#cc2952\" selected=\"\">\n      <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"Opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\">\n     \n        <!-- <input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"3\" step=\"0.1\" value=\"1\"> -->\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n<hr class=\"progress\">\n  \n</section>",
+          "_anchor": "design-block-6v",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "sewreGdH3w",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "deltapi-code-editor",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            }
+          },
+          "_name": "custom-html",
+          "_customHTML": "<center>\n<div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/capturar-1.jpg\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text>codW1</span>\n                <div class=\"about text-left px-3\">\n                    <h4>Mesa de Apoio</h4> <span class=\"text-muted\" mbr-text>Material Rustico</span>\n                    <h3>R$190,00cada</h3> \n  <div class=\"card-body\">\n    <center>\n    <p class=\"card-text\">Mesa personalizada com desing totalmente diferente do que já viu...</p>\n    <a href=\"https://api.whatsapp.com/send?phone=5522999727713&text=Eu%20quero%20mesa%20de%20apoio%20R%24190%2C00%20(Grupo%20Conectado%20cw1)\" class=\"btn btn-primary\">Quero Agora</a>\n    </center>\n  </div>\n</div></div>\n  </div>\n  </center>",
+          "_anchor": "custom-html-6w",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "sewrfvmyXE",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
