@@ -2509,17 +2509,6 @@ background-color: @bgColor;
 
 #witsec-modal-window-block-6z {
 }
-
-.cid-seBHScGyCa {
-
-padding-top: (@paddingTop * 15px);
-padding-bottom: (@paddingBottom * 15px);
-background-color: @bgColor;
-.mbr-section {
-  text-align: center;
-  color: #fff;
-}
-}
 @primaryColor: #133996;
 @secondaryColor: #fc643f;
 @successColor: #133996;

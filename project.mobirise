@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "page9.html",
     "theme": {
       "name": "creativem4",
       "title": "CreativeM4",
@@ -2575,27 +2575,6 @@
           "_name": "witsec-modal-window-block",
           "_anchor": "witsec-modal-window-block-6z",
           "modalWindow": "<div class=\"modal fade\" id=\"seja-bem-vindo\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"seja-bem-vindoLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"seja-bem-vindoLabel\">Seja bem Vindo</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"seja-bem-vindo_body\">Venha conhecer nossos produtos, seja um cliente especial. Ganhe descontos no seu orçamento.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">ok?</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#seja-bem-vindo\").on(\"hidden.bs.modal\", function () {    var html = $( \"#seja-bem-vindo_body\" ).html();    $( \"#seja-bem-vindo_body\" ).empty();    $( \"#seja-bem-vindo_body\" ).append(html);  })});</script>"
-        },
-        {
-          "alias": "deltapi-code-editor",
-          "_isSecondary": true,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section": {
-              "text-align": "center",
-              "color": "#fff"
-            }
-          },
-          "_name": "custom-html",
-          "_customHTML": "<div class=\"list-group\">\n  <a href=\"#!\" class=\"list-group-item list-group-item-action flex-column align-items-start active\">\n    <div class=\"d-flex w-100 justify-content-between\">\n      <h5 class=\"mb-2 h5\">List group item heading</h5>\n      <small>3 days ago</small>\n    </div>\n    <p class=\"mb-2\">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius\n      blandit.</p>\n    <small>Donec id elit non mi porta.</small>\n  </a>\n  <a href=\"#!\" class=\"list-group-item list-group-item-action flex-column align-items-start\">\n    <div class=\"d-flex w-100 justify-content-between\">\n      <h5 class=\"mb-2 h5\">List group item heading</h5>\n      <small class=\"text-muted\">3 days ago</small>\n    </div>\n    <p class=\"mb-2\">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius\n      blandit.</p>\n    <small class=\"text-muted\">Donec id elit non mi porta.</small>\n  </a>\n  <a href=\"#!\" class=\"list-group-item list-group-item-action flex-column align-items-start\">\n    <div class=\"d-flex w-100 justify-content-between\">\n      <h5 class=\"mb-2 h5\">List group item heading</h5>\n      <small class=\"text-muted\">3 days ago</small>\n    </div>\n    <p class=\"mb-2\">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius\n      blandit.</p>\n    <small class=\"text-muted\">Donec id elit non mi porta.</small>\n  </a>\n</div>",
-          "_cid": "seBHScGyCa",
-          "_anchor": "custom-html-73",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
         }
       ]
     },
