@@ -7032,3 +7032,119 @@ H2 {
 
 #witsec-custom-html-block-7z {
 }
+.cid-seIxRfgcT3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #ffcf5c;
+}
+.cid-seIxRfgcT3 hr {
+  border: none;
+  color: #000000;
+  background-color: #000000;
+  border-radius: 0.5em;
+  height: 3px;
+}
+.cid-seIxRlFlr8 {
+  background-color: #ffcf5c;
+  font-family: 'Cormorant', serif;
+  color: #707bf0;
+  background-repeat: no-repeat;
+}
+.cid-seIxRlFlr8 .container-fluid {
+  padding-top: 0px;
+  padding-bottom: 15px;
+}
+.cid-seIxRlFlr8 .rating {
+  padding-top: 5px;
+  color: #133996;
+}
+.cid-seIxRlFlr8 .fa-star {
+  color: #133996 !important;
+}
+.cid-seIxRlFlr8 .fa-star-o {
+  color: #133996 !important;
+}
+.cid-seIxRlFlr8 .name {
+  background-color: #ffffff;
+  margin-top: -50px !important;
+  color: #465052;
+}
+.cid-seIxRlFlr8 .card {
+  background-color: #ffffff;
+  border-radius: 20px !important;
+  box-shadow: 2px 2px 5px 0px #0a1c44;
+  transition: 0.8s;
+  backgorund-color: #ffffff;
+}
+.cid-seIxRlFlr8 .card-body div div p {
+  color: #0a1c44;
+}
+.cid-seIxRlFlr8 .card-ico {
+  color: #00c48c;
+}
+.cid-seIxRlFlr8 .card-header {
+  background-color: #ffffff;
+  border-radius: 20px !important;
+}
+.cid-seIxRlFlr8 .card-footer {
+  background-color: #ffffff;
+  border-radius: 20px !important;
+}
+.cid-seIxRlFlr8 p {
+  font-size: 17px;
+  margin-bottom: 7px;
+}
+.cid-seIxRlFlr8 .small {
+  letter-spacing: 0.5px !important;
+}
+.cid-seIxRlFlr8 .card-header img {
+  border: 5px solid;
+  border-color: #ffffff;
+}
+.cid-seIxRlFlr8 .outside {
+  position: inherit;
+  top: -50%;
+}
+.cid-seIxRlFlr8 hr {
+  background-color: #00c48c;
+  border: 1px solid;
+  border-radius: 20px;
+  color: #00c48c;
+  height: 5px;
+  width: 70px !important;
+}
+.cid-seIxRlFlr8 .bold {
+  font-weight: 500;
+}
+.cid-seIxRlFlr8 .profile-pic {
+  margin-bottom: 5px !important;
+}
+.cid-seIxRlFlr8 .quotes {
+  position: relative;
+  top: -10px;
+}
+.cid-seIxRlFlr8 .quotes-down {
+  position: relative;
+  top: -4 px;
+}
+.cid-seIxRlFlr8 .fa {
+  color: #00c48c;
+}
+.cid-seIxRlFlr8 .card-footer .fa {
+  font-size: 20px !important;
+}
+.cid-seIxRlFlr8 .container-fluid:hover .card:not(:hover) {
+  transform: scale(0.9);
+}
+@media (max-width: 1000px) {
+  .cid-seIxRlFlr8 .container-fluid:hover .card:not(:hover) {
+    transform: scale(1);
+  }
+}
+.cid-seIxRlFlr8 P {
+  color: #133996;
+}
+.cid-seIxRlFlr8 h6 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
