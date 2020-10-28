@@ -2168,152 +2168,84 @@ section.lazy-placeholder:after {
   color: #133996;
   text-align: left;
 }
-@primaryColor: #133996;
-@secondaryColor: #fc643f;
-@successColor: #133996;
-@infoColor: #fdece8;
-@warningColor: #ffcf5c;
-@dangerColor: #ffcf5c;
-@mainFont: DM Sans;
-@display1Font: 'DM Sans', sans-serif;
-@display1Size: 3.25;
-@display2Font: 'DM Sans', sans-serif;
-@display2Size: 2.125;
-@display5Font: 'DM Sans', sans-serif;
-@display5Size: 1.5;
-@display7Font: 'DM Sans', sans-serif;
-@display7Size: 1.0625;
-@display4Font: 'DM Sans', sans-serif;
-@display4Size: 0.875;
-@isRoundedButtons: true;
-@isAnimatedOnScroll: true;
-@isScrollToTopButton: true;
-@isPublish: true;
-
-.cid-seI2jcfskY {
-@paddingTop: 1;
-@paddingBottom: 1;
-@showTitle: false;
-@showSubtitle: true;
-@tableColumns: 1;
-@tableRows: 5;
-@tbColor: #c1c1c1;
-@tbBackground: false;
-@tbBgColor: #ffffff;
-@isSearch: true;
-@uname__11: "file:///C:/Users/bacho/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-07-29_123711/assets/images/background1.jpg";
-@uname__12: true;
-@uname__13: #f9f9f9;
-@bg-value: #f9f9f9;
-@bg-type: "color";
-@bg-color-value: #f9f9f9;
-@bg-parallax: false;
-@overlay: true;
-@overlayColor: #ffffff;
-@overlayOpacity: 0.9;
-
-padding-top: (@paddingTop * 15px);
-padding-bottom: (@paddingBottom * 15px);
-& when (@bg-type = 'color') {
-  background-color: @bg-value;
+.cid-seIcXb8jsM {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
 }
-& when (@bg-type = 'image') {
-  background-image: url(../../../@bg-value);
+.cid-seIcXb8jsM .mbr-section-subtitle {
+  color: #767676;
 }
-.mbr-section-subtitle {
-  color: #133996;
-}
-.container-table {
+.cid-seIcXb8jsM .container-table {
   margin: 0 auto;
 }
-.scroll {
+.cid-seIcXb8jsM .scroll {
   overflow-x: auto;
   padding: 0;
 }
-.dataTables_wrapper {
+.cid-seIcXb8jsM .dataTables_wrapper {
   display: block;
-  .search {
-    margin-bottom: .5rem;
-  }
-  .table {
-    overflow-x: auto;
-  }
 }
-table {
+.cid-seIcXb8jsM .dataTables_wrapper .search {
+  margin-bottom: .5rem;
+}
+.cid-seIcXb8jsM .dataTables_wrapper .table {
+  overflow-x: auto;
+}
+.cid-seIcXb8jsM table {
   width: 100% !important;
   margin-top: 6px;
-  border: 1px solid @tbColor;
+  border: 1px solid #ffffff;
   margin-bottom: 0;
-  th {
-    border-top: none;
-    transition: all .2s;
-    border-bottom: none;
-    &:hover {
-      background: @tbColor;
-      color: contrast(@tbColor);
-    }
-  }
-  td {
-    border-top: 1px solid @tbColor;
-  }
-  &.table {
-    & when (@tbBackground) {
-      background: @tbBgColor;
-    }
-  }
 }
-.dataTables_filter {
+.cid-seIcXb8jsM table th {
+  border-top: none;
+  transition: all .2s;
+  border-bottom: none;
+}
+.cid-seIcXb8jsM table th:hover {
+  background: #ffffff;
+  color: #000000;
+}
+.cid-seIcXb8jsM table td {
+  border-top: 1px solid #ffffff;
+}
+.cid-seIcXb8jsM .dataTables_filter {
   text-align: right;
   margin-bottom: .5rem;
-  label {
-    display: inline;
-    white-space: normal !important;
-  }
-  input {
-    display: inline;
-    width: auto;
-    margin-left: .5rem;
-    border-radius: 100px;
-    padding-left: 1rem;
-  }
 }
-.dataTables_info {
+.cid-seIcXb8jsM .dataTables_filter label {
+  display: inline;
+  white-space: normal !important;
+}
+.cid-seIcXb8jsM .dataTables_filter input {
+  display: inline;
+  width: auto;
+  margin-left: .5rem;
+  border-radius: 100px;
+  padding-left: 1rem;
+}
+.cid-seIcXb8jsM .dataTables_info {
   padding-bottom: 1rem;
   padding-top: 1rem;
   white-space: normal !important;
 }
 @media (max-width: 992px) {
-  .dataTables_filter {
+  .cid-seIcXb8jsM .dataTables_filter {
     text-align: center;
   }
 }
 @media (max-width: 350px) {
-  .dataTables_filter {
+  .cid-seIcXb8jsM .dataTables_filter {
     text-align: center;
-    input {
-      width: 100% !important;
-      margin-left: 0 !important;
-    }
+  }
+  .cid-seIcXb8jsM .dataTables_filter input {
+    width: 100% !important;
+    margin-left: 0 !important;
   }
 }
-.head-item {
-  color: #133996;
-  text-align: center;
-}
-}
-
-.cid-seHXLFEy7m {
-
-padding-top: (@paddingTop * 15px);
-padding-bottom: (@paddingBottom * 15px);
-background-color: @bgColor;
-.mbr-section {
-  text-align: center;
-  color: #fff;
-}
-}
-
-#witsec-custom-html-block-5e {
+.cid-seIcXb8jsM .body-item {
+  color: #ff3366;
 }
 @primaryColor: #133996;
 @secondaryColor: #fc643f;
