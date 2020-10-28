@@ -7325,7 +7325,7 @@ background-color: @bgColor;
 @columnDesk: 6;
 @columnTab: 3;
 @columnMobile: 2;
-@showIcon: true;
+@showIcon: false;
 @iconSize: 5;
 @positionX: 7;
 @positionY: 6;
@@ -7483,9 +7483,6 @@ H2 {
 }
 }
 
-#witsec-custom-html-block-7z {
-}
-
 .cid-seJwMfuWwC {
 @paddingTop: 2;
 @paddingBottom: 2;
@@ -7515,6 +7512,9 @@ p {
 .media-container-row .mbr-text {
   color: #0a1c44;
 }
+}
+
+#witsec-custom-html-block-8l {
 }
 .cid-seIxRfgcT3 {
   padding-top: 1rem;
@@ -7823,6 +7823,117 @@ background-color: @bgColor;
 }
 }
 
+.cid-seKGsc95hG {
+@paddingTop: 1;
+@paddingBottom: 2;
+@showTitle: true;
+@showSubtitle: true;
+@tableColumns: 1;
+@tableRows: 4;
+@tbColor: #cccccc;
+@tbBackground: false;
+@tbBgColor: #ffffff;
+@isSearch: true;
+@uname__11: "file:///C:/Users/bacho/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-10-28_094730/assets/images/background1.jpg";
+@uname__12: true;
+@uname__13: #f9f9f9;
+@bg-value: #f9f9f9;
+@bg-type: "color";
+@bg-color-value: #f9f9f9;
+@bg-parallax: false;
+@overlay: true;
+@overlayColor: #ffffff;
+@overlayOpacity: 0.9;
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+}
+.mbr-section-subtitle {
+  color: #767676;
+}
+.container-table {
+  margin: 0 auto;
+}
+.scroll {
+  overflow-x: auto;
+  padding: 0;
+}
+.dataTables_wrapper {
+  display: block;
+  .search {
+    margin-bottom: .5rem;
+  }
+  .table {
+    overflow-x: auto;
+  }
+}
+table {
+  width: 100% !important;
+  margin-top: 6px;
+  border: 1px solid @tbColor;
+  margin-bottom: 0;
+  th {
+    border-top: none;
+    transition: all .2s;
+    border-bottom: none;
+    &:hover {
+      background: @tbColor;
+      color: contrast(@tbColor);
+    }
+  }
+  td {
+    border-top: 1px solid @tbColor;
+  }
+  &.table {
+    & when (@tbBackground) {
+      background: @tbBgColor;
+    }
+  }
+}
+.dataTables_filter {
+  text-align: right;
+  margin-bottom: .5rem;
+  label {
+    display: inline;
+    white-space: normal !important;
+  }
+  input {
+    display: inline;
+    width: auto;
+    margin-left: .5rem;
+    border-radius: 100px;
+    padding-left: 1rem;
+  }
+}
+.dataTables_info {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  white-space: normal !important;
+}
+@media (max-width: 992px) {
+  .dataTables_filter {
+    text-align: center;
+  }
+}
+@media (max-width: 350px) {
+  .dataTables_filter {
+    text-align: center;
+    input {
+      width: 100% !important;
+      margin-left: 0 !important;
+    }
+  }
+}
+.head-item {
+  text-align: center;
+}
+}
+
 .cid-seIJkdnhEt {
 
 .google-map {
@@ -8030,9 +8141,6 @@ H2 {
   text-align: left;
   color: #f83055;
 }
-}
-
-#witsec-custom-html-block-87 {
 }
 
 .cid-seJwMfuWwC {
