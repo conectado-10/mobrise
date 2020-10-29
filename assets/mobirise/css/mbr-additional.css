@@ -8173,3 +8173,100 @@ p {
   color: #0a1c44;
 }
 }
+.cid-seOb5Ds1EU {
+  overflow-x: hidden !important;
+}
+.cid-seOb5Ds1EU .row {
+  backdrop-filter: blur(10px);
+  border: 1px solid white;
+}
+.cid-seOb5Ds1EU .mbr-section-title {
+  color: #ffffff;
+}
+.cid-seOb5Ds1EU .mbr-section-title span {
+  color: #133996;
+}
+.cid-seOb5Ds1EU .mbr-text {
+  color: #efefef;
+  letter-spacing: 5px;
+  font-weight: 100;
+}
+.cid-seOb5Ds1EU .scroll-wrapper {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-position: 50% 50%;
+  background-size: cover;
+  position: absolute;
+  background-repeat: repeat;
+  z-index: 0;
+  -webkit-animation-duration: 30s !important;
+  animation-duration: 30s;
+  background-image: url("../../../assets/images/background10.jpg");
+  -webkit-animation: scroll-wrapper linear infinite;
+  -moz-animation: scroll-wrapper linear infinite;
+  -o-animation: scroll-wrapper linear infinite;
+  animation: scroll-wrapper linear infinite;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.cid-seOb5Ds1EU .scroll-wrapper.second {
+  left: calc(100% - 1px);
+}
+.cid-seOb5Ds1EU .mbr-overlay {
+  z-index: 1;
+}
+.cid-seOb5Ds1EU .block-content {
+  z-index: 2;
+}
+@keyframes scroll-wrapper {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+@-webkit-keyframes scroll-wrapper {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+@-moz-keyframes scroll-wrapper {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+@-o-keyframes scroll-wrapper {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+.cid-seJwMfuWwC {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-seJwMfuWwC p {
+  color: #ffcf5c;
+}
+.cid-seJwMfuWwC .media-container-row .mbr-text {
+  color: #0a1c44;
+}
