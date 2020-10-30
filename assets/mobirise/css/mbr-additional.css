@@ -8678,6 +8678,17 @@ p {
 
 #witsec-custom-html-block-9c {
 }
+
+.cid-seVr4n3ccw {
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+background-color: @bgColor;
+.mbr-section {
+  text-align: center;
+  color: #fff;
+}
+}
 .cid-seUz56LlbY {
   padding-top: 1rem;
   padding-bottom: 1rem;
