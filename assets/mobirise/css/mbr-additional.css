@@ -8654,7 +8654,7 @@ a.img {
 @showAnimation: false;
 @bglayer: false;
 @svg1: #bfebf3;
-@customStyle: true;
+@customStyle: false;
 @fieldColor: #00c48c;
 @fieldHover: #000000;
 @borderColor: #0a1c44;
