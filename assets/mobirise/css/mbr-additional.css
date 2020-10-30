@@ -8887,107 +8887,119 @@ p {
   color: #0a1c44;
 }
 }
-.cid-seUwgKG0uj {
-  background-color: #ffcf5c;
+.cid-seUz56LlbY {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #55b4d4;
+}
+.cid-seUz56LlbY hr {
+  border: none;
+  color: #000000;
+  background-color: #000000;
+  border-radius: 0.5em;
+  height: 3px;
+}
+.cid-seUxiJKchU {
+  background-color: #55b4d4;
   font-family: 'Cormorant', serif;
   color: #707bf0;
   background-repeat: no-repeat;
 }
-.cid-seUwgKG0uj .container-fluid {
-  padding-top: 60px;
-  padding-bottom: 45px;
+.cid-seUxiJKchU .container-fluid {
+  padding-top: 0px;
+  padding-bottom: 15px;
 }
-.cid-seUwgKG0uj .rating {
+.cid-seUxiJKchU .rating {
   padding-top: 5px;
-  color: #e2ce14;
+  color: #133996;
 }
-.cid-seUwgKG0uj .fa-star {
-  color: #e2ce14 !important;
+.cid-seUxiJKchU .fa-star {
+  color: #133996 !important;
 }
-.cid-seUwgKG0uj .fa-star-o {
-  color: #e2ce14 !important;
+.cid-seUxiJKchU .fa-star-o {
+  color: #133996 !important;
 }
-.cid-seUwgKG0uj .name {
+.cid-seUxiJKchU .name {
   background-color: #ffffff;
   margin-top: -50px !important;
   color: #465052;
 }
-.cid-seUwgKG0uj .card {
+.cid-seUxiJKchU .card {
   background-color: #ffffff;
   border-radius: 20px !important;
-  box-shadow: 2px 2px 5px 0px #fc643f;
+  box-shadow: 2px 2px 5px 0px #133996;
   transition: 0.8s;
   backgorund-color: #ffffff;
 }
-.cid-seUwgKG0uj .card-body div div p {
-  color: #0a1c44;
+.cid-seUxiJKchU .card-body div div p {
+  color: #fc643f;
 }
-.cid-seUwgKG0uj .card-ico {
-  color: #ae91e4;
+.cid-seUxiJKchU .card-ico {
+  color: #00c48c;
 }
-.cid-seUwgKG0uj .card-header {
+.cid-seUxiJKchU .card-header {
   background-color: #ffffff;
   border-radius: 20px !important;
 }
-.cid-seUwgKG0uj .card-footer {
+.cid-seUxiJKchU .card-footer {
   background-color: #ffffff;
   border-radius: 20px !important;
 }
-.cid-seUwgKG0uj p {
+.cid-seUxiJKchU p {
   font-size: 17px;
   margin-bottom: 7px;
 }
-.cid-seUwgKG0uj .small {
+.cid-seUxiJKchU .small {
   letter-spacing: 0.5px !important;
 }
-.cid-seUwgKG0uj .card-header img {
+.cid-seUxiJKchU .card-header img {
   border: 5px solid;
   border-color: #ffffff;
 }
-.cid-seUwgKG0uj .outside {
+.cid-seUxiJKchU .outside {
   position: inherit;
   top: -50%;
 }
-.cid-seUwgKG0uj hr {
-  background-color: #ae91e4;
+.cid-seUxiJKchU hr {
+  background-color: #00c48c;
   border: 1px solid;
   border-radius: 20px;
-  color: #ae91e4;
+  color: #00c48c;
   height: 5px;
   width: 70px !important;
 }
-.cid-seUwgKG0uj .bold {
+.cid-seUxiJKchU .bold {
   font-weight: 500;
 }
-.cid-seUwgKG0uj .profile-pic {
+.cid-seUxiJKchU .profile-pic {
   margin-bottom: 5px !important;
 }
-.cid-seUwgKG0uj .quotes {
+.cid-seUxiJKchU .quotes {
   position: relative;
   top: -10px;
 }
-.cid-seUwgKG0uj .quotes-down {
+.cid-seUxiJKchU .quotes-down {
   position: relative;
   top: -4 px;
 }
-.cid-seUwgKG0uj .fa {
-  color: #ae91e4;
+.cid-seUxiJKchU .fa {
+  color: #00c48c;
 }
-.cid-seUwgKG0uj .card-footer .fa {
+.cid-seUxiJKchU .card-footer .fa {
   font-size: 20px !important;
 }
-.cid-seUwgKG0uj .container-fluid:hover .card:not(:hover) {
+.cid-seUxiJKchU .container-fluid:hover .card:not(:hover) {
   transform: scale(0.9);
 }
 @media (max-width: 1000px) {
-  .cid-seUwgKG0uj .container-fluid:hover .card:not(:hover) {
+  .cid-seUxiJKchU .container-fluid:hover .card:not(:hover) {
     transform: scale(1);
   }
 }
-.cid-seUwgKG0uj P {
-  color: #ffffff;
+.cid-seUxiJKchU P {
+  color: #00c48c;
 }
-.cid-seUwgKG0uj h6 {
+.cid-seUxiJKchU h6 {
   padding-top: 5px;
   padding-bottom: 5px;
 }
