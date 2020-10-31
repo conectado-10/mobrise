@@ -8789,6 +8789,143 @@ a.img {
 #witsec-custom-html-block-8y {
 }
 
+.cid-MAZeW3tDsM {
+@paddingTop: 1;
+@paddingBottom: 6;
+@showTitle: true;
+@showUnderline: true;
+@showSubtitle: false;
+@showDates: true;
+@showImages: true;
+@timelineColor: #fe525b;
+@timelinesAmount: "1";
+@reverseTimeline: false;
+@uname__11: "file:///C:/Users/Csaba/AppData/Local/Mobirise.com/Mobirise/chesswizardextra_0040gmail_002ecom/userblocks/allblocksm4/storem4-timeline1_1/04.jpg";
+@uname__12: false;
+@uname__13: #ffffff;
+@bg-value: #ffffff;
+@bg-type: "color";
+@bg-color-value: #ffffff;
+@bg-parallax: false;
+@overlay: true;
+@overlayColor: #cccccc;
+@overlayOpacity: 0.9;
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+}
+.container-fluid {
+  padding: 0 3rem;
+}
+.underline {
+  .line {
+    width: 5rem;
+    height: 3px;
+    background: linear-gradient(to right, @primaryColor 50%, @secondaryColor 120%);
+    display: inline-block;
+  }
+}
+.timeline-text-content {
+  padding: 2rem 2.5rem;
+  margin-left: 2rem;
+  text-align: left;
+  p {
+    margin-bottom: 0;
+  }
+}
+.time-line-date-content {
+  margin-right: 2rem;
+  p {
+    padding: 2rem 1.4rem;
+    float: right;
+  }
+}
+.timeline-element {
+  margin-bottom: 50px;
+  position: relative;
+  word-wrap: break-word;
+  word-break: break-word;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+.iconBackground {
+  position: absolute;
+  left: 25%;
+  width: 20px;
+  height: 20px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid @timelineColor;
+  font-size: 30px;
+  display: inline-block;
+  top: 29px;
+  margin-left: -10px;
+}
+.separline:before, .first-separline:before {
+  top: 3rem;
+  bottom: 0;
+  position: absolute;
+  content: "";
+  width: 2px;
+  background-color: @timelineColor;
+  left: calc(25% ~"-" 1px);
+  height: calc(100% ~"+" 2rem);
+}
+.separline:after {
+  top: calc(100% ~"+" 6.1rem);
+  bottom: 0;
+  position: absolute;
+  content: "";
+  width: 2px;
+  background-color: @timelineColor;
+  left: calc(25% ~"-" 1px);
+  height: 100%;
+}
+@media (max-width: 768px) {
+  .container-fluid {
+    padding: 0 1rem;
+  }
+  .iconBackground {
+    left: 10px !important;
+    top: 33px;
+  }
+  .separline:before, .first-separline:before {
+    left: 9px !important;
+    top: 3.3rem;
+  }
+  .separline:after {
+    left: 9px !important;
+    top: calc(100% ~"+" 6.4rem);
+  }
+  .timeline-text-content {
+    margin-left: 0 !important;
+  }
+  .time-line-date-content {
+    margin-right: 0 !important;
+    p {
+      float: left !important;
+    }
+  }
+  .mbr-timeline-date {
+    padding-bottom: 0 !important;
+  }
+}
+.reverseTimeline {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.mbr-timeline-text {
+  text-align: left;
+}
+}
+
 .cid-seTB18KezX {
 @paddingTop: 2;
 @paddingBottom: 2;
@@ -8821,17 +8958,6 @@ p {
 }
 
 #witsec-custom-html-block-9c {
-}
-
-.cid-seVr4n3ccw {
-
-padding-top: (@paddingTop * 15px);
-padding-bottom: (@paddingBottom * 15px);
-background-color: @bgColor;
-.mbr-section {
-  text-align: center;
-  color: #fff;
-}
 }
 .cid-seUz56LlbY {
   padding-top: 1rem;
