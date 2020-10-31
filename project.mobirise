@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page20.html",
+    "currentPage": "page21.html",
     "theme": {
       "name": "creativem4",
       "title": "CreativeM4",
@@ -53,7 +53,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 345,
+    "uniqCompNum": 346,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "witsec-mailform-to": "sintoniabarra@gmail.com",
@@ -7002,85 +7002,6 @@
           "_isUserblock": true,
           "_sourceTheme": "creativem4",
           "_cid": "sewrfvmyXE",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_name": "design-block",
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "hr": {
-              "border": "0",
-              "clear": "both",
-              "display": "block",
-              "margin": "2.4rem auto",
-              "text-align": "center",
-              "width": "(@SizeWidth * 1%)"
-            },
-            ".progress": {
-              "background": "@Linecolor",
-              "opacity": "@Opacity",
-              "height": "(@CurThickness * 1px)",
-              "overflow": "hidden",
-              "position": "relative"
-            },
-            ".progress::before": {
-              "animation-duration": "(@Speed * 1s)",
-              "animation-timing-function": "ease",
-              "animation-iteration-count": "infinite",
-              "animation-name": "progress",
-              "background": "@Progresscolor",
-              "content": "\"\"",
-              "display": "block",
-              "height": "(@CurThickness * 1px)",
-              "position": "absolute",
-              "width": "100px"
-            },
-            "@keyframes progress": {
-              "from": {
-                "margin-left": "(@Start * 1%)",
-                "width": "(@CursorSize * 1px)"
-              },
-              "to": {
-                "margin-left": "(@Stop * 1%)",
-                "width": "(@CursorSize * 1px)"
-              }
-            }
-          },
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"_customHTML\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n       <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">\n      <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">\n      <header>Size / Speed / Direction</header>\n      <input type=\"range\" inline=\"\" title=\"Cursor Length (px)\" name=\"CursorSize\" min=\"10\" max=\"200\" step=\"1\" value=\"96\">\n      <input type=\"range\" inline=\"\" title=\"Thickness  (px)\" name=\"CurThickness\" min=\"1\" max=\"10\" step=\"1\" value=\"3\">\n      <input type=\"range\" inline=\"\" title=\"Width (%)\" name=\"SizeWidth\" min=\"1\" max=\"100\" step=\"1\" value=\"85\">\n      <input type=\"range\" inline=\"\" title=\"Speed (s)\" name=\"Speed\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n       <input type=\"range\" inline=\"\" title=\"Start (%)\" name=\"Start\" min=\"0\" max=\"49\" step=\"1\" value=\"0\">\n       <input type=\"range\" inline=\"\" title=\"Stop (%)\" name=\"Stop\" min=\"49\" max=\"100\" step=\"1\" value=\"100\">\n\n  \n      \n      <header>Color</header> \n       <input type=\"color\" title=\"Line Color\" name=\"Linecolor\" value=\"#cccccc\" selected=\"\">\n       <input type=\"color\" title=\"Progress Color\" name=\"Progresscolor\" value=\"#cc2952\" selected=\"\">\n      <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"Opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\">\n     \n        <!-- <input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"3\" step=\"0.1\" value=\"1\"> -->\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n<hr class=\"progress\">\n  \n</section>",
-          "_anchor": "design-block-6x",
-          "_isUserblock": true,
-          "_sourceTheme": "creativem4",
-          "_cid": "sewsLVZJsF",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": "deltapi-code-editor",
-          "_isSecondary": true,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section": {
-              "text-align": "center",
-              "color": "#fff"
-            }
-          },
-          "_name": "custom-html",
-          "_customHTML": "<center>\n<div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/picasion.com-211ee71255ff79981f7c0c042c1d1e27.gif\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text>codW1</span>\n                <div class=\"about text-left px-3\">\n                    <h4>Banquetas&nbsp;</h4> <span class=\"text-muted\" mbr-text>Material Rustico</span>\n                    <h3>R$150,00</h3> \n  <div class=\"card-body\">\n    <center>\n    <p class=\"card-text\">Banqueta de vario estilo conforme sua casa pede, peça o seu.</p>\n    <a href=\"https://api.whatsapp.com/send?phone=5522999727713&text=Eu%20quero%20banqueta%20R%24150%2C00%20(grupo%20conectado%20cod%20w1)\" class=\"btn btn-primary\">Quero Agora</a>\n    </center>\n  </div>\n</div></div>\n  </div>\n  </center>",
-          "_anchor": "custom-html-6y",
-          "_isUserblock": true,
-          "_sourceTheme": "creativem4",
-          "_cid": "sewsMLAGA0",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
