@@ -8570,287 +8570,51 @@ H4 {
 }
 }
 
-.cid-seTB17o8x0 {
-@paddingTop: 2;
-@paddingBottom: 0;
-@showTitle: true;
-@showSubtitle: true;
-@showtext: false;
+.cid-sf2EMXnLQi {
 @fullWidth: true;
-@noSpacing: false;
-@uname__14: "file:///C:/Users/bacho/AppData/Local/Mobirise.com/Mobirise/sintoniabarra_0040gmail_002ecom/addons/creativem4/components/design-block/../_images/background5.jpg";
-@uname__15: true;
-@uname__16: #ffffff;
-@bg-value: #ffffff;
-@bg-type: "color";
-@bg-color-value: #ffffff;
-@bg-parallax: false;
-@overlay: true;
-@overlayColor: #efefef;
-@overlayOpacity: 0.8;
-
-padding-top: (@paddingTop * 15px);
-padding-bottom: (@paddingBottom * 15px);
-& when (@bg-type = 'color') {
-  background-color: @bg-value;
-}
-& when (@bg-type = 'image') {
-  background-image: url(../../../@bg-value);
-}
-& when (@noSpacing) {
-  .row {
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .item {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-& when not (@noSpacing) {
-  .item {
-    padding-bottom: 2rem;
-  }
-}
-@media (max-width: 768px) {
-  .carousel-control, .carousel-indicators, .modal .close {
-    position: fixed;
-  }
-}
-@media (max-width: 767px) {
-  .mbr-slider .carousel-control {
-    top: auto;
-    bottom: 20px;
-  }
-  .mbr-slider > .container .carousel-control {
-    margin-bottom: 0;
-  }
-}
-.carousel-indicators {
-  bottom: 0;
-  margin-bottom: 3px;
-  @media (max-width: 991px) {
-    margin-bottom: 3.625rem !important;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-  @media (max-width: 767px) {
-    display: none;
-  }
-}
-.carousel-indicators .active, .carousel-indicators li {
-  width: 7px;
-  height: 7px;
-  margin: 3px;
-  background: #1b1b1b;
-  opacity: 0.5;
-  border: 4px solid #1b1b1b;
-}
-.carousel-indicators .active {
-  background: #fff;
-}
-.carousel-indicators li {
-  max-width: 15px;
-  max-height: 15px;
-  border-radius: 50%;
-}
-.modal {
-  padding-left: 0 !important;
-  position: fixed;
-  overflow: hidden;
-  padding-right: 0 !important;
-}
-.modal-dialog {
-  margin: 0 auto;
-  max-width: 100%;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-.modal-content {
-  border-radius: 0;
-  border: none;
-  background: transparent;
-}
-.modal-body {
-  padding: 0;
-  display: flex;
-  align-items: center;
-  .carousel-item {
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  img {
-    width: 100%;
-    object-fit: contain;
-    max-height: ~"calc(100vh - 1.75rem)";
-  }
-}
-.carousel {
-  width: 100%;
-}
-.modal-backdrop.in {
-  opacity: 0.8;
-}
-.modal.fade .modal-dialog {
-  -webkit-transition: margin-top 0.3s ease-out;
-  -moz-transition: margin-top 0.3s ease-out;
-  -o-transition: margin-top 0.3s ease-out;
-  transition: margin-top 0.3s ease-out;
-}
-.modal.fade .modal-dialog, .modal.in .modal-dialog {
-  -webkit-transform: none;
-  -ms-transform: none;
-  -o-transform: none;
-  transform: none;
-}
-.mbr-gallery .item-wrapper {
-  cursor: pointer;
-}
-a {
-  display: block;
-}
-a.img {
-  pointer-events: none;
-}
-}
-
-#witsec-custom-html-block-8y {
-}
-
-.cid-MAZeW3tDsM {
 @paddingTop: 1;
-@paddingBottom: 6;
-@showTitle: true;
-@showUnderline: true;
-@showSubtitle: false;
-@showDates: true;
-@showImages: true;
-@timelineColor: #fe525b;
-@timelinesAmount: "1";
-@reverseTimeline: false;
-@uname__11: "file:///C:/Users/Csaba/AppData/Local/Mobirise.com/Mobirise/chesswizardextra_0040gmail_002ecom/userblocks/allblocksm4/storem4-timeline1_1/04.jpg";
-@uname__12: false;
-@uname__13: #ffffff;
+@paddingBottom: 1;
+@hrColor: #000000;
+@hrHeight: 2;
+@uname__13: "file:///C:/Users/bacho/AppData/Local/Mobirise.com/Mobirise/sintoniabarra_0040gmail_002ecom/addons/casper-blocks/components/casperHorizontalRule/../_images/background1.jpg";
+@uname__14: false;
+@uname__15: #ffffff;
 @bg-value: #ffffff;
 @bg-type: "color";
 @bg-color-value: #ffffff;
 @bg-parallax: false;
 @overlay: true;
-@overlayColor: #cccccc;
-@overlayOpacity: 0.9;
+@overlayColor: #ffffff;
+@overlayOpacity: 0.7;
+
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+& when (@bg-type = "color") {
+  background-color: @bg-value;
+}
+& when (@bg-type = "image") {
+  background-image: url(../../../@bg-value);
+}
+hr {
+  border: none;
+  color: @hrColor;
+  background-color: @hrColor;
+  border-radius: 0.5em;
+  height: (@hrHeight * 1px);
+}
+}
+
+.cid-sf2B7ePU0R {
 
 padding-top: (@paddingTop * 15px);
 padding-bottom: (@paddingBottom * 15px);
-& when (@bg-type = 'color') {
-  background-color: @bg-value;
-}
-& when (@bg-type = 'image') {
-  background-image: url(../../../@bg-value);
-}
-.container-fluid {
-  padding: 0 3rem;
-}
-.underline {
-  .line {
-    width: 5rem;
-    height: 3px;
-    background: linear-gradient(to right, @primaryColor 50%, @secondaryColor 120%);
-    display: inline-block;
-  }
-}
-.timeline-text-content {
-  padding: 2rem 2.5rem;
-  margin-left: 2rem;
-  text-align: left;
-  p {
-    margin-bottom: 0;
-  }
-}
-.time-line-date-content {
-  margin-right: 2rem;
-  p {
-    padding: 2rem 1.4rem;
-    float: right;
-  }
-}
-.timeline-element {
-  margin-bottom: 50px;
-  position: relative;
-  word-wrap: break-word;
-  word-break: break-word;
-  display: flex;
-  -webkit-flex-direction: row;
-  flex-direction: row;
-}
-.iconBackground {
-  position: absolute;
-  left: 25%;
-  width: 20px;
-  height: 20px;
-  line-height: 30px;
+background-color: @bgColor;
+.mbr-section {
   text-align: center;
-  border-radius: 50%;
-  border: 2px solid @timelineColor;
-  font-size: 30px;
-  display: inline-block;
-  top: 29px;
-  margin-left: -10px;
+  color: #fff;
 }
-.separline:before, .first-separline:before {
-  top: 3rem;
-  bottom: 0;
-  position: absolute;
-  content: "";
-  width: 2px;
-  background-color: @timelineColor;
-  left: calc(25% ~"-" 1px);
-  height: calc(100% ~"+" 2rem);
-}
-.separline:after {
-  top: calc(100% ~"+" 6.1rem);
-  bottom: 0;
-  position: absolute;
-  content: "";
-  width: 2px;
-  background-color: @timelineColor;
-  left: calc(25% ~"-" 1px);
-  height: 100%;
-}
-@media (max-width: 768px) {
-  .container-fluid {
-    padding: 0 1rem;
-  }
-  .iconBackground {
-    left: 10px !important;
-    top: 33px;
-  }
-  .separline:before, .first-separline:before {
-    left: 9px !important;
-    top: 3.3rem;
-  }
-  .separline:after {
-    left: 9px !important;
-    top: calc(100% ~"+" 6.4rem);
-  }
-  .timeline-text-content {
-    margin-left: 0 !important;
-  }
-  .time-line-date-content {
-    margin-right: 0 !important;
-    p {
-      float: left !important;
-    }
-  }
-  .mbr-timeline-date {
-    padding-bottom: 0 !important;
-  }
-}
-.reverseTimeline {
-  display: flex;
-  flex-direction: column-reverse;
-}
-.mbr-timeline-text {
-  text-align: left;
+H4 {
+  text-align: center;
 }
 }
 
@@ -8883,6 +8647,9 @@ p {
 .media-container-row .mbr-text {
   color: #0a1c44;
 }
+}
+
+#witsec-custom-html-block-8y {
 }
 
 #witsec-custom-html-block-9c {
