@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page28.html",
+    "currentPage": "page20.html",
     "theme": {
       "name": "creativem4",
       "title": "CreativeM4",
@@ -53,7 +53,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 338,
+    "uniqCompNum": 345,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "witsec-mailform-to": "sintoniabarra@gmail.com",
@@ -7292,11 +7292,169 @@
             }
           },
           "_name": "custom-html",
-          "_customHTML": "<center>\n<div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/dca723c6-76c3-4aa7-9424-4ecdba46ffbf.jpg\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text>codW1</span>\n                <div class=\"about text-left px-3\">\n                    <h4>ESCUTURA LOVE</h4> <span class=\"text-muted\" mbr-text>Material Metal</span>\n                    <h3>R$60,00</h3> \n  <div class=\"card-body\">\n    <center>\n    <p class=\"card-text\">Decoração e metal modelo love, decora sua casa, pinte da sua forma.</p>\n    <a href=\"https://api.whatsapp.com/send?phone=5522999727713&text=ESCULTURA%20LOVE%20R%2460%2C00%20(GRUPO%20CONECTADO)\" class=\"btn btn-primary\">Quero Agora</a>\n    </center>\n  </div>\n</div></div>\n  </div>\n  </center>",
+          "_customHTML": "<center>\n<div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/dca723c6-76c3-4aa7-9424-4ecdba46ffbf.jpg\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text>codW1</span>\n                <div class=\"about text-left px-3\">\n                    <h4>ESCUTURA LOVE</h4> <span class=\"text-muted\" mbr-text>Material Metal</span>\n                    <h3>R$60,00</h3> \n  <div class=\"card-body\">\n    <center>\n    <p class=\"card-text\">Decoração de metal modelo love, decora sua casa, pinte da sua forma.</p>\n    <a href=\"https://api.whatsapp.com/send?phone=5522999727713&text=ESCULTURA%20LOVE%20R%2460%2C00%20(GRUPO%20CONECTADO)\" class=\"btn btn-primary\">Quero Agora</a>\n    </center>\n  </div>\n</div></div>\n  </div>\n  </center>",
           "_anchor": "custom-html-91",
           "_isUserblock": true,
           "_sourceTheme": "creativem4",
           "_cid": "seTDC7DS2Z",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "hr": {
+              "border": "0",
+              "clear": "both",
+              "display": "block",
+              "margin": "2.4rem auto",
+              "text-align": "center",
+              "width": "(@SizeWidth * 1%)"
+            },
+            ".progress": {
+              "background": "@Linecolor",
+              "opacity": "@Opacity",
+              "height": "(@CurThickness * 1px)",
+              "overflow": "hidden",
+              "position": "relative"
+            },
+            ".progress::before": {
+              "animation-duration": "(@Speed * 1s)",
+              "animation-timing-function": "ease",
+              "animation-iteration-count": "infinite",
+              "animation-name": "progress",
+              "background": "@Progresscolor",
+              "content": "\"\"",
+              "display": "block",
+              "height": "(@CurThickness * 1px)",
+              "position": "absolute",
+              "width": "100px"
+            },
+            "@keyframes progress": {
+              "from": {
+                "margin-left": "(@Start * 1%)",
+                "width": "(@CursorSize * 1px)"
+              },
+              "to": {
+                "margin-left": "(@Stop * 1%)",
+                "width": "(@CursorSize * 1px)"
+              }
+            }
+          },
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"_customHTML\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n       <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">\n      <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">\n      <header>Size / Speed / Direction</header>\n      <input type=\"range\" inline=\"\" title=\"Cursor Length (px)\" name=\"CursorSize\" min=\"10\" max=\"200\" step=\"1\" value=\"96\">\n      <input type=\"range\" inline=\"\" title=\"Thickness  (px)\" name=\"CurThickness\" min=\"1\" max=\"10\" step=\"1\" value=\"3\">\n      <input type=\"range\" inline=\"\" title=\"Width (%)\" name=\"SizeWidth\" min=\"1\" max=\"100\" step=\"1\" value=\"85\">\n      <input type=\"range\" inline=\"\" title=\"Speed (s)\" name=\"Speed\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n       <input type=\"range\" inline=\"\" title=\"Start (%)\" name=\"Start\" min=\"0\" max=\"49\" step=\"1\" value=\"0\">\n       <input type=\"range\" inline=\"\" title=\"Stop (%)\" name=\"Stop\" min=\"49\" max=\"100\" step=\"1\" value=\"100\">\n\n  \n      \n      <header>Color</header> \n       <input type=\"color\" title=\"Line Color\" name=\"Linecolor\" value=\"#cccccc\" selected=\"\">\n       <input type=\"color\" title=\"Progress Color\" name=\"Progresscolor\" value=\"#cc2952\" selected=\"\">\n      <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"Opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\">\n     \n        <!-- <input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"3\" step=\"0.1\" value=\"1\"> -->\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n<hr class=\"progress\">\n  \n</section>",
+          "_anchor": "design-block-9i",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "seZ2n5iuIY",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "deltapi-code-editor",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            }
+          },
+          "_name": "custom-html",
+          "_customHTML": "<center>\n<div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <a href=\"https://api.whatsapp.com/send?phone=5522999727713&text=EU%20QUERO%20PORTA%20TENNIS%20R%2460%2C00%20(GRUPO%20cONECTADO)%20CODW1\"><img src=\"@PROJECT_PATH@/assets/images/picasion.com-eb0839f7044a19430da93989e80a6cc1.gif\" width=\"100%\" alt title></a>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text>codW1</span>\n                <div class=\"about text-left px-3\">\n                    <h4>Porta Tennis&nbsp;</h4> <span class=\"text-muted\" mbr-text>Material Casa</span>\n                    <h3>R$60,00(cada)</h3> \n  <div class=\"card-body\">\n    <center>\n    <p class=\"card-text\">Porta tennis, organise seu tennis, não deixe eles espalhados. No seu quarto ou na area de serviço pode ser instalado, ótimo produto!&nbsp;</p>\n    <a href=\"https://api.whatsapp.com/send?phone=5522999727713&text=EU%20QUERO%20PORTA%20TENNIS%20R%2460%2C00%20(GRUPO%20cONECTADO)%20CODW1\" class=\"btn btn-primary\">Quero Agora</a>\n    </center>\n  </div>\n</div></div>\n  </div>\n  </center>",
+          "_anchor": "custom-html-9e",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "seZ25KCZhi",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "hr": {
+              "border": "0",
+              "clear": "both",
+              "display": "block",
+              "margin": "2.4rem auto",
+              "text-align": "center",
+              "width": "(@SizeWidth * 1%)"
+            },
+            ".progress": {
+              "background": "@Linecolor",
+              "opacity": "@Opacity",
+              "height": "(@CurThickness * 1px)",
+              "overflow": "hidden",
+              "position": "relative"
+            },
+            ".progress::before": {
+              "animation-duration": "(@Speed * 1s)",
+              "animation-timing-function": "ease",
+              "animation-iteration-count": "infinite",
+              "animation-name": "progress",
+              "background": "@Progresscolor",
+              "content": "\"\"",
+              "display": "block",
+              "height": "(@CurThickness * 1px)",
+              "position": "absolute",
+              "width": "100px"
+            },
+            "@keyframes progress": {
+              "from": {
+                "margin-left": "(@Start * 1%)",
+                "width": "(@CursorSize * 1px)"
+              },
+              "to": {
+                "margin-left": "(@Stop * 1%)",
+                "width": "(@CursorSize * 1px)"
+              }
+            }
+          },
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"_customHTML\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n       <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">\n      <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"1\" max=\"10\" step=\"1\" value=\"1\">\n      <header>Size / Speed / Direction</header>\n      <input type=\"range\" inline=\"\" title=\"Cursor Length (px)\" name=\"CursorSize\" min=\"10\" max=\"200\" step=\"1\" value=\"96\">\n      <input type=\"range\" inline=\"\" title=\"Thickness  (px)\" name=\"CurThickness\" min=\"1\" max=\"10\" step=\"1\" value=\"3\">\n      <input type=\"range\" inline=\"\" title=\"Width (%)\" name=\"SizeWidth\" min=\"1\" max=\"100\" step=\"1\" value=\"85\">\n      <input type=\"range\" inline=\"\" title=\"Speed (s)\" name=\"Speed\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n       <input type=\"range\" inline=\"\" title=\"Start (%)\" name=\"Start\" min=\"0\" max=\"49\" step=\"1\" value=\"0\">\n       <input type=\"range\" inline=\"\" title=\"Stop (%)\" name=\"Stop\" min=\"49\" max=\"100\" step=\"1\" value=\"100\">\n\n  \n      \n      <header>Color</header> \n       <input type=\"color\" title=\"Line Color\" name=\"Linecolor\" value=\"#cccccc\" selected=\"\">\n       <input type=\"color\" title=\"Progress Color\" name=\"Progresscolor\" value=\"#cc2952\" selected=\"\">\n      <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"Opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\">\n     \n        <!-- <input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"3\" step=\"0.1\" value=\"1\"> -->\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n<hr class=\"progress\">\n  \n</section>",
+          "_anchor": "design-block-9j",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "seZ4inA59S",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "deltapi-code-editor",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            }
+          },
+          "_name": "custom-html",
+          "_customHTML": "<center>\n<div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/94dac966-b55e-47f5-bc00-499ca6da4b8b.jpg\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text>codW1</span>\n                <div class=\"about text-left px-3\">\n                    <h4>Plateleira Para Carros</h4> <span class=\"text-muted\" mbr-text>Material Casa</span>\n                    <h3>R$190,00</h3> \n  <div class=\"card-body\">\n    <center>\n    <p class=\"card-text\">Chegou a hora para você organizar sua coleção de carros no seu quarto. Compre agora nao perca a promoção!</p>\n    <a href=\"https://api.whatsapp.com/send?phone=5522999727713&text=plateleira%20carro%20R%24190%2C00%20(Grupo%20Conectado)codw1\" class=\"btn btn-primary\">Quero Agora</a>\n    </center>\n  </div>\n</div></div>\n  </div>\n  </center>",
+          "_anchor": "custom-html-9k",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "seZ4js9Rw8",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
