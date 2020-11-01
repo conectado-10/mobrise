@@ -7749,9 +7749,9 @@ p {
 @isPublish: true;
 
 .cid-seIJk8Sm6M {
-@paddingTop: 1;
+@paddingTop: 0;
 @paddingBottom: 0;
-@showTitle: true;
+@showTitle: false;
 @showSubtitle: false;
 @showtext: true;
 @fullWidth: true;
