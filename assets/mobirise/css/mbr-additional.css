@@ -94,7 +94,7 @@ body {
   background-color: #133996 !important;
 }
 .bg-info {
-  background-color: #fdece8 !important;
+  background-color: #000000 !important;
 }
 .bg-warning {
   background-color: #ffcf5c !important;
@@ -144,23 +144,23 @@ body {
 }
 .btn-info,
 .btn-info:active {
-  background-color: #fdece8 !important;
-  border-color: #fdece8 !important;
-  color: #d43712 !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+  color: #ffffff !important;
 }
 .btn-info:hover,
 .btn-info:focus,
 .btn-info.focus,
 .btn-info.active {
-  color: #d43712 !important;
-  background-color: #f7b2a2 !important;
-  border-color: #f7b2a2 !important;
+  color: #ffffff !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
 }
 .btn-info.disabled,
 .btn-info:disabled {
-  color: #d43712 !important;
-  background-color: #f7b2a2 !important;
-  border-color: #f7b2a2 !important;
+  color: #ffffff !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
 }
 .btn-success,
 .btn-success:active {
@@ -308,22 +308,22 @@ body {
 .btn-info-outline,
 .btn-info-outline:active {
   background: none;
-  border-color: #fdece8;
-  color: #fdece8;
+  border-color: #000000;
+  color: #000000;
 }
 .btn-info-outline:hover,
 .btn-info-outline:focus,
 .btn-info-outline.focus,
 .btn-info-outline.active {
-  color: #d43712;
-  background-color: #fdece8;
-  border-color: #fdece8;
+  color: #ffffff;
+  background-color: #000000;
+  border-color: #000000;
 }
 .btn-info-outline.disabled,
 .btn-info-outline:disabled {
-  color: #d43712 !important;
-  background-color: #fdece8 !important;
-  border-color: #fdece8 !important;
+  color: #ffffff !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
 }
 .btn-success-outline,
 .btn-success-outline:active {
@@ -429,7 +429,7 @@ body {
   color: #133996 !important;
 }
 .text-info {
-  color: #fdece8 !important;
+  color: #000000 !important;
 }
 .text-warning {
   color: #ffcf5c !important;
@@ -457,7 +457,7 @@ a.text-success:focus {
 }
 a.text-info:hover,
 a.text-info:focus {
-  color: #f59e8a !important;
+  color: #000000 !important;
 }
 a.text-warning:hover,
 a.text-warning:focus {
@@ -479,7 +479,7 @@ a.text-black:focus {
   background-color: #70c770;
 }
 .alert-info {
-  background-color: #fdece8;
+  background-color: #000000;
 }
 .alert-warning {
   background-color: #ffcf5c;
@@ -527,7 +527,7 @@ a:hover {
 }
 .mbr-plan-header.bg-info .mbr-plan-subtitle,
 .mbr-plan-header.bg-info .mbr-plan-price-desc {
-  color: #ffffff;
+  color: #b3b3b3;
 }
 .mbr-plan-header.bg-warning .mbr-plan-subtitle,
 .mbr-plan-header.bg-warning .mbr-plan-price-desc {
@@ -878,7 +878,7 @@ section.lazy-placeholder:after {
   color: #133996 !important;
 }
 .cid-rZqqwfIrpL .ico2 {
-  color: #fdece8 !important;
+  color: #000000 !important;
   -webkit-transition: all 0.6s;
   transition: all 0.6s;
 }
@@ -928,7 +928,7 @@ section.lazy-placeholder:after {
   color: #133996 !important;
 }
 .cid-s17TaMbygb .ico2 {
-  color: #fdece8 !important;
+  color: #000000 !important;
   -webkit-transition: all 0.6s;
   transition: all 0.6s;
 }
@@ -2338,7 +2338,7 @@ section.lazy-placeholder:after {
 @primaryColor: #133996;
 @secondaryColor: #fc643f;
 @successColor: #133996;
-@infoColor: #fdece8;
+@infoColor: #000000;
 @warningColor: #ffcf5c;
 @dangerColor: #ffcf5c;
 @mainFont: DM Sans;
@@ -2594,7 +2594,7 @@ p {
 @primaryColor: #133996;
 @secondaryColor: #fc643f;
 @successColor: #133996;
-@infoColor: #fdece8;
+@infoColor: #000000;
 @warningColor: #ffcf5c;
 @dangerColor: #ffcf5c;
 @mainFont: DM Sans;
@@ -2985,7 +2985,7 @@ p {
 @primaryColor: #133996;
 @secondaryColor: #fc643f;
 @successColor: #133996;
-@infoColor: #fdece8;
+@infoColor: #000000;
 @warningColor: #ffcf5c;
 @dangerColor: #ffcf5c;
 @mainFont: DM Sans;
@@ -3662,7 +3662,7 @@ p {
 @primaryColor: #133996;
 @secondaryColor: #fc643f;
 @successColor: #133996;
-@infoColor: #fdece8;
+@infoColor: #000000;
 @warningColor: #ffcf5c;
 @dangerColor: #ffcf5c;
 @mainFont: DM Sans;
@@ -4186,7 +4186,7 @@ p {
 @primaryColor: #133996;
 @secondaryColor: #fc643f;
 @successColor: #133996;
-@infoColor: #fdece8;
+@infoColor: #000000;
 @warningColor: #ffcf5c;
 @dangerColor: #ffcf5c;
 @mainFont: DM Sans;
@@ -4676,7 +4676,7 @@ p {
 @primaryColor: #133996;
 @secondaryColor: #fc643f;
 @successColor: #133996;
-@infoColor: #fdece8;
+@infoColor: #000000;
 @warningColor: #ffcf5c;
 @dangerColor: #ffcf5c;
 @mainFont: DM Sans;
@@ -5830,7 +5830,7 @@ p {
 @primaryColor: #133996;
 @secondaryColor: #fc643f;
 @successColor: #133996;
-@infoColor: #fdece8;
+@infoColor: #000000;
 @warningColor: #ffcf5c;
 @dangerColor: #ffcf5c;
 @mainFont: DM Sans;
@@ -6227,7 +6227,7 @@ p {
 @primaryColor: #133996;
 @secondaryColor: #fc643f;
 @successColor: #133996;
-@infoColor: #fdece8;
+@infoColor: #000000;
 @warningColor: #ffcf5c;
 @dangerColor: #ffcf5c;
 @mainFont: DM Sans;
@@ -6650,7 +6650,7 @@ p {
 @primaryColor: #133996;
 @secondaryColor: #fc643f;
 @successColor: #133996;
-@infoColor: #fdece8;
+@infoColor: #000000;
 @warningColor: #ffcf5c;
 @dangerColor: #ffcf5c;
 @mainFont: DM Sans;
@@ -6929,7 +6929,7 @@ p {
 @primaryColor: #133996;
 @secondaryColor: #fc643f;
 @successColor: #133996;
-@infoColor: #fdece8;
+@infoColor: #000000;
 @warningColor: #ffcf5c;
 @dangerColor: #ffcf5c;
 @mainFont: DM Sans;
@@ -7180,7 +7180,7 @@ p {
 @primaryColor: #133996;
 @secondaryColor: #fc643f;
 @successColor: #133996;
-@infoColor: #fdece8;
+@infoColor: #000000;
 @warningColor: #ffcf5c;
 @dangerColor: #ffcf5c;
 @mainFont: DM Sans;
@@ -7729,7 +7729,7 @@ p {
 @primaryColor: #133996;
 @secondaryColor: #fc643f;
 @successColor: #133996;
-@infoColor: #fdece8;
+@infoColor: #000000;
 @warningColor: #ffcf5c;
 @dangerColor: #ffcf5c;
 @mainFont: DM Sans;
@@ -8356,7 +8356,7 @@ p {
 @primaryColor: #133996;
 @secondaryColor: #fc643f;
 @successColor: #133996;
-@infoColor: #fdece8;
+@infoColor: #000000;
 @warningColor: #ffcf5c;
 @dangerColor: #ffcf5c;
 @mainFont: DM Sans;
