@@ -3682,9 +3682,9 @@ p {
 @isPublish: true;
 
 .cid-s6mpXLFypf {
-@paddingTop: 1;
+@paddingTop: 0;
 @paddingBottom: 0;
-@showTitle: true;
+@showTitle: false;
 @showSubtitle: false;
 @showtext: true;
 @fullWidth: true;
