@@ -7200,9 +7200,9 @@ p {
 @isPublish: true;
 
 .cid-seIfX4tQJA {
-@paddingTop: 1;
+@paddingTop: 0;
 @paddingBottom: 0;
-@showTitle: true;
+@showTitle: false;
 @showSubtitle: false;
 @showtext: true;
 @fullWidth: true;
