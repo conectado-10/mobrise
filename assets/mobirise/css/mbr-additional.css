@@ -9846,74 +9846,6 @@ H2 {
 }
 }
 
-.cid-sfhwF8jkJI {
-@paddingTop: 4;
-@paddingBottom: 4;
-@showTitle: true;
-@iconsColor: #0a1c44;
-@iconsHoverColor: #fdece8;
-@iconsbgColor: #ff7708;
-@iconsCount: 2;
-@uname__10: "file:///C:/Users/bacho/AppData/Local/Mobirise.com/Mobirise/sintoniabarra_0040gmail_002ecom/addons/creativem4/components/social-buttons01/../_images/background2.jpg";
-@uname__11: true;
-@uname__12: #ffffff;
-@bg-value: #ffffff;
-@bg-type: "color";
-@bg-color-value: #ffffff;
-@bg-parallax: false;
-@overlay: true;
-@overlayColor: #efefef;
-@overlayOpacity: 0.9;
-
-padding-top: (@paddingTop * 15px);
-padding-bottom: (@paddingBottom * 15px);
-& when (@bg-type = "color") {
-  background-color: @bg-value;
-}
-& when (@bg-type = "image") {
-  background-image: url(../../../@bg-value);
-}
-[class^="socicon-"]:before, [class*=" socicon-"]:before {
-  line-height: 44px;
-}
-.social-list {
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-.soc-item {
-  width: 50px;
-  height: 50px;
-  background: @iconsbgColor;
-  border-radius: 100%;
-  display: flex;
-  -webkit-box-shadow: 0 10px 15px fade(darken(@iconsbgColor, 15%), 40%);
-  box-shadow: 0 10px 15px fade(darken(@iconsbgColor, 15%), 40%);
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin: 0 0.6rem;
-  margin-bottom: 1rem;
-  span {
-    font-size: 1.4rem;
-    color: @iconsColor !important;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  &:hover {
-    span {
-      color: @iconsHoverColor !important;
-    }
-  }
-}
-}
-
 .cid-seJwMfuWwC {
 @paddingTop: 2;
 @paddingBottom: 2;
@@ -9946,4 +9878,259 @@ p {
 }
 
 #witsec-custom-html-block-b3 {
+}
+
+.cid-iCRrfNQEAG {
+@showSocial: true;
+@showPossSocial: false;
+@showFloat: true;
+@FloatColor: #ff0040;
+@SocialRadius: 25;
+@SocialSpace: 7;
+@SocialSpacing: 0;
+@showFB: false;
+@showTW: false;
+@showGG: false;
+@showLK: false;
+@showYT: false;
+@showIT: true;
+@showC1: false;
+@CustomColor1: #ff7300;
+@showC2: false;
+@CustomColor2: #01bf46;
+@Ribbon: false;
+@RibbonPoss: "LeftTop";
+@RibbonColor: #55b4d4;
+@RibbonColor1: #000000;
+@Socbar: false;
+@paddingTopmenu: 400;
+@widthmenu: 200;
+@widthover: 100;
+@heightmenu: 43;
+@bgcolormenu: #cccccc;
+@iconsCount: 5;
+@Grayscale: false;
+
+& when (@showPossSocial = false) {
+  .icon-bar {
+    z-index: 100002;
+    right: (@SocialSpacing * 1%);
+    position: fixed;
+    top: 50%;
+    font-weight: normal;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  & when (@showFloat = false) {
+    .icon-bar a:hover {
+      background-color: @FloatColor;
+    }
+  }
+  & when (@showFloat) {
+    .icon-bar a:hover {
+      background-color: @FloatColor;
+      margin-left: -50px;
+      width: 100px;
+    }
+  }
+}
+& when (@showPossSocial) {
+  .icon-bar {
+    z-index: 100002;
+    left: (@SocialSpacing * 1%);
+    position: fixed;
+    top: 50%;
+    font-weight: normal;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  & when (@showFloat) {
+    .icon-bar a:hover {
+      background-color: @FloatColor;
+      width: 100px;
+    }
+  }
+  & when (@showFloat = false) {
+    .icon-bar a:hover {
+      background-color: @FloatColor;
+    }
+  }
+}
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  margin: (@SocialSpace * 1px);
+  border-radius: (@SocialRadius * 1px);
+}
+.facebook {
+  background: #3B5998;
+  color: white;
+  width: 50px;
+}
+.twitter {
+  background: #55ACEE;
+  color: white;
+  width: 50px;
+}
+.google {
+  background: #dd4b39;
+  color: white;
+  width: 50px;
+}
+.linkedin {
+  background: #007bb5;
+  color: white;
+  width: 50px;
+}
+.youtube {
+  background: #bb0000;
+  color: white;
+  width: 50px;
+}
+.instagram {
+  background: #6F3AA7;
+  color: white;
+  width: 50px;
+}
+.custom1 {
+  background: @CustomColor1;
+  color: white;
+  width: 50px;
+}
+.custom2 {
+  background: @CustomColor2;
+  color: white;
+  width: 50px;
+}
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+.corner-ribbon {
+  z-index: 20001;
+  width: 200px;
+  background-image: linear-gradient(@RibbonColor, @RibbonColor1);
+  position: absolute;
+  top: 25px;
+  left: -50px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.corner-ribbon ov:hover .effetover {
+  background-image: linear-gradient(@RibbonColor1, @RibbonColor);
+}
+& when (@RibbonPoss = 'LeftTop') {
+  .corner-ribbon.top-zen {
+    top: 25px;
+    left: -50px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    position: fixed;
+  }
+}
+& when (@RibbonPoss = 'RightTop') {
+  .corner-ribbon.top-zen {
+    top: 25px;
+    right: -50px;
+    left: auto;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: fixed;
+  }
+}
+& when (@RibbonPoss = 'RightBottom') {
+  .corner-ribbon.top-zen {
+    top: auto;
+    right: -50px;
+    bottom: 25px;
+    left: auto;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    position: fixed;
+  }
+}
+& when (@RibbonPoss = 'LeftBottom') {
+  .corner-ribbon.top-zen {
+    top: auto;
+    bottom: 25px;
+    left: -50px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: fixed;
+  }
+}
+P {
+  color: #232323;
+}
+DIV {
+  color: #ffffff;
+}
+H10 {
+  color: #767676;
+}
+.hidden {
+  display: none;
+}
+& when (@Socbar) {
+  p {
+    color: #ecf0f1;
+    line-height: 28px;
+    font-size: 15px;
+    padding-top: 50px;
+  }
+  .sticky-container {
+    z-index: 1001;
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    Right: -119px;
+    top: (@paddingTopmenu * 1px);
+    width: (@widthmenu * 1px);
+  }
+  .sticky li {
+    list-style-type: none;
+    background-color: @bgcolormenu;
+    color: #efefef;
+    height: (@heightmenu * 1px);
+    padding: 0px;
+    margin: 0px 0px 1px 0px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    & when (@Grayscale) {
+      filter: grayscale;
+      -webkit-filter: grayscale(100%);
+    }
+  }
+  .sticky li:hover {
+    margin-left: (@widthover * -1px);
+    & when (@Grayscale) {
+      filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+      -webkit-filter: grayscale(0%);
+    }
+  }
+  .sticky li img {
+    float: left;
+    margin: 5px 5px;
+    margin-right: 10px;
+  }
+  .sticky li p {
+    padding: 0px;
+    margin: 0px;
+    line-height: 43px;
+  }
+}
 }
