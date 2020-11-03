@@ -9352,110 +9352,6 @@ p {
     width: 96px;
   }
 }
-.cid-aDwLgvvCNI {
-  background-color: #c1c1c1;
-  font-family: 'Cormorant', serif;
-  color: #707bf0;
-  background-repeat: no-repeat;
-}
-.cid-aDwLgvvCNI .container-fluid {
-  padding-top: 60px;
-  padding-bottom: 45px;
-}
-.cid-aDwLgvvCNI .rating {
-  padding-top: 5px;
-  color: #e2ce14;
-}
-.cid-aDwLgvvCNI .fa-star {
-  color: #e2ce14 !important;
-}
-.cid-aDwLgvvCNI .fa-star-o {
-  color: #e2ce14 !important;
-}
-.cid-aDwLgvvCNI .name {
-  background-color: #ffffff;
-  margin-top: -50px !important;
-  color: #465052;
-}
-.cid-aDwLgvvCNI .card {
-  background-color: #ffffff;
-  border-radius: 20px !important;
-  box-shadow: 2px 2px 5px 0px #767676;
-  transition: 0.8s;
-  backgorund-color: #ffffff;
-}
-.cid-aDwLgvvCNI .card-body div div p {
-  color: #5b686b;
-}
-.cid-aDwLgvvCNI .card-ico {
-  color: #ae91e4;
-}
-.cid-aDwLgvvCNI .card-header {
-  background-color: #ffffff;
-  border-radius: 20px !important;
-}
-.cid-aDwLgvvCNI .card-footer {
-  background-color: #ffffff;
-  border-radius: 20px !important;
-}
-.cid-aDwLgvvCNI p {
-  font-size: 17px;
-  margin-bottom: 7px;
-}
-.cid-aDwLgvvCNI .small {
-  letter-spacing: 0.5px !important;
-}
-.cid-aDwLgvvCNI .card-header img {
-  border: 5px solid;
-  border-color: #ffffff;
-}
-.cid-aDwLgvvCNI .outside {
-  position: inherit;
-  top: -50%;
-}
-.cid-aDwLgvvCNI hr {
-  background-color: #ae91e4;
-  border: 1px solid;
-  border-radius: 20px;
-  color: #ae91e4;
-  height: 5px;
-  width: 70px !important;
-}
-.cid-aDwLgvvCNI .bold {
-  font-weight: 500;
-}
-.cid-aDwLgvvCNI .profile-pic {
-  margin-bottom: 5px !important;
-}
-.cid-aDwLgvvCNI .quotes {
-  position: relative;
-  top: -10px;
-}
-.cid-aDwLgvvCNI .quotes-down {
-  position: relative;
-  top: -4 px;
-}
-.cid-aDwLgvvCNI .fa {
-  color: #ae91e4;
-}
-.cid-aDwLgvvCNI .card-footer .fa {
-  font-size: 20px !important;
-}
-.cid-aDwLgvvCNI .container-fluid:hover .card:not(:hover) {
-  transform: scale(0.9);
-}
-@media (max-width: 1000px) {
-  .cid-aDwLgvvCNI .container-fluid:hover .card:not(:hover) {
-    transform: scale(1);
-  }
-}
-.cid-aDwLgvvCNI P {
-  color: #000000;
-}
-.cid-aDwLgvvCNI h6 {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
 .cid-seJwMfuWwC {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -9466,4 +9362,108 @@ p {
 }
 .cid-seJwMfuWwC .media-container-row .mbr-text {
   color: #0a1c44;
+}
+.cid-sfgRquFgGm {
+  background-color: #55b4d4;
+  font-family: 'Cormorant', serif;
+  color: #707bf0;
+  background-repeat: no-repeat;
+}
+.cid-sfgRquFgGm .container-fluid {
+  padding-top: 0px;
+  padding-bottom: 15px;
+}
+.cid-sfgRquFgGm .rating {
+  padding-top: 5px;
+  color: #133996;
+}
+.cid-sfgRquFgGm .fa-star {
+  color: #133996 !important;
+}
+.cid-sfgRquFgGm .fa-star-o {
+  color: #133996 !important;
+}
+.cid-sfgRquFgGm .name {
+  background-color: #ffffff;
+  margin-top: -50px !important;
+  color: #465052;
+}
+.cid-sfgRquFgGm .card {
+  background-color: #ffffff;
+  border-radius: 20px !important;
+  box-shadow: 2px 2px 5px 0px #0a1c44;
+  transition: 0.8s;
+  backgorund-color: #ffffff;
+}
+.cid-sfgRquFgGm .card-body div div p {
+  color: #0a1c44;
+}
+.cid-sfgRquFgGm .card-ico {
+  color: #00c48c;
+}
+.cid-sfgRquFgGm .card-header {
+  background-color: #ffffff;
+  border-radius: 20px !important;
+}
+.cid-sfgRquFgGm .card-footer {
+  background-color: #ffffff;
+  border-radius: 20px !important;
+}
+.cid-sfgRquFgGm p {
+  font-size: 17px;
+  margin-bottom: 7px;
+}
+.cid-sfgRquFgGm .small {
+  letter-spacing: 0.5px !important;
+}
+.cid-sfgRquFgGm .card-header img {
+  border: 5px solid;
+  border-color: #ffffff;
+}
+.cid-sfgRquFgGm .outside {
+  position: inherit;
+  top: -50%;
+}
+.cid-sfgRquFgGm hr {
+  background-color: #00c48c;
+  border: 1px solid;
+  border-radius: 20px;
+  color: #00c48c;
+  height: 5px;
+  width: 70px !important;
+}
+.cid-sfgRquFgGm .bold {
+  font-weight: 500;
+}
+.cid-sfgRquFgGm .profile-pic {
+  margin-bottom: 5px !important;
+}
+.cid-sfgRquFgGm .quotes {
+  position: relative;
+  top: -10px;
+}
+.cid-sfgRquFgGm .quotes-down {
+  position: relative;
+  top: -4 px;
+}
+.cid-sfgRquFgGm .fa {
+  color: #00c48c;
+}
+.cid-sfgRquFgGm .card-footer .fa {
+  font-size: 20px !important;
+}
+.cid-sfgRquFgGm .container-fluid:hover .card:not(:hover) {
+  transform: scale(0.9);
+}
+@media (max-width: 1000px) {
+  .cid-sfgRquFgGm .container-fluid:hover .card:not(:hover) {
+    transform: scale(1);
+  }
+}
+.cid-sfgRquFgGm P {
+  color: #ffffff;
+}
+.cid-sfgRquFgGm h6 {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
