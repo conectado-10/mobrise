@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page33.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "creativem4",
       "title": "CreativeM4",
@@ -45,7 +45,7 @@
         "url": "https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i"
       }
     ],
-    "imageResize": false,
+    "imageResize": true,
     "favicon": "@PROJECT_PATH@/assets/images/cortado.png",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
