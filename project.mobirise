@@ -4900,7 +4900,7 @@
             }
           },
           "_name": "social-buttons02",
-          "_customHTML": "<center>\n<div class=\"card\" style=\"width: 18rem\">\n  <img src=\"@PROJECT_PATH@/assets/images/wei-mit-bunten-dreiecken-internet-logo-6-500x500.png\" class=\"card-img-top\" alt=\"...\" title>\n  <div class=\"card-body\">\n    <h5 class=\"card-title\">AQUI VOCÊ ENCONTRA</h5>\n    <p class=\"card-text\">Faça seu pedido!</p>\n  </div>\n  <ul class=\"list-group list-group-flush\">\n    <li class=\"list-group-item\">Suculentas</li>\n    <li class=\"list-group-item\">Cactus</li>\n    <li class=\"list-group-item\">Utensilios</li>\n  </ul>\n  <div class=\"card-body\">\n    <a href=\"https://api.whatsapp.com/send?phone=5524999029195&text=Eu%20quero%20fazer%20o%C3%A7amento%20indica%C3%A7%C3%A3o%20(Grupo%20Conectado)\" class=\"card-link\">Fala comigo</a>\n    <a href=\"#\" class=\"card-link\">Galeria Fotos</a>\n  </div>\n</div></center>",
+          "_customHTML": "<center>\n<div class=\"card\" style=\"width: 18rem\">\n  <img src=\"@PROJECT_PATH@/assets/images/wei-mit-bunten-dreiecken-internet-logo-6-500x500.png\" class=\"card-img-top\" alt=\"...\" title>\n  <div class=\"card-body\">\n    <h5 class=\"card-title\">AQUI VOCÊ ENCONTRA</h5>\n    <p class=\"card-text\">Faça seu pedido!</p>\n  </div>\n  <ul class=\"list-group list-group-flush\">\n    <li class=\"list-group-item\">Suculentas</li>\n    <li class=\"list-group-item\">Cactus</li>\n    <li class=\"list-group-item\">Utensilios</li>\n  </ul>\n  <div class=\"card-body\">\n    <a href=\"https://api.whatsapp.com/send?phone=5524999029195&text=Eu%20quero%20fazer%20o%C3%A7amento%20indica%C3%A7%C3%A3o%20(Grupo%20Conectado)\" class=\"card-link\">Fala comigo</a>\n    <a href=\"https://conectado-10.github.io/mobrise/page34.html\" class=\"card-link\">Galeria Fotos</a>\n  </div>\n</div></center>",
           "_cid": "sfnzsdFqPG",
           "_anchor": "social-buttons02-b9",
           "_protectedParams": [],
@@ -11322,6 +11322,19 @@
                 "customStyle1": "display-7",
                 "caption": "Digite aqui a legenda",
                 "active": true
+              },
+              {
+                "tags": "SUCULENTAS",
+                "videoPreview": "@ADDONS_PATH@/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/capturar-589x589.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/capturar-589x589-589x589.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Digite aqui a legenda",
+                "active": false
               }
             ]
           }
