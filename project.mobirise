@@ -32,7 +32,8 @@
         "#ff7f9f",
         "#2764f7",
         "#2a8b6f",
-        "#55b4d4"
+        "#55b4d4",
+        "#cc2952"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -53,7 +54,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 440,
+    "uniqCompNum": 441,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "witsec-mailform-to": "sintoniabarra@gmail.com",
@@ -11760,7 +11761,7 @@
             }
           },
           "_name": "social-buttons02",
-          "_customHTML": "<br>\n  <br>\n<center>\n<div class=\"card\" style=\"width: 18rem\">\n  <img src=\"@PROJECT_PATH@/assets/images/pfirsichfarben-pinselstrich-fotografie-logo-20-500x500.png\" class=\"card-img-top\" alt=\"...\" title>\n  <div class=\"card-body\">\n    <h5 class=\"card-title\">PROCESSO DE DESCARTE</h5>\n    <p class=\"card-text\">Precisa de ajuda?</p>\n  </div>\n  <ul class=\"list-group list-group-flush\">\n    <li class=\"list-group-item\">1ª Espere o óleo esfriar</li>\n    <li class=\"list-group-item\">2º Coloque num recepiente</li>\n    <li class=\"list-group-item\">3º vamos até você</li>\n  </ul>\n  <div class=\"card-body\">\n    <a href=\"https://api.whatsapp.com/send?phone=5521988740799&text=Preciso%20fazer%20um%20descarte%20(Grupo%20Conectado)\" class=\"card-link\">Fala comigo</a>\n    <a href=\"https://conectado-10.github.io/mobrise/page34.html\" class=\"card-link\">Galeria Fotos</a>\n  </div>\n</div></center>",
+          "_customHTML": "<br>\n  <br>\n<center>\n<div class=\"card\" style=\"width: 18rem\">\n  <img src=\"@PROJECT_PATH@/assets/images/pfirsichfarben-pinselstrich-fotografie-logo-20-500x500.png\" class=\"card-img-top\" alt=\"...\" title>\n  <div class=\"card-body\">\n    <h5 class=\"card-title\">PROCESSO DE DESCARTE</h5>\n    <p class=\"card-text\">Precisa de ajuda?</p>\n  </div>\n  <ul class=\"list-group list-group-flush\">\n    <li class=\"list-group-item\">1ª Espere o óleo esfriar</li>\n    <li class=\"list-group-item\">2º Coloque num recepiente</li>\n    <li class=\"list-group-item\">3º vamos até você</li>\n  </ul>\n  <div class=\"card-body\">\n    <a href=\"https://api.whatsapp.com/send?phone=5521988740799&text=Preciso%20fazer%20um%20descarte%20(Grupo%20Conectado)\" class=\"card-link\">Fala comigo</a>\n    <a href=\"https://kpueuwhcgu.mobirisesite.com/\" class=\"card-link\">Galeria Fotos</a>\n  </div>\n</div></center>",
           "_anchor": "social-buttons02-c7",
           "_isUserblock": true,
           "_sourceTheme": "creativem4",
@@ -11771,23 +11772,69 @@
           "_params": {}
         },
         {
-          "alias": "deltapi-code-editor",
-          "_isSecondary": true,
+          "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section": {
-              "text-align": "center",
-              "color": "#fff"
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card-wrapper": {
+              "display": "flex",
+              "-webkit-box-orient": "horizontal",
+              "-webkit-box-direction": "normal",
+              "-ms-flex-direction": "row",
+              "flex-direction": "row",
+              "border-radius": "30px",
+              "-webkit-box-align": "center",
+              "-ms-flex-align": "center",
+              "align-items": "center",
+              "-webkit-box-pack": "center",
+              "-ms-flex-pack": "center",
+              "justify-content": "center",
+              "background-color": "@cardcolor",
+              "-webkit-transition": "all 0.3s",
+              "transition": "all 0.3s",
+              "padding": "1rem 1rem !important",
+              "box-shadow": "0 15px 50px 10px fade(darken(@cardcolor, 30%), 60%)",
+              "&:hover": {
+                "-webkit-transform": "translateY(1rem)",
+                "transform": "translateY(1rem)",
+                ".ico2": {
+                  "color": "@primaryColor !important"
+                }
+              }
+            },
+            ".ico2": {
+              "color": "@infoColor !important",
+              "-webkit-transition": "all 0.6s",
+              "transition": "all 0.6s"
+            },
+            ".text-info": {
+              "&:hover": {
+                "color": "inherit !important"
+              }
+            },
+            ".card-box": {
+              "padding": "0rem 1rem"
+            },
+            ".ico1": {
+              "font-size": "(@IconSize * 1rem) !important"
+            },
+            "h3, h4": {
+              "padding": "0",
+              "margin": "0"
             }
           },
-          "_name": "custom-html",
-          "_customHTML": "<!-- Card -->\n<center>\n<div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <img src=\"@PROJECT_PATH@/assets/images/dfeaddf703acf71277dbb1d6d81479b0.gif\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">Qualidade é Aqui!!</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\">Mudanças e Frete-Saveiro</p>\n\n    </div>\n\n  </div>\n  <div class=\"card promoting-card\">\n\n  <!-- Card content -->\n  <div class=\"card-body d-flex flex-row\">\n\n    <!-- Avatar -->\n    <img src=\"@PROJECT_PATH@/assets/images/oleo-de-cozinha-540x324.jpg\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title>\n\n    <!-- Content -->\n    <div>\n\n      <!-- Title -->\n      <h4 class=\"card-title font-weight-bold mb-2\">AGENDE SEU FRETE</h4>\n      <!-- Subtitle -->\n      <p class=\"card-text\">Em breve fotos de eventos&nbsp;</p>\n\n    </div>\n\n  </div>\n  </div></div></center>",
+          "_name": "social-buttons02",
+          "_customHTML": "<center>\n<div class=\"card\" style=\"width: 18rem\">\n  <img src=\"@PROJECT_PATH@/assets/images/pfirsichfarben-pinselstrich-fotografie-logo-21-500x500.png\" class=\"card-img-top\" alt=\"...\" title>\n  <div class=\"card-body\">\n    <h5 class=\"card-title\">TROCA POR MATERIAL</h5>\n    <p class=\"card-text\">Trocamos óleo velho por material de limpeza</p>\n  </div>\n \n</div></center>",
+          "_anchor": "social-buttons02-c8",
           "_isUserblock": true,
           "_sourceTheme": "creativem4",
-          "_cid": "sftlKJBi5P",
-          "_anchor": "custom-html-c1",
+          "_cid": "sfvCMH95R0",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
