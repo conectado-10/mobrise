@@ -11270,7 +11270,7 @@ background-color: @bgColor;
 @paddingBottom: 0;
 @showTitle: true;
 @showSubtitle: false;
-@showtext: true;
+@showtext: false;
 @fullWidth: false;
 @noSpacing: false;
 @uname__14: "";
