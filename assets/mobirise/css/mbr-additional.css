@@ -11225,16 +11225,10 @@ h3, h4 {
 }
 }
 
-.cid-sftlKKE7R5 {
-@paddingTop: 1;
-@paddingBottom: 3;
-@bgColor: #ffffff;
+.cid-sfyicwO02Y {
 
-padding-top: (@paddingTop * 15px);
-padding-bottom: (@paddingBottom * 15px);
-background-color: @bgColor;
 .google-map {
-  height: 25rem;
+  height: 34rem;
   position: relative;
   iframe {
     height: 100%;
@@ -11410,6 +11404,218 @@ a.img {
 }
 
 #witsec-custom-html-block-c4 {
+}
+
+.cid-sfyfYfiaTT {
+@paddingTop: 2;
+@paddingBottom: 1;
+@showTitle: false;
+@showSubTitle: false;
+@showText: false;
+@showAnimation: false;
+@bglayer: false;
+@svg1: #bfebf3;
+@customStyle: true;
+@fieldColor: #00c48c;
+@fieldHover: #0a1c44;
+@borderColor: #ffffff;
+@borderHover: #121525;
+@formText: #232323;
+@formPlaceholder: #000000;
+@uname__17: "file:///C:/Users/bacho/AppData/Local/Mobirise.com/Mobirise/sintoniabarra_0040gmail_002ecom/addons/creativem4/components/forms02/../_images/background1.jpg";
+@uname__18: #ffffff;
+@bg-value: #ffffff;
+@bg-type: "color";
+@bg-color-value: #ffffff;
+@bg-parallax: false;
+@overlay: true;
+@overlayColor: #ffffff;
+@overlayOpacity: 0.6;
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+.mbr-overlay {
+  background-color: @overlayColor;
+  opacity: @overlayOpacity;
+}
+& when (@bg-type = "image") {
+  background-image: url(../../../@bg-value);
+}
+& when (@bg-type = "color") {
+  background-color: @bg-value;
+}
+& when (@bglayer) {
+  .container {
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 169px 92px;
+    border-radius: 50px;
+    background-color: @svg1;
+    max-width: 80%;
+  }
+  @media (max-width: 768px) {
+    .container {
+      padding: 100px 20px;
+    }
+  }
+}
+& when not (@showAnimation) {
+  .wrap {
+    display: none;
+  }
+}
+.mbr-section-title {
+  color: @primaryColor;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  width: 90%;
+  border-radius: 8px;
+}
+.wrap {
+  position: relative;
+  float: left;
+  width: 50%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.image-1 {
+  position: absolute;
+  left: -45px;
+  bottom: 317px;
+  -webkit-transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  will-change: transform;
+}
+.image-2 {
+  position: absolute;
+  left: -33px;
+  top: 5px;
+  -webkit-transition: all 1.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 1.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  will-change: transform;
+}
+.image-3 {
+  position: absolute;
+  left: 229px;
+  bottom: -271px;
+  -webkit-transition: all 1.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 1.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  will-change: transform;
+}
+.image-4 {
+  position: absolute;
+  left: auto;
+  right: -11px;
+  bottom: 308px;
+  -webkit-transition: all 1.6s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 1.6s cubic-bezier(0.19, 1, 0.22, 1);
+  will-change: transform;
+}
+.image-5 {
+  position: absolute;
+  left: 7px;
+  top: 175px;
+  -webkit-transition: all 1.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 1.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+  will-change: transform;
+}
+.image-6 {
+  position: absolute;
+  left: 215px;
+  top: 40px;
+  -webkit-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: all 2s cubic-bezier(0.23, 1, 0.32, 1);
+  will-change: transform;
+}
+input, textarea {
+  padding: 14px 30px !important;
+  border-radius: 10px;
+}
+.btn {
+  border-radius: 30px;
+  padding: 0.6rem 3rem !important;
+}
+textarea {
+  min-height: 160px;
+}
+& when (@customStyle) {
+  .form-control, .field-input {
+    padding: 0.5rem;
+    background-color: @fieldColor;
+    border-color: @borderColor;
+    color: @formText;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    &:hover, &:focus {
+      background-color: @fieldHover;
+      border-color: @borderHover;
+      color: contrast(@fieldHover);
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      outline: none;
+    }
+  }
+  input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: @formPlaceholder;
+  }
+  input:-moz-placeholder, textarea:-moz-placeholder {
+    color: @formPlaceholder;
+  }
+  .jq-selectbox li, .jq-selectbox li {
+    background-color: @fieldColor;
+    color: contrast(@fieldColor, #000000, #ffffff, 30%);
+  }
+  .jq-selectbox li:hover, .jq-selectbox li.selected {
+    background-color: @fieldHover;
+    color: contrast(@fieldHover, #000000, #ffffff, 30%);
+  }
+  .jq-selectbox:hover .jq-selectbox__trigger-arrow {
+    border-top-color: @fieldColor;
+  }
+  .jq-selectbox .jq-selectbox__trigger-arrow {
+    border-top-color: @fieldHover;
+  }
+}
+h5 {
+  padding-bottom: 2rem;
+}
+@media (max-width: 1199px) {
+  .image-1 {
+    bottom: 357px;
+  }
+  .image-4 {
+    bottom: 368px;
+  }
+}
+@media (max-width: 991px) {
+  .image-1 {
+    bottom: 277px;
+  }
+  .image-4 {
+    bottom: 268px;
+    right: 79px;
+  }
+  .text-wrap > * {
+    text-align: center;
+  }
+  .dragArea h5 {
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .col-auto {
+    width: 100%;
+    text-align: center;
+  }
+}
 }
 
 .cid-sftlKNACIO {
