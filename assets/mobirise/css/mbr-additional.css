@@ -12458,3 +12458,14 @@ p {
   color: #0a1c44;
 }
 }
+
+.cid-sfQsT9xp43 {
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+background-color: @bgColor;
+.mbr-section {
+  text-align: center;
+  color: #fff;
+}
+}
