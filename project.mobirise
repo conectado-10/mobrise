@@ -13055,27 +13055,6 @@
           "_global": true,
           "_once": true,
           "_params": {}
-        },
-        {
-          "alias": "deltapi-code-editor",
-          "_isSecondary": true,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section": {
-              "text-align": "center",
-              "color": "#fff"
-            }
-          },
-          "_name": "custom-html",
-          "_customHTML": "<table align=\"center\"><tr><td height=\"30\" colspan=\"2\">\n<div align=\"center\"><h3>Grupo Conectado - Bate-papo</h3></div>\n</td>\n</tr>\n<form method=\"post\" action=\"https://batepapo.zetboo.com/batepapo.html\" target=\"_blank\" />\n<input type=\"hidden\" name=\"titulo_room\" value=\"Grupo Conectado - Bate-papo\" />\n<input type=\"hidden\" name=\"room\" value=\"grupoconectadoapp\" />\n<input type=\"hidden\" name=\"cor\" value=\"#0000FF\" />\n<input type=\"hidden\" name=\"lg\" value=\"pt-br\" />\n\n<tr>\n<td align=\"right\">\n Usuario : </td>\n<td align=\"left\"><input type=\"text\" name=\"nome\" size=\"20\" /></td>\n</tr><tr>\n<td align=\"right\">Estado : </td>\n<td align=\"left\"><input type=\"text\" name=\"vila\" size=\"20\" /></td>\n</tr><tr>\n<td align=\"right\">Idade : </td>\n<td align=\"left\"><input type=\"text\" name=\"idade\" size=\"4\" /></td>\n</tr><tr>\n<td align=\"right\">Sexo : </td>\n<td align=\"left\">\n<input type=radio name=\"sexe\" value=\"H\" checked />Homem\n<input type=radio name=\"sexe\" value=\"M\" checked />Mulher\n<input type=radio name=\"sexe\" value=\"I\" checked />Indeciso\n</td>\n</tr><tr>\n<td colspan=\"2\" align=\"center\"><input TYPE=\"submit\" value=\"conexão\" name=\"criar\" /></td>\n</form>\n</tr>\n</table>\n",
-          "_cid": "sfQsT9xp43",
-          "_anchor": "custom-html-cy",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
         }
       ]
     }
