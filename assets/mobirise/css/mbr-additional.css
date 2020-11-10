@@ -3542,7 +3542,7 @@ p {
 
 .cid-seI9wue7z3 {
 @fullWidth: true;
-@paddingTop: 2;
+@paddingTop: 1;
 @paddingBottom: 0;
 @hrColor: #000000;
 @hrHeight: 3;
@@ -7178,7 +7178,7 @@ p {
 
 .cid-seIepgeV4H {
 @fullWidth: true;
-@paddingTop: 2;
+@paddingTop: 1;
 @paddingBottom: 0;
 @hrColor: #000000;
 @hrHeight: 3;
@@ -12456,5 +12456,16 @@ p {
 }
 .media-container-row .mbr-text {
   color: #0a1c44;
+}
+}
+
+.cid-sfQsT9xp43 {
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+background-color: @bgColor;
+.mbr-section {
+  text-align: center;
+  color: #fff;
 }
 }
