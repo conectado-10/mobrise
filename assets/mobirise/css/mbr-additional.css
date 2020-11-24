@@ -13182,10 +13182,10 @@ h3, h4 {
 @uname__10: "file:///C:/Users/bacho/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-10-28_094730/assets/images/7-852x480.jpg";
 @uname__11: true;
 @uname__12: #ffffff;
-@bg-value: "file:///C:/Users/bacho/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-10-28_094730/assets/images/7-852x480.jpg";
-@bg-type: "image";
+@bg-value: #ffffff;
+@bg-type: "color";
 @bg-color-value: #ffffff;
-@bg-parallax: true;
+@bg-parallax: false;
 @overlay: true;
 @overlayColor: #c1c1c1;
 @overlayOpacity: 0.7;
