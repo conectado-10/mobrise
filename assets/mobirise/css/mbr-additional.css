@@ -13945,81 +13945,6 @@ h3, h4 {
 }
 }
 
-.cid-sjCnvXEKM2 {
-@paddingTop: 5;
-@paddingBottom: 5;
-@showTitle: true;
-@showText: true;
-@cardsAmount: "3";
-@IconSize: 3;
-@cardcolor: #ffffff;
-@uname__13: "file:///C:/Users/bacho/AppData/Local/Mobirise.com/Mobirise/sintoniabarra_0040gmail_002ecom/addons/creativem4/components/social-buttons02/../_images/background3.jpg";
-@uname__14: true;
-@uname__15: #ffffff;
-@bg-value: #ffffff;
-@bg-type: "color";
-@bg-color-value: #ffffff;
-@bg-parallax: false;
-@overlay: true;
-@overlayColor: #ffffff;
-@overlayOpacity: 0.8;
-
-padding-top: (@paddingTop * 15px);
-padding-bottom: (@paddingBottom * 15px);
-& when (@bg-type = "color") {
-  background-color: @bg-value;
-}
-& when (@bg-type = "image") {
-  background-image: url(../../../@bg-value);
-}
-.card-wrapper {
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  border-radius: 30px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  background-color: @cardcolor;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  padding: 1rem 1rem !important;
-  box-shadow: 0 15px 50px 10px fade(darken(@cardcolor, 30%), 60%);
-  &:hover {
-    -webkit-transform: translateY(1rem);
-    transform: translateY(1rem);
-    .ico2 {
-      color: @primaryColor !important;
-    }
-  }
-}
-.ico2 {
-  color: @infoColor !important;
-  -webkit-transition: all 0.6s;
-  transition: all 0.6s;
-}
-.text-info {
-  &:hover {
-    color: inherit !important;
-  }
-}
-.card-box {
-  padding: 0rem 1rem;
-}
-.ico1 {
-  font-size: (@IconSize * 1rem) !important;
-}
-h3, h4 {
-  padding: 0;
-  margin: 0;
-}
-}
-
 #witsec-custom-html-block-ew {
 }
 
@@ -14053,6 +13978,89 @@ p {
   color: #000000;
 }
 }
+
+.cid-NO4STgOOhE {
+@paddingTop: 5;
+@paddingBottom: 5;
+@showTitle: true;
+@showText: false;
+@showcardTitle: true;
+@showcardText: true;
+@showButtons: false;
+@IconSize: 3;
+@cardcolor: #ffffff;
+@cardsAmount: "3";
+@uname__10: "file:///C:/Users/Csaba/AppData/Local/Mobirise.com/Mobirise/chesswizardextra_0040gmail_002ecom/userblocks/mobirise4/features011_1/background1.jpg";
+@uname__11: true;
+@uname__12: #ffffff;
+@bg-value: #ffffff;
+@bg-type: "color";
+@bg-color-value: #ffffff;
+@bg-parallax: false;
+@overlay: true;
+@overlayColor: #ffffff;
+@overlayOpacity: 0.8;
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+}
+.mbr-text {
+  color: #716c80;
+}
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: @cardcolor;
+  transition: all 0.3s;
+  padding: 1rem 1rem !important;
+  box-shadow: 0 10px 55px 5px rgba(137, 173, 255, 0.35);
+  &:hover {
+    transform: translateY(-1rem);
+    .ico2 {
+      color: @primaryColor !important;
+    }
+  }
+}
+.text-info {
+  &:hover {
+    color: inherit!important;
+  }
+}
+.ico2 {
+  color: @infoColor !important;
+  transition: all 0.6s;
+}
+.card-box {
+  padding: 0rem 1rem;
+}
+.ico1 {
+  font-size: (@IconSize * 1rem) !important;
+}
+h3, h4 {
+  padding: 0;
+  margin: 0;
+}
+.card-title, .card-img {
+  color: #57468b;
+}
+.card-title {
+  color: #57468b;
+}
+H1 {
+  color: #57468b;
+}
+.text, .mbr-section-btn {
+  color: #716c80;
+}
+}
 .cid-sjCw9eIkEE {
   padding-top: 0rem;
   padding-bottom: 0rem;
@@ -14076,7 +14084,7 @@ p {
     0 0 120px #0698a5, 0 0 200px #0698a5;
 }
 .cid-nN0LQA5mqW {
-  padding-top: 90px;
+  padding-top: 0px;
   padding-bottom: 90px;
   background-color: #ffffff;
 }
