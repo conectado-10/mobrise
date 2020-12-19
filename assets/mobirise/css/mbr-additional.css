@@ -14135,9 +14135,6 @@ background: linear-gradient(@angle * 1deg, @bgColor, @color2);
 }
 }
 
-#witsec-custom-html-block-ew {
-}
-
 .cid-sjDbt8z6yW {
 @paddingTop: 5;
 @paddingBottom: 5;
@@ -14297,6 +14294,9 @@ padding-bottom: (@paddingBottom * 15px);
     }
   }
 }
+}
+
+#witsec-custom-html-block-ew {
 }
 
 .cid-sjyzo6u39d {
