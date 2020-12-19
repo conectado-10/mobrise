@@ -13948,37 +13948,6 @@ h3, h4 {
 #witsec-custom-html-block-ew {
 }
 
-.cid-sjyzo6u39d {
-@paddingTop: 2;
-@paddingBottom: 2;
-@reveal: false;
-@uname__8: "file:///C:/Users/bacho/AppData/Local/Mobirise.com/Mobirise/sintoniabarra_0040gmail_002ecom/addons/creativem4/components/footer01/../_images/background1.jpg";
-@uname__9: false;
-@uname__10: #ffffff;
-@bg-value: #ffffff;
-@bg-type: "color";
-@bg-color-value: #ffffff;
-@bg-parallax: false;
-@overlay: true;
-@overlayColor: #232323;
-@overlayOpacity: 0.8;
-
-padding-top: (@paddingTop * 15px);
-padding-bottom: (@paddingBottom * 15px);
-& when (@bg-type = "image") {
-  background-image: url(../../../@bg-value);
-}
-& when (@bg-type = "color") {
-  background-color: @bg-value;
-}
-p {
-  color: @dangerColor;
-}
-.media-container-row .mbr-text {
-  color: #000000;
-}
-}
-
 .cid-NO4STgOOhE {
 @paddingTop: 5;
 @paddingBottom: 5;
@@ -13992,10 +13961,10 @@ p {
 @cardsAmount: "3";
 @uname__10: "file:///C:/Users/Csaba/AppData/Local/Mobirise.com/Mobirise/chesswizardextra_0040gmail_002ecom/userblocks/mobirise4/features011_1/background1.jpg";
 @uname__11: true;
-@uname__12: #ffffff;
-@bg-value: #ffffff;
+@uname__12: #00c48c;
+@bg-value: #00c48c;
 @bg-type: "color";
-@bg-color-value: #ffffff;
+@bg-color-value: #00c48c;
 @bg-parallax: false;
 @overlay: true;
 @overlayColor: #ffffff;
@@ -14059,6 +14028,37 @@ H1 {
 }
 .text, .mbr-section-btn {
   color: #716c80;
+}
+}
+
+.cid-sjyzo6u39d {
+@paddingTop: 2;
+@paddingBottom: 2;
+@reveal: false;
+@uname__8: "file:///C:/Users/bacho/AppData/Local/Mobirise.com/Mobirise/sintoniabarra_0040gmail_002ecom/addons/creativem4/components/footer01/../_images/background1.jpg";
+@uname__9: false;
+@uname__10: #ffffff;
+@bg-value: #ffffff;
+@bg-type: "color";
+@bg-color-value: #ffffff;
+@bg-parallax: false;
+@overlay: true;
+@overlayColor: #232323;
+@overlayOpacity: 0.8;
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+& when (@bg-type = "image") {
+  background-image: url(../../../@bg-value);
+}
+& when (@bg-type = "color") {
+  background-color: @bg-value;
+}
+p {
+  color: @dangerColor;
+}
+.media-container-row .mbr-text {
+  color: #000000;
 }
 }
 .cid-sjCw9eIkEE {
