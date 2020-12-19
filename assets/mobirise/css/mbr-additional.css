@@ -13947,12 +13947,12 @@ h3, h4 {
 
 .cid-sjCjRBTaZU {
 @typeSlider: "headerSlider";
-@paddingTop: 3;
-@paddingBottom: 3;
-@sliderWSize: 60;
-@sliderHSize: 400;
+@paddingTop: 1;
+@paddingBottom: 0;
+@sliderWSize: 50;
+@sliderHSize: 300;
 @bgColor: #ffffff;
-@slides__autoplay: "false";
+@slides__autoplay: "true";
 @slides__autoplayInterval: 4000;
 @slides__showBullets: true;
 @slides__embedded: "false";
