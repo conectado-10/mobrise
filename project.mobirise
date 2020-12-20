@@ -14541,269 +14541,6 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-slider .carousel-control": {
-              "background": "#1b1b1b"
-            },
-            ".mbr-slider .carousel-control-prev": {
-              "left": "0",
-              "margin-left": "2.5rem"
-            },
-            ".mbr-slider .carousel-control-next": {
-              "right": "0",
-              "margin-right": "2.5rem"
-            },
-            ".mbr-slider .modal-body .close": {
-              "background": "#1b1b1b"
-            },
-            ".row > .row": {
-              "display": "block"
-            },
-            ".mbr-gallery-item": {
-              "width": "100%"
-            },
-            ".mbr-gallery-item > div::before": {
-              "content": "''",
-              "position": "absolute",
-              "left": "0",
-              "top": "0",
-              "width": "100%",
-              "height": "100%",
-              "background": "@overlayColor",
-              "opacity": "0",
-              "-webkit-transition": "0.2s opacity ease-in-out",
-              "transition": "0.2s opacity ease-in-out",
-              "& when (@gradOverlay)": {
-                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
-              }
-            },
-            ".mbr-gallery-item > div": {
-              "position": "relative",
-              "&:hover": {
-                ".mbr-gallery-title::before": {
-                  "background": "transparent !important"
-                },
-                "&:before": {
-                  "opacity": "@overlayOpacity !important"
-                }
-              }
-            },
-            ".mbr-gallery-title": {
-              "font-size": ".9em",
-              "position": "absolute",
-              "display": "block",
-              "width": "100%",
-              "bottom": "0",
-              "padding": "1rem",
-              "color": "#fff",
-              "z-index": "2",
-              "&:before": {
-                "content": "\" \"",
-                "width": "100%",
-                "height": "100%",
-                "top": "0",
-                "left": "0",
-                "z-index": "-1",
-                "position": "absolute",
-                "background": "@overlayColor !important",
-                "opacity": "@overlayOpacity",
-                "-webkit-transition": "0.2s background ease-in-out",
-                "transition": "0.2s background ease-in-out",
-                "& when (@gradOverlay)": {
-                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
-                }
-              }
-            }
-          },
-          "_name": "design-block",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-count=\"2\" mbr-gallery-first-count=\"3\" mbr-gallery-second-count=\"4\" mbr-gallery-third-count=\"2\" mbr-gallery-fourth-count=\"2\" mbr-gallery-flex-vertical mbr-gallery-show-bullets mbr-gallery-show-text></div>\n    </div>\n\n</section>",
-          "_cid": "nN0LQA5mqW",
-          "_anchor": "design-block-nN0LQA5mqW",
-          "_protectedParams": [
-            "gallery"
-          ],
-          "_global": false,
-          "_once": false,
-          "_params": {
-            "gallery": [
-              {
-                "tags": "Animado",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/f443dc8e-007e-4488-ba3f-5553881ccaf0-780x1040.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/f443dc8e-007e-4488-ba3f-5553881ccaf0-780x1040-780x1040.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Digite aqui a legenda",
-                "active": true
-              },
-              {
-                "tags": "Fantástica",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/0c172c79-576f-4628-9ef0-d02a56eaf0b9-780x1040.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/0c172c79-576f-4628-9ef0-d02a56eaf0b9-780x1040-780x1040.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Digite aqui a legenda",
-                "active": false
-              },
-              {
-                "tags": "Responsivo",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/6160e93b-007b-4a6c-bdb0-860c238130b0-780x1040.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/6160e93b-007b-4a6c-bdb0-860c238130b0-780x1040-780x1040.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Digite aqui a legenda",
-                "active": false
-              },
-              {
-                "tags": "Criativo",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/9203575c-103f-4f6c-b57e-13ef1fa25f3b-780x1040.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/9203575c-103f-4f6c-b57e-13ef1fa25f3b-780x1040-780x1040.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Digite aqui a legenda",
-                "active": false
-              },
-              {
-                "tags": "Fantástica",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/7c699a2f-d465-43b0-964e-458ceb1d23dc-1040x780.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/7c699a2f-d465-43b0-964e-458ceb1d23dc-1040x780-800x600.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Digite aqui a legenda",
-                "active": false
-              },
-              {
-                "tags": "Fantástica",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/127652980-420087308999824-8612101305585360412-o-1898x2015-800x849.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/127652980-420087308999824-8612101305585360412-o-1898x2015-800x849-800x849.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Digite aqui a legenda",
-                "active": false
-              },
-              {
-                "tags": "Responsivo",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/a1daf461-db58-4230-b15c-24a475cf629c-780x1040.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/a1daf461-db58-4230-b15c-24a475cf629c-780x1040-780x1040.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Digite aqui a legenda",
-                "active": true
-              },
-              {
-                "tags": "Animado",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/gallery07.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gallery07.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Digite aqui a legenda",
-                "active": false
-              },
-              {
-                "tags": "Fantástica",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/0c172c79-576f-4628-9ef0-d02a56eaf0b9-780x1040.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/0c172c79-576f-4628-9ef0-d02a56eaf0b9-780x1040-780x1040.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Digite aqui a legenda",
-                "active": false
-              },
-              {
-                "tags": "Fantástica",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/0c172c79-576f-4628-9ef0-d02a56eaf0b9-780x1040.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/0c172c79-576f-4628-9ef0-d02a56eaf0b9-780x1040-780x1040.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Digite aqui a legenda",
-                "active": false
-              },
-              {
-                "tags": "Fantástica",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/6160e93b-007b-4a6c-bdb0-860c238130b0-780x1040.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/6160e93b-007b-4a6c-bdb0-860c238130b0-780x1040-780x1040.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Digite aqui a legenda",
-                "active": false
-              }
-            ]
-          }
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = \"image\")": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = \"color\")": {
-              "background-color": "@bg-value"
-            },
-            "p": {
-              "color": "@dangerColor"
-            },
-            ".media-container-row .mbr-text": {
-              "color": "#000000"
-            }
-          },
-          "_name": "footer01",
-          "_customHTML": "<section group=\"Footers\" global once mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-black\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\"><b>\n                    © Grupo Conectado 2018</b></p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "sjyzo6u39d",
-          "_anchor": "footer01-f2",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": true,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'color')": {
               "background": "linear-gradient(@angle * 1deg, @bg-value, @color2)"
             },
@@ -15149,12 +14886,39 @@
             }
           },
           "_name": "design-block",
-          "_customHTML": "<section class=\"features2\" group=\"Features\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        \n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            </select>\n            \n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/lionaf.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        \n         <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ff3366\" condition=\"bg.type == 'color'\">\n         <input type=\"range\" name=\"angle\" title=\"Angle\" min=\"0\" max=\"270\" value=\"0\" step=\"1\" condition=\"bg.type == 'color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n\n <header>Before 1</header>\n      <input type=\"image\" title=\"Image 1\" name=\"bgImgBe3\" value=\"@PROJECT_PATH@/assets/images/f443dc8e-007e-4488-ba3f-5553881ccaf0-780x1040.jpg\" condition=\"cardsAmount <= '3'\">\n      <input type=\"image\" title=\"Image 2\" name=\"bgImgAf3\" value=\"@PROJECT_PATH@/assets/images/6160e93b-007b-4a6c-bdb0-860c238130b0-780x1040-780x1040.jpg\" condition=\"cardsAmount <= '3'\">\n\n      <input type=\"range\" title=\"Height Tunning\" name=\"Heightcon3\" min=\"100\" max=\"1300\" step=\"1\" value=\"247\" condition=\"cardsAmount <= '3'\">\n      <input type=\"range\" title=\"Width Tunning\" name=\"Widthcon3\" min=\"100\" max=\"1300\" step=\"1\" value=\"331\" condition=\"cardsAmount <= '3'\">\n      \n        <select inline=\"\" title=\"Comparision Style\" name=\"comparlogo\" condition=\"cardsAmount <= '3'\">\n            <option value=\" \">Nothing</option>\n            <option value=\"https://www.unsitepourtous.be/mobi/comparision.png\">Round</option>\n            <option value=\"https://www.unsitepourtous.be/mobi/comparision2.png\" selected>Arrow</option>\n                       <option value=\"https://www.unsitepourtous.be/mobi/comparision3.png\">Square</option>\n        </select>\n      \n       <header condition=\"cardsAmount == '2' || cardsAmount == '3'\">Before 2</header>\n      \n       <input type=\"image\" title=\"Image 1\" name=\"bgImgBe4\" value=\"@PROJECT_PATH@/assets/images/lionaf.jpg\" condition=\"cardsAmount == '2' || cardsAmount == '3'\">\n      <input type=\"image\" title=\"Image 2\" name=\"bgImgAf4\" value=\"@PROJECT_PATH@/assets/images/lionbe.jpg\" condition=\"cardsAmount == '2' || cardsAmount == '3'\">\n\n      <input type=\"range\" title=\"Height Tunning\" name=\"Heightcon4\" min=\"100\" max=\"1300\" step=\"1\" value=\"247\" condition=\"cardsAmount == '2' || cardsAmount == '3'\">\n      <input type=\"range\" title=\"Width Tunning\" name=\"Widthcon4\" min=\"100\" max=\"1300\" step=\"1\" value=\"331\" condition=\"cardsAmount == '2' || cardsAmount == '3'\">\n       <header condition=\"cardsAmount == '3'\">Before 3</header>\n       \n       \n                    <input type=\"image\" title=\"Image 1\" name=\"bgImgBe5\" value=\"@PROJECT_PATH@/assets/images/lionaf.jpg\" condition=\"cardsAmount == '3'\">\n      <input type=\"image\" title=\"Image 2\" name=\"bgImgAf5\" value=\"@PROJECT_PATH@/assets/images/lionbe.jpg\" condition=\"cardsAmount == '3'\">\n\n      <input type=\"range\" title=\"Height Tunning\" name=\"Heightcon5\" min=\"100\" max=\"1300\" step=\"1\" value=\"247\" condition=\"cardsAmount == '3'\">\n      <input type=\"range\" title=\"Width Tunning\" name=\"Widthcon5\" min=\"100\" max=\"1300\" step=\"1\" value=\"331\" condition=\"cardsAmount == '3'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\">\n    </div>  \n \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n    <div class=\"container3\">\n  <figure>\n    <div id=\"compare3\"></div>\n  </figure>\n  <input oninput=\"beforeAfter3()\" onchange=\"beforeAfter3()\" type=\"range\" min=\"0\" max=\"100\" value=\"50\" id=\"slider3\">\n</div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            No Coding\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise is an easy website builder - just drop site elements to your page, add content and style it to look the way you like. <a href=\"https://mobiri.se\">Learn more...</a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n    <div class=\"container4\">\n  <figure>\n    <div id=\"compare4\"></div>\n  </figure>\n  <input oninput=\"beforeAfter4()\" onchange=\"beforeAfter4()\" type=\"range\" min=\"0\" max=\"100\" value=\"50\" id=\"slider4\">\n</div>\n                    <div class=\"card-box \">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Mobile Friendly\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            All sites you make with Mobirise are mobile-friendly. You don't have to create a special mobile version of your site. <a href=\"https://mobiri.se\">Learn more...</a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                \n                \n                \n    <div class=\"container5\">\n  <figure>\n    <div id=\"compare5\"></div>\n  </figure>\n  <input oninput=\"beforeAfter5()\" onchange=\"beforeAfter5()\" type=\"range\" min=\"0\" max=\"100\" value=\"50\" id=\"slider5\">\n</div>\n\n\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Unlimited Sites\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app. <a href=\"https://mobiri.se\">Learn more...</a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <script type=\"text/javascript\">\n\nfunction beforeAfter3() {\n  document.getElementById('compare3').style.width = document.getElementById('slider3').value + \"%\";\n}\n\nfunction beforeAfter4() {\n  document.getElementById('compare4').style.width = document.getElementById('slider4').value + \"%\";\n}\n\nfunction beforeAfter5() {\n  document.getElementById('compare5').style.width = document.getElementById('slider5').value + \"%\";\n}\n</script>\n</section>",
-          "_cid": "Tf2HpiZ28m",
-          "_anchor": "design-block-Tf2HpiZ28m",
+          "_customHTML": "<section class=\"features2\" group=\"Features\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        \n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            </select>\n            \n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"file:///C:/Users/Zen2cool/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-11-05_184344/assets/images/lionaf.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        \n         <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ff3366\" condition=\"bg.type == 'color'\">\n         <input type=\"range\" name=\"angle\" title=\"Angle\" min=\"0\" max=\"270\" value=\"0\" step=\"1\" condition=\"bg.type == 'color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n\n <header>Before 1</header>\n      <input type=\"image\" title=\"Image 1\" name=\"bgImgBe3\" value=\"@PROJECT_PATH@/assets/images/9203575c-103f-4f6c-b57e-13ef1fa25f3b-780x1040.jpg\" condition=\"cardsAmount <= '3'\">\n      <input type=\"image\" title=\"Image 2\" name=\"bgImgAf3\" value=\"@PROJECT_PATH@/assets/images/a1daf461-db58-4230-b15c-24a475cf629c-780x1040.jpg\" condition=\"cardsAmount <= '3'\">\n\n      <input type=\"range\" title=\"Height Tunning\" name=\"Heightcon3\" min=\"100\" max=\"1300\" step=\"1\" value=\"283\" condition=\"cardsAmount <= '3'\">\n      <input type=\"range\" title=\"Width Tunning\" name=\"Widthcon3\" min=\"100\" max=\"1300\" step=\"1\" value=\"247\" condition=\"cardsAmount <= '3'\">\n      \n        <select inline=\"\" title=\"Comparision Style\" name=\"comparlogo\" condition=\"cardsAmount <= '3'\">\n            <option value=\" \">Nothing</option>\n            <option value=\"https://www.unsitepourtous.be/mobi/comparision.png\" selected>Round</option>\n            <option value=\"https://www.unsitepourtous.be/mobi/comparision2.png\">Arrow</option>\n                       <option value=\"https://www.unsitepourtous.be/mobi/comparision3.png\">Square</option>\n        </select>\n      \n       <header condition=\"cardsAmount == '2' || cardsAmount == '3'\">Before 2</header>\n      \n       <input type=\"image\" title=\"Image 1\" name=\"bgImgBe4\" value=\"@PROJECT_PATH@/assets/images/0c172c79-576f-4628-9ef0-d02a56eaf0b9-734x979.jpg\" condition=\"cardsAmount == '2' || cardsAmount == '3'\">\n      <input type=\"image\" title=\"Image 2\" name=\"bgImgAf4\" value=\"@PROJECT_PATH@/assets/images/6160e93b-007b-4a6c-bdb0-860c238130b0-780x1040-780x1040.jpg\" condition=\"cardsAmount == '2' || cardsAmount == '3'\">\n\n      <input type=\"range\" title=\"Height Tunning\" name=\"Heightcon4\" min=\"100\" max=\"1300\" step=\"1\" value=\"247\" condition=\"cardsAmount == '2' || cardsAmount == '3'\">\n      <input type=\"range\" title=\"Width Tunning\" name=\"Widthcon4\" min=\"100\" max=\"1300\" step=\"1\" value=\"331\" condition=\"cardsAmount == '2' || cardsAmount == '3'\">\n       <header condition=\"cardsAmount == '3'\">Before 3</header>\n       \n       \n                    <input type=\"image\" title=\"Image 1\" name=\"bgImgBe5\" value=\"@PROJECT_PATH@/assets/images/7c699a2f-d465-43b0-964e-458ceb1d23dc-1040x780.jpg\" condition=\"cardsAmount == '3'\">\n      <input type=\"image\" title=\"Image 2\" name=\"bgImgAf5\" value=\"@PROJECT_PATH@/assets/images/lionbe.jpg\" condition=\"cardsAmount == '3'\">\n\n      <input type=\"range\" title=\"Height Tunning\" name=\"Heightcon5\" min=\"100\" max=\"1300\" step=\"1\" value=\"247\" condition=\"cardsAmount == '3'\">\n      <input type=\"range\" title=\"Width Tunning\" name=\"Widthcon5\" min=\"100\" max=\"1300\" step=\"1\" value=\"331\" condition=\"cardsAmount == '3'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\">\n    </div>  \n \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n    <div class=\"container3\">\n  <figure>\n    <div id=\"compare3\"></div>\n  </figure>\n  <input oninput=\"beforeAfter3()\" onchange=\"beforeAfter3()\" type=\"range\" min=\"0\" max=\"100\" value=\"50\" id=\"slider3\">\n</div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">ANTES E DEPOIS</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise is an easy website builder - just drop site elements to your page, add content and style it to look the way you like. <a href=\"https://mobiri.se\">Learn more...</a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n    <div class=\"container4\">\n  <figure>\n    <div id=\"compare4\"></div>\n  </figure>\n  <input oninput=\"beforeAfter4()\" onchange=\"beforeAfter4()\" type=\"range\" min=\"0\" max=\"100\" value=\"50\" id=\"slider4\">\n</div>\n                    <div class=\"card-box \">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            ANTES E DEPOIS</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            All sites you make with Mobirise are mobile-friendly. You don't have to create a special mobile version of your site. <a href=\"https://mobiri.se\">Learn more...</a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                \n                \n                \n    <div class=\"container5\">\n  <figure>\n    <div id=\"compare5\"></div>\n  </figure>\n  <input oninput=\"beforeAfter5()\" onchange=\"beforeAfter5()\" type=\"range\" min=\"0\" max=\"100\" value=\"50\" id=\"slider5\">\n</div>\n\n\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            MANICURE /MÃO</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app. <a href=\"https://mobiri.se\">Learn more...</a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <script type=\"text/javascript\">\n\nfunction beforeAfter3() {\n  document.getElementById('compare3').style.width = document.getElementById('slider3').value + \"%\";\n}\n\nfunction beforeAfter4() {\n  document.getElementById('compare4').style.width = document.getElementById('slider4').value + \"%\";\n}\n\nfunction beforeAfter5() {\n  document.getElementById('compare5').style.width = document.getElementById('slider5').value + \"%\";\n}\n</script>\n</section>",
+          "_cid": "z75alfmXo9",
+          "_anchor": "design-block-z75alfmXo9",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "p": {
+              "color": "@dangerColor"
+            },
+            ".media-container-row .mbr-text": {
+              "color": "#000000"
+            }
+          },
+          "_name": "footer01",
+          "_customHTML": "<section group=\"Footers\" global once mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-black\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\"><b>\n                    © Grupo Conectado 2018</b></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sjyzo6u39d",
+          "_anchor": "footer01-f2",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": true,
           "_params": {}
         }
       ]
