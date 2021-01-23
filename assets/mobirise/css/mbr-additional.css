@@ -15158,11 +15158,11 @@ p {
 @uname__15: "file:///C:/Users/Csaba/AppData/Local/Mobirise.com/Mobirise/chesswizardextra_0040gmail_002ecom/userblocks/mobirise4/header3_6/background1.jpg";
 @uname__16: false;
 @uname__17: #ffffff;
-@bg-value: #ffffff;
-@bg-type: "color";
+@bg-value: "file:///C:/Users/Csaba/AppData/Local/Mobirise.com/Mobirise/chesswizardextra_0040gmail_002ecom/userblocks/mobirise4/header3_6/background1.jpg";
+@bg-type: "image";
 @bg-color-value: #ffffff;
 @bg-parallax: false;
-@overlay: true;
+@overlay: false;
 @overlayColor: #000000;
 @overlayOpacity: 0.3;
 
