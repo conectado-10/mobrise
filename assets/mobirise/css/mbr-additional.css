@@ -15115,121 +15115,6 @@ h3, h4 {
 #witsec-custom-html-block-ff {
 }
 
-.cid-ZgnlAnqaqZ {
-@paddingTop: 3;
-@paddingBottom: 3;
-@NbrCard: "1";
-@CardSize: 65;
-@ImgSize: 30;
-@radius: 19;
-@Cardradius: 19;
-@CardColor: #cccccc;
-@showTitle: true;
-@showSubtitle: true;
-@showButtons: false;
-@CardShColor: #ffffff;
-@Flou: 9;
-@DecalX: 16;
-@DecalY: 16;
-@uname__12: "https://www.unsitepourtous.be/mobi/lionaf.jpg";
-@uname__13: false;
-@uname__14: #ffffff;
-@bg-value: #ffffff;
-@bg-type: "color";
-@bg-color-value: #ffffff;
-@bg-parallax: false;
-@color2: #ffffff;
-@angle: 0;
-@transp: false;
-@overlay: false;
-@overlayColor: #232323;
-@overlayOpacity: 0.3;
-
-padding-top: (@paddingTop * 15px);
-padding-bottom: (@paddingBottom * 15px);
-& when (@bg-type = 'color') {
-  & when not (@transp) {
-    background: linear-gradient(@angle * 1deg, @bg-value, @color2);
-  }
-  & when (@transp) {
-    background: transparent;
-  }
-}
-& when (@bg-type = 'image') {
-  background-image: url(../../../@bg-value);
-}
-.mbr-section {
-  text-align: center;
-  color: #fff;
-}
-* {
-  box-sizing: border-box;
-}
-body {
-  font-family: "Open Sans", sans-serif;
-  margin: 0;
-  padding: 5rem 1rem;
-}
-p {
-  margin: 0 0 1rem;
-}
-img {
-  display: block;
-  width: 100%;
-  border-radius: (@radius * 1px);
-  -webkit-border-radius: (@radius * 1px);
-  -moz-border-radius: (@radius * 1px);
-}
-.flex-container {
-  max-width: (@CardSize * 1rem);
-  margin: 0 auto 5rem auto;
-  filter: drop-shadow((@DecalX * 1px) (@DecalY * 1px) (@Flou * 1px) @CardShColor);
-}
-.col {
-  position: relative;
-}
-.col--img {
-  flex: 0 0 (@ImgSize * 1%);
-  align-self: flex-start;
-}
-.col--text {
-  background-color: @CardColor;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  border-radius: (@Cardradius * 1px);
-  -webkit-border-radius: (@Cardradius * 1px);
-  -moz-border-radius: (@Cardradius * 1px);
-}
-@media (min-width: 40em) {
-  h3 {
-    font-size: 2rem;
-  }
-  .flex-container {
-    display: flex;
-  }
-  .col--text {
-    padding: 2rem 4rem;
-    margin-top: 2rem;
-    margin-left: -2rem;
-    z-index: -1;
-  }
-}
-.mbr-section-subtitle {
-  text-align: left;
-  color: #0a1c44;
-}
-P {
-  color: #0a1c44;
-  text-align: left;
-}
-H3 {
-  text-align: left;
-  color: #ffffff;
-}
-}
-
 .cid-smUi5ldLge {
 @paddingTop: 2;
 @paddingBottom: 2;
@@ -15258,5 +15143,74 @@ p {
 }
 .media-container-row .mbr-text {
   color: #000000;
+}
+}
+
+.cid-Xhx0OnIj6E {
+@fullScreen: false;
+@showArrow: false;
+@paddingTop: 8;
+@paddingBottom: 0;
+@flexDirection: true;
+@showTitle: true;
+@showText: true;
+@showButtons: true;
+@uname__15: "file:///C:/Users/Csaba/AppData/Local/Mobirise.com/Mobirise/chesswizardextra_0040gmail_002ecom/userblocks/mobirise4/header3_6/background1.jpg";
+@uname__16: false;
+@uname__17: #ffffff;
+@bg-value: #ffffff;
+@bg-type: "color";
+@bg-color-value: #ffffff;
+@bg-parallax: false;
+@overlay: true;
+@overlayColor: #000000;
+@overlayOpacity: 0.3;
+
+& when not (@fullScreen) {
+  padding-top: (@paddingTop * 15px);
+  padding-bottom: (@paddingBottom * 15px);
+}
+& when (@bg-type = "color") {
+  background-color: @bg-value;
+}
+& when (@bg-type = "image") {
+  background-image: url(../../../@bg-value);
+}
+& when (@flexDirection) {
+  .row {
+    flex-direction: row-reverse;
+  }
+}
+.container-fluid {
+  padding: 0;
+}
+img {
+  width: 100%;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+@media (max-width: 1400px) {
+  .content {
+    padding: 3rem;
+  }
+}
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+.img-col {
+  padding: 0;
+  margin: auto;
+}
+.mbr-text, .mbr-section-btn {
+  color: #0a1c44;
+}
+.mbr-section-title {
+  color: #0a1c44;
 }
 }

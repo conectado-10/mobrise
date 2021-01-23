@@ -15496,102 +15496,6 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "& when not (@transp)": {
-                "background": "linear-gradient(@angle * 1deg, @bg-value, @color2)"
-              },
-              "& when (@transp)": {
-                "background": "transparent"
-              }
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-section": {
-              "text-align": "center",
-              "color": "#fff"
-            },
-            "*": {
-              "box-sizing": "border-box"
-            },
-            "body": {
-              "font-family": "\"Open Sans\", sans-serif",
-              "margin": "0",
-              "padding": "5rem 1rem"
-            },
-            "p": {
-              "margin": "0 0 1rem"
-            },
-            "img": {
-              "display": "block",
-              "width": "100%",
-              "border-radius": "(@radius * 1px)",
-              "-webkit-border-radius": "(@radius * 1px)",
-              "-moz-border-radius": "(@radius * 1px)"
-            },
-            ".flex-container": {
-              "max-width": "(@CardSize * 1rem)",
-              "margin": "0 auto 5rem auto",
-              "filter": "drop-shadow((@DecalX * 1px) (@DecalY * 1px) (@Flou * 1px) @CardShColor)"
-            },
-            ".col": {
-              "position": "relative"
-            },
-            ".col--img": {
-              "flex": "0 0 (@ImgSize * 1%)",
-              "align-self": "flex-start"
-            },
-            ".col--text": {
-              "background-color": "@CardColor",
-              "padding": "1rem",
-              "display": "flex",
-              "flex-direction": "column",
-              "position": "relative",
-              "border-radius": "(@Cardradius * 1px)",
-              "-webkit-border-radius": "(@Cardradius * 1px)",
-              "-moz-border-radius": "(@Cardradius * 1px)"
-            },
-            "@media (min-width: 40em)": {
-              "h3": {
-                "font-size": "2rem"
-              },
-              ".flex-container": {
-                "display": "flex"
-              },
-              ".col--text": {
-                "padding": "2rem 4rem",
-                "margin-top": "2rem",
-                "margin-left": "-2rem",
-                "z-index": "-1"
-              }
-            },
-            ".mbr-section-subtitle": {
-              "text-align": "left",
-              "color": "#0a1c44"
-            },
-            "P": {
-              "color": "#0a1c44",
-              "text-align": "left"
-            },
-            "H3": {
-              "text-align": "left",
-              "color": "#ffffff"
-            }
-          },
-          "_name": "design-block",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n\n\n           <header>Card</header>\n         \n        <select title=\"Card Count\" name=\"NbrCard\">\n             <option value=\"1\" selected>1</option>\n             <option value=\"2\">2</option>\n             <option value=\"3\">3</option>\n             <option value=\"4\">4</option>\n             <option value=\"5\">5</option>\n        </select>\n        <input type=\"range\" inline title=\"Card Size\" name=\"CardSize\" min=\"30\" max=\"100\" step=\"1\" value=\"65\"> \n        <input type=\"range\" inline title=\"Image Size\" name=\"ImgSize\" min=\"30\" max=\"75\" step=\"1\" value=\"30\">\n\t\t<input type=\"range\" inline title=\"Image Radius\" name=\"radius\" min=\"0\" max=\"100\" step=\"1\" value=\"19\">\n\t\t<input type=\"range\" inline title=\"Card Radius\" name=\"Cardradius\" min=\"0\" max=\"100\" step=\"1\" value=\"19\"> \n         <input type=\"color\" title=\"Card Color\" name=\"CardColor\" value=\"#cccccc\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showSubtitle\" checked>\n\t\t        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n         <input type=\"color\" title=\"Card Shadow\" name=\"CardShColor\" value=\"#ffffff\">\n         \n         <input type=\"range\" inline title=\"Size Shadow\" name=\"Flou\" min=\"0\" max=\"100\" step=\"1\" value=\"14\">\n          <input type=\"range\" inline title=\"Size Shadow\" name=\"Flou\" min=\"0\" max=\"100\" step=\"1\" value=\"9\">\n          <input type=\"range\" inline title=\"Pos X\" name=\"DecalX\" min=\"-16\" max=\"16\" step=\"1\" value=\"16\">\n          <input type=\"range\" inline title=\"Pos Y\" name=\"DecalY\" min=\"-16\" max=\"16\" step=\"1\" value=\"16\">\n\n                           \n         \n<header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"https://www.unsitepourtous.be/mobi/lionaf.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n        \n         <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ffffff\" condition=\"bg.type == 'color'\">\n         <input type=\"range\" name=\"angle\" title=\"Angle\" min=\"0\" max=\"270\" value=\"0\" step=\"1\" condition=\"bg.type == 'color'\">\n\t\t <input type=\"checkbox\" title=\"Background Transparent\" name=\"transp\" condition=\"bg.type == 'color'\">\n\t\t\n\t\t\n\t\t        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n        \n\n    <!-- End block parameters -->\n    </mbr-parameters> \n        <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\">\n    </div>\n    \n  \n<div class=\"flex-container\">\n\t<div class=\"col col--text\">\n\t\t<h2 mbr-if=\"showTitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-2\">PROF.SANDRA PINHEIRO</h2>\n\t\t<p mbr-if=\"showSubtitle\" class=\"align-center mbr-fonts-style\" mbr-theme-style=\"display-7\">Olá mamães, papais e responsáveis pelo conhecimento dos pequenos !\n<br>Eu estou aqui para ajudar vocês nesta época de pandemia !\n<br>Reforço Escolar e Atendimento Pedagógico para as crianças , atendo também crianças com necessidades especiais com Déficit de aprendizagem  !\n<br>Temos parcerias com professores de outros anos de escolaridade.\n<br>Com todas as normas de segurança , máscara álcool em gel e toda higienização necessária !\n<br>Apenas um aluno para não ter aglomeração !\n<br>\n<br>Com preço justo e com muito amor !\n<br>\n<br>Me ligue e agende um horário! Venha estudar com quem sabe ensinar !<br><br></p>\n           <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n           <span class=\"mbr-iconfont mbri-file\"></span>EN SAVOIR PLUS</a></div>\n\t</div>\n\t\t<div class=\"col col--img\">\n\t\t<img src=\"@PROJECT_PATH@/assets/images/logo-preto-e-laranja-de-escola-do-ensino-mdio-2-500x500.png\" alt title>\n\t</div>\n</div>\n\n\n<div class=\"flex-container\" mbr-if=\"NbrCard > 1\">\n\n\t<div class=\"col col--text\">\n\t\t<h2 mbr-if=\"showTitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-2\">Title</h2>\n\t\t<p mbr-if=\"showSubtitle\" class=\"align-center mbr-fonts-style\" mbr-theme-style=\"display-7\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br></p>\n\t           <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n           <span class=\"mbr-iconfont mbri-file\"></span>EN SAVOIR PLUS</a></div>\n\t</div>\n\t\t<div class=\"col col--img\">\n\t\t<img src=\"https://www.unsitepourtous.be/mobi/lionbe.jpg\" alt>\n\t</div>\n</div>\n\n\n<div class=\"flex-container\" mbr-if=\"NbrCard > 2\">\n\n\t<div class=\"col col--text\">\n\t\t<h2 mbr-if=\"showTitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-2\">Title</h2>\n\t\t<p mbr-if=\"showSubtitle\" class=\"align-center mbr-fonts-style\" mbr-theme-style=\"display-7\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br></p>\n           <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n           <span class=\"mbr-iconfont mbri-file\"></span>EN SAVOIR PLUS</a></div>\n\t</div>\n\t\t<div class=\"col col--img\">\n\t\t<img src=\"https://www.unsitepourtous.be/mobi/lionbe.jpg\" alt>\n\t</div>\n</div>\n\n<div class=\"flex-container\" mbr-if=\"NbrCard > 3\">\n\n\t<div class=\"col col--text\">\n\t\t<h2 mbr-if=\"showTitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-2\">Title</h2>\n\t\t<p mbr-if=\"showSubtitle\" class=\"align-center mbr-fonts-style\" mbr-theme-style=\"display-7\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br></p>\n\t           <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n           <span class=\"mbr-iconfont mbri-file\"></span>EN SAVOIR PLUS</a></div>\n\t</div>\t<div class=\"col col--img\">\n\t\t<img src=\"https://www.unsitepourtous.be/mobi/lionbe.jpg\" alt>\n\t</div>\n</div>\n\n<div class=\"flex-container\" mbr-if=\"NbrCard > 4\">\n\n\t<div class=\"col col--text\">\n\t\t<h2 mbr-if=\"showTitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-2\">Title</h2>\n\t\t<p mbr-if=\"showSubtitle\" class=\"align-center mbr-fonts-style\" mbr-theme-style=\"display-7\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br></p>\n\t           <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n           <span class=\"mbr-iconfont mbri-file\"></span>EN SAVOIR PLUS</a></div>\n\t</div>\n\t\t<div class=\"col col--img\">\n\t\t<img src=\"https://www.unsitepourtous.be/mobi/lionbe.jpg\" alt>\n\t</div>\n</div>\n\n</section>",
-          "_cid": "ZgnlAnqaqZ",
-          "_anchor": "design-block-ZgnlAnqaqZ",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = \"image\")": {
               "background-image": "url(@bg-value)"
             },
@@ -15612,6 +15516,66 @@
           "_protectedParams": [],
           "_global": true,
           "_once": true,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@flexDirection)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".container-fluid": {
+              "padding": "0"
+            },
+            "img": {
+              "width": "100%"
+            },
+            ".content": {
+              "display": "flex",
+              "flex-direction": "column",
+              "justify-content": "center",
+              "padding-left": "10rem",
+              "padding-right": "10rem"
+            },
+            "@media (max-width: 1400px)": {
+              ".content": {
+                "padding": "3rem"
+              }
+            },
+            ".row": {
+              "margin-right": "0",
+              "margin-left": "0"
+            },
+            ".img-col": {
+              "padding": "0",
+              "margin": "auto"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#0a1c44"
+            },
+            ".mbr-section-title": {
+              "color": "#0a1c44"
+            }
+          },
+          "_name": "design-block",
+          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" condition=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"flexDirection\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"file:///C:/Users/Csaba/AppData/Local/Mobirise.com/Mobirise/chesswizardextra_0040gmail_002ecom/userblocks/mobirise4/header3_6/background1.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#ffffff\" title=\"Color\" selected>\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=9morbKMwCu4\" title=\"Video\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container-fluid align-center\">\n        <div class=\"row\">\n            <div class=\"mbr-white col-lg-6 col-md-12 content\">\n                <h1 class=\"mbr-section-title mbr-bold align-left mbr-white pb-5 mbr-fonts-style align-left\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                    PROF.SANDRA PINHEIRO</h1>\n                <p class=\"mbr-text align-left pb-4 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Olá mamães, papais e responsáveis pelo conhecimento dos pequenos ! \n<br>Eu estou aqui para ajudar vocês nesta época de pandemia ! \n<br>Reforço Escolar e Atendimento Pedagógico para as crianças , atendo também crianças com necessidades especiais com Déficit de aprendizagem ! \n<br>Temos parcerias com professores de outros anos de escolaridade. \n<br>Com todas as normas de segurança , máscara álcool em gel e toda higienização necessária ! \n<br>Apenas um aluno para não ter aglomeração ! \n<br>\n<br>Com preço justo e com muito amor ! \n<br>\n<br>Me ligue e agende um horário! Venha estudar com quem sabe ensinar !</p>\n                <div class=\"mbr-section-btn align-left\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"https://api.whatsapp.com/send?phone=5522996061356&text=Indicado%20pelo%20Grupo%20Conectado\" data-app-placeholder=\"Type Text\">\n                        AGENDAMENTO</a> <a class=\"btn btn-md btn-primary\" href=\"mailto:smpop1967@hotmail.com\" data-app-placeholder=\"Type Text\">ENVIAR EMAIL</a></div>\n            </div>\n\n            <div class=\"mbr-white img-col col-lg-6 col-md-12\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-preto-e-laranja-de-escola-do-ensino-mdio-2-500x500.png\" title alt>\n            </div>\n\n\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-arrow-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_cid": "Xhx0OnIj6E",
+          "_anchor": "design-block-Xhx0OnIj6E",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
           "_params": {}
         }
       ]
