@@ -15145,3 +15145,64 @@ p {
   color: #000000;
 }
 }
+
+.cid-udXBVkXYeO {
+@modalSize: "small";
+@modalHeader: true;
+@modalFooter: true;
+@modalCloseBtn: true;
+@modalMoreBtns: true;
+@modalVertical: false;
+@modalFade: false;
+
+.modal-dialog {
+  height: auto;
+}
+.hidden {
+  display: none;
+}
+}
+
+.cid-5VdqqueA5T {
+@Whatbutton: true;
+@heightwhat: 60;
+@widthwhat: 61;
+@bottomwhat: 34;
+@rightwhat: 43;
+@borderadius: 43;
+@bgcolorwhat: #25d366;
+@colorwhat: #ffffff;
+@FontSize: 32;
+
+& when (@Whatbutton) {
+  .float {
+    position: fixed;
+    width: (@widthwhat * 1px);
+    height: (@heightwhat * 1px);
+    bottom: (@bottomwhat * 1px);
+    right: (@rightwhat * 1px);
+    background-color: @bgcolorwhat;
+    color: @colorwhat;
+    border-radius: (@borderadius * 1px);
+    text-align: center;
+    font-size: (@FontSize * 1px);
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+  .my-float {
+    margin-top: 16px;
+  }
+}
+P {
+  color: #232323;
+}
+DIV {
+  color: #ffffff;
+}
+H10 {
+  color: #767676;
+}
+.hidden {
+  display: none;
+}
+}
