@@ -54,7 +54,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 559,
+    "uniqCompNum": 562,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "witsec-mailform-to": "sintoniabarra@gmail.com",
@@ -15469,6 +15469,54 @@
           "_params": {}
         },
         {
+          "_name": "header4",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-figure": {
+              "margin": "0 auto",
+              "width": "100%",
+              "display": "-webkit-flex",
+              "justify-content": "center",
+              "-webkit-justify-content": "center",
+              "img": {
+                "height": "100%",
+                "margin": "0 auto"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-figure": {
+                "img": {
+                  "width": "100% !important"
+                }
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#0a1c44"
+            },
+            "H1": {
+              "color": "#000000"
+            }
+          },
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"60\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    PROF.SANDRA PINHEIRO</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Beautiful mobile websites\n                </h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text, .mbr-section-btn\">Olá mamães, papais e responsáveis pelo conhecimento dos pequenos ! \n<br>Eu estou aqui para ajudar vocês nesta época de pandemia ! \n<br>Reforço Escolar e Atendimento Pedagógico para as crianças , atendo também crianças com necessidades especiais com Déficit de aprendizagem ! \n<br>Temos parcerias com professores de outros anos de escolaridade. \n<br>Com todas as normas de segurança , máscara álcool em gel e toda higienização necessária ! \n<br>Apenas um aluno para não ter aglomeração ! \n<br>\n<br>Com preço justo e com muito amor ! \n<br>\n<br>Me ligue e agende um horário! Venha estudar com quem sabe ensinar !</p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://api.whatsapp.com/send?phone=5522996061356&text=Indicado%20pelo%20Grupo%20Conectado\" data-app-placeholder=\"Type Text\">AGENDAMENTO</a>\n                    <a class=\"btn btn-md btn-success\" href=\"mailto:smpop1967@hotmail.com\" data-app-placeholder=\"Type Text\">ENVIAR EMAIL</a></div>\n            </div>\n            <div class=\"mbr-figure pt-5\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-preto-e-laranja-de-escola-do-ensino-mdio-3-500x500.png\" alt=\"Mobirise\" mbr-style=\"{'width': mediaSize + '%'}\" title>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "header4-fl",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "smVccGNo5b",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
           "_params": {
             "HTMLCode": "<script type=\"text/javascript\" async\n  src=\"//l.getsitecontrol.com/y791lm48.js\">\n</script>",
             "hideOnPublish": false,
@@ -15516,66 +15564,6 @@
           "_protectedParams": [],
           "_global": true,
           "_once": true,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = \"color\")": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = \"image\")": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@flexDirection)": {
-              ".row": {
-                "flex-direction": "row-reverse"
-              }
-            },
-            ".container-fluid": {
-              "padding": "0"
-            },
-            "img": {
-              "width": "100%"
-            },
-            ".content": {
-              "display": "flex",
-              "flex-direction": "column",
-              "justify-content": "center",
-              "padding-left": "10rem",
-              "padding-right": "10rem"
-            },
-            "@media (max-width: 1400px)": {
-              ".content": {
-                "padding": "3rem"
-              }
-            },
-            ".row": {
-              "margin-right": "0",
-              "margin-left": "0"
-            },
-            ".img-col": {
-              "padding": "0",
-              "margin": "auto"
-            },
-            ".mbr-text, .mbr-section-btn": {
-              "color": "#0a1c44"
-            },
-            ".mbr-section-title": {
-              "color": "#0a1c44"
-            }
-          },
-          "_name": "design-block",
-          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" condition=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"flexDirection\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"file:///C:/Users/Csaba/AppData/Local/Mobirise.com/Mobirise/chesswizardextra_0040gmail_002ecom/userblocks/mobirise4/header3_6/background1.jpg\" title=\"Image\" selected>\n            <input type=\"color\" value=\"#ffffff\" title=\"Color\">\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=9morbKMwCu4\" title=\"Video\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container-fluid align-center\">\n        <div class=\"row\">\n            <div class=\"mbr-white col-lg-6 col-md-12 content\">\n                <h1 class=\"mbr-section-title mbr-bold align-left mbr-white pb-5 mbr-fonts-style align-left\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                    PROF.SANDRA PINHEIRO</h1>\n                <p class=\"mbr-text align-left pb-4 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Olá mamães, papais e responsáveis pelo conhecimento dos pequenos ! \n<br>Eu estou aqui para ajudar vocês nesta época de pandemia ! \n<br>Reforço Escolar e Atendimento Pedagógico para as crianças , atendo também crianças com necessidades especiais com Déficit de aprendizagem ! \n<br>Temos parcerias com professores de outros anos de escolaridade. \n<br>Com todas as normas de segurança , máscara álcool em gel e toda higienização necessária ! \n<br>Apenas um aluno para não ter aglomeração ! \n<br>\n<br>Com preço justo e com muito amor ! \n<br>\n<br>Me ligue e agende um horário! Venha estudar com quem sabe ensinar !</p>\n                <div class=\"mbr-section-btn align-left\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"https://api.whatsapp.com/send?phone=5522996061356&text=Indicado%20pelo%20Grupo%20Conectado\" data-app-placeholder=\"Type Text\">\n                        AGENDAMENTO</a> <a class=\"btn btn-md btn-primary\" href=\"mailto:smpop1967@hotmail.com\" data-app-placeholder=\"Type Text\">ENVIAR EMAIL</a></div>\n            </div>\n\n            <div class=\"mbr-white img-col col-lg-6 col-md-12\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-preto-e-laranja-de-escola-do-ensino-mdio-3-500x500.png\" title alt>\n            </div>\n\n\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-arrow-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
-          "_cid": "Xhx0OnIj6E",
-          "_anchor": "design-block-Xhx0OnIj6E",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         }
       ]

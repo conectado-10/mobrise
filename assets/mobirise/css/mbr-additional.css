@@ -15112,6 +15112,62 @@ h3, h4 {
 }
 }
 
+.cid-smVccGNo5b {
+@fullScreen: false;
+@paddingTop: 1;
+@paddingBottom: 1;
+@showTitle: true;
+@showSubTitle: false;
+@showText: true;
+@showButtons: true;
+@mediaSize: 60;
+@uname__12: "file:///C:/Users/bacho/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-10-28_094730/assets/images/background1.jpg";
+@uname__13: false;
+@uname__14: #ffffff;
+@bg-value: #ffffff;
+@bg-type: "color";
+@bg-color-value: #ffffff;
+@bg-parallax: false;
+@overlay: false;
+@overlayColor: #232323;
+@overlayOpacity: 0.8;
+
+& when not (@fullScreen) {
+  padding-top: (@paddingTop * 15px);
+  padding-bottom: (@paddingBottom * 15px);
+}
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+}
+.mbr-figure {
+  margin: 0 auto;
+  width: 100%;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  img {
+    height: 100%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 991px) {
+  .mbr-figure {
+    img {
+      width: 100% !important;
+    }
+  }
+}
+.mbr-text, .mbr-section-btn {
+  color: #0a1c44;
+}
+H1 {
+  color: #000000;
+}
+}
+
 #witsec-custom-html-block-ff {
 }
 
@@ -15143,74 +15199,5 @@ p {
 }
 .media-container-row .mbr-text {
   color: #000000;
-}
-}
-
-.cid-Xhx0OnIj6E {
-@fullScreen: false;
-@showArrow: false;
-@paddingTop: 8;
-@paddingBottom: 0;
-@flexDirection: true;
-@showTitle: true;
-@showText: true;
-@showButtons: true;
-@uname__15: "file:///C:/Users/Csaba/AppData/Local/Mobirise.com/Mobirise/chesswizardextra_0040gmail_002ecom/userblocks/mobirise4/header3_6/background1.jpg";
-@uname__16: false;
-@uname__17: #ffffff;
-@bg-value: "file:///C:/Users/Csaba/AppData/Local/Mobirise.com/Mobirise/chesswizardextra_0040gmail_002ecom/userblocks/mobirise4/header3_6/background1.jpg";
-@bg-type: "image";
-@bg-color-value: #ffffff;
-@bg-parallax: false;
-@overlay: false;
-@overlayColor: #000000;
-@overlayOpacity: 0.3;
-
-& when not (@fullScreen) {
-  padding-top: (@paddingTop * 15px);
-  padding-bottom: (@paddingBottom * 15px);
-}
-& when (@bg-type = "color") {
-  background-color: @bg-value;
-}
-& when (@bg-type = "image") {
-  background-image: url(../../../@bg-value);
-}
-& when (@flexDirection) {
-  .row {
-    flex-direction: row-reverse;
-  }
-}
-.container-fluid {
-  padding: 0;
-}
-img {
-  width: 100%;
-}
-.content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 10rem;
-  padding-right: 10rem;
-}
-@media (max-width: 1400px) {
-  .content {
-    padding: 3rem;
-  }
-}
-.row {
-  margin-right: 0;
-  margin-left: 0;
-}
-.img-col {
-  padding: 0;
-  margin: auto;
-}
-.mbr-text, .mbr-section-btn {
-  color: #0a1c44;
-}
-.mbr-section-title {
-  color: #0a1c44;
 }
 }
