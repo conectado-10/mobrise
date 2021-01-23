@@ -15511,95 +15511,77 @@
               "text-align": "center",
               "color": "#fff"
             },
-            "#mu-about": {
-              "background-color": "#fff",
-              "display": "inline",
-              "float": "left",
-              "width": "100%"
+            "*": {
+              "box-sizing": "border-box"
             },
-            ".mu-about-area": {
-              "display": "inline",
-              "float": "left",
-              "padding": "100px 0",
-              "width": "100%"
+            "body": {
+              "font-family": "\"Open Sans\", sans-serif",
+              "margin": "0",
+              "padding": "5rem 1rem"
             },
-            ".mu-about-left": {
-              "display": "inline",
-              "float": "left",
-              "width": "100%"
-            },
-            ".mu-about-right": {
-              "display": "inline",
-              "float": "left",
-              "margin-top": "35px",
-              "width": "130%",
-              "background-color": "@bgCardColor",
-              "padding": "40px",
-              "margin-left": "-175px",
-              "box-shadow": "(@LeRi * 1px) (@UpDo * 1px) (@Flou * 1px) (@FlouInt * 1px) @ShadowColor"
-            },
-            ".mu-about-right p": {
-              "font-size": "15px"
+            "p": {
+              "margin": "0 0 1rem"
             },
             "img": {
-              "border": "none",
-              "max-width": "100%"
+              "display": "block",
+              "width": "100%",
+              "border-radius": "(@radius * 1px)",
+              "-webkit-border-radius": "(@radius * 1px)",
+              "-moz-border-radius": "(@radius * 1px)"
             },
-            "@media (max-width: 1199px)": {
-              ".mu-about-right": {
-                "margin-top": "20px",
-                "width": "140%",
-                "padding": "25px",
-                "margin-left": "-190px"
-              }
+            ".flex-container": {
+              "max-width": "(@CardSize * 1rem)",
+              "margin": "0 auto 5rem auto",
+              "filter": "drop-shadow((@DecalX * 1px) (@DecalY * 1px) (@Flou * 1px) @CardShColor)"
             },
-            "@media (max-width: 991px)": {
-              ".mu-about-left img": {
-                "max-width": "none",
-                "width": "115%"
-              },
-              ".mu-about-right": {
-                "margin-top": "75px",
-                "width": "160%",
-                "padding": "20px",
-                "margin-left": "-190px"
-              },
-              ".mu-about-right p": {
-                "font-size": "14px"
-              }
+            ".col": {
+              "position": "relative"
             },
-            "@media (max-width: 767px)": {
-              ".mu-about-area": {
-                "padding": "50px 0"
+            ".col--img": {
+              "flex": "0 0 (@ImgSize * 1%)",
+              "align-self": "flex-start"
+            },
+            ".col--text": {
+              "background-color": "@CardColor",
+              "padding": "1rem",
+              "display": "flex",
+              "flex-direction": "column",
+              "position": "relative",
+              "border-radius": "(@Cardradius * 1px)",
+              "-webkit-border-radius": "(@Cardradius * 1px)",
+              "-moz-border-radius": "(@Cardradius * 1px)"
+            },
+            "@media (min-width: 40em)": {
+              "h3": {
+                "font-size": "2rem"
               },
-              ".mu-about-left img": {
-                "max-width": "100%",
-                "width": "auto"
+              ".flex-container": {
+                "display": "flex"
               },
-              ".mu-about-right": {
-                "margin-top": "30px",
-                "width": "100%",
-                "padding": "0",
-                "margin-left": "0",
-                "box-shadow": "none"
-              },
-              ".mu-about-right p": {
-                "font-size": "15px"
+              ".col--text": {
+                "padding": "2rem 4rem",
+                "margin-top": "2rem",
+                "margin-left": "-2rem",
+                "z-index": "-1"
               }
             },
             ".mbr-section-subtitle": {
               "text-align": "left",
-              "color": "#232323"
+              "color": "#0a1c44"
             },
             "P": {
+              "color": "#0a1c44",
+              "text-align": "left"
+            },
+            "H3": {
               "text-align": "left",
-              "color": "#232323"
+              "color": "#ffffff"
             }
           },
           "_name": "design-block",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n                   <header>Card</header>\n      \n        <input type=\"color\" title=\"Background Color\" name=\"bgCardColor\" value=\"#ffffff\">\n                <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n         <input type=\"range\" inline title=\"Left/Right\" name=\"LeRi\" min=\"-20\" max=\"20\" step=\"1\" value=\"20\">\n         <input type=\"range\" inline title=\"Up/Down\" name=\"UpDo\" min=\"-20\" max=\"20\" step=\"1\" value=\"20\">\n         <input type=\"range\" inline title=\"Blur\" name=\"Flou\" min=\"-1\" max=\"25\" step=\"1\" value=\"22\">\n         <input type=\"range\" inline title=\"Blur Intensity\" name=\"FlouInt\" min=\"-16\" max=\"16\" step=\"1\" value=\"-7\">\n         <input type=\"color\" title=\"Shadow Color\" name=\"ShadowColor\" value=\"#232323\">\n         \n<header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"https://www.unsitepourtous.be/mobi/lionaf.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#cc2952\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n        \n         <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#232323\" condition=\"bg.type == 'color'\">\n         <input type=\"range\" name=\"angle\" title=\"Angle\" min=\"0\" max=\"270\" value=\"0\" step=\"1\" condition=\"bg.type == 'color'\">\n\t\t <input type=\"checkbox\" title=\"Background Transparent\" name=\"transp\" condition=\"bg.type == 'color'\" checked>\n\t\t\n\t\t\n\t\t        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n          \n    <!-- End block parameters -->\n    </mbr-parameters> \n\t\t        <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\">\n    </div>\n\t\t\t<div class=\"container\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t<div class=\"mu-about-area\">\n\t\t\t\t\t\t\t<!-- Start Feature Content -->\n\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t<div class=\"mu-about-left\">\n\t\t\t\t\t\t\t\t\t\t<a href=\"https://api.whatsapp.com/send?phone=5522996061356&text=Indicado%20pelo%20Grupo%20Conectado\"><img class src=\"@PROJECT_PATH@/assets/images/logo-preto-e-laranja-de-escola-do-ensino-mdio-2-500x500.png\" alt=\"img\" title></a>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t\t<div class=\"mu-about-right\">\n\t\t\t\t\t\t\t\t\t\t<h2 data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">PROF.SANDRA PINHEIRO<br><br></h2>\n\t\t\t\t\t\t\t\t\t\t<p class=\"align-center mbr-fonts-style\" mbr-theme-style=\"display-5\">Olá mamães, papais e responsáveis pelo conhecimento dos pequenos !\n<br>Eu estou aqui para ajudar vocês nesta época de pandemia !\n<br>Reforço Escolar e Atendimento Pedagógico para as crianças , atendo também crianças com necessidades especiais com Déficit de aprendizagem  !\n<br>Temos parcerias com professores de outros anos de escolaridade.\n<br>Com todas as normas de segurança , máscara álcool em gel e toda higienização necessária !\n<br>Apenas um aluno para não ter aglomeração !\n<br>\n<br>Com preço justo e com muito amor !\n<br>\n<br>Me ligue e agende um horário! Venha estudar com quem sabe ensinar !&nbsp;<br></p>\n\t\t\t\t\t\t\t\t\t           <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n           <span class=\"mbr-iconfont mbri-file\"></span>EN SAVOIR PLUS</a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<!-- End Feature Content -->\n\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n</section>",
-          "_cid": "ptdstHQE3f",
-          "_anchor": "design-block-ptdstHQE3f",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n\n\n           <header>Card</header>\n         \n        <select title=\"Card Count\" name=\"NbrCard\">\n             <option value=\"1\" selected>1</option>\n             <option value=\"2\">2</option>\n             <option value=\"3\">3</option>\n             <option value=\"4\">4</option>\n             <option value=\"5\">5</option>\n        </select>\n        <input type=\"range\" inline title=\"Card Size\" name=\"CardSize\" min=\"30\" max=\"100\" step=\"1\" value=\"65\"> \n        <input type=\"range\" inline title=\"Image Size\" name=\"ImgSize\" min=\"30\" max=\"75\" step=\"1\" value=\"30\">\n\t\t<input type=\"range\" inline title=\"Image Radius\" name=\"radius\" min=\"0\" max=\"100\" step=\"1\" value=\"19\">\n\t\t<input type=\"range\" inline title=\"Card Radius\" name=\"Cardradius\" min=\"0\" max=\"100\" step=\"1\" value=\"19\"> \n         <input type=\"color\" title=\"Card Color\" name=\"CardColor\" value=\"#cccccc\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showSubtitle\" checked>\n\t\t        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n         <input type=\"color\" title=\"Card Shadow\" name=\"CardShColor\" value=\"#ffffff\">\n         \n         <input type=\"range\" inline title=\"Size Shadow\" name=\"Flou\" min=\"0\" max=\"100\" step=\"1\" value=\"14\">\n          <input type=\"range\" inline title=\"Size Shadow\" name=\"Flou\" min=\"0\" max=\"100\" step=\"1\" value=\"9\">\n          <input type=\"range\" inline title=\"Pos X\" name=\"DecalX\" min=\"-16\" max=\"16\" step=\"1\" value=\"16\">\n          <input type=\"range\" inline title=\"Pos Y\" name=\"DecalY\" min=\"-16\" max=\"16\" step=\"1\" value=\"16\">\n\n                           \n         \n<header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"https://www.unsitepourtous.be/mobi/lionaf.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n        \n         <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ffffff\" condition=\"bg.type == 'color'\">\n         <input type=\"range\" name=\"angle\" title=\"Angle\" min=\"0\" max=\"270\" value=\"0\" step=\"1\" condition=\"bg.type == 'color'\">\n\t\t <input type=\"checkbox\" title=\"Background Transparent\" name=\"transp\" condition=\"bg.type == 'color'\">\n\t\t\n\t\t\n\t\t        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n        \n\n    <!-- End block parameters -->\n    </mbr-parameters> \n        <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\">\n    </div>\n    \n  \n<div class=\"flex-container\">\n\t<div class=\"col col--text\">\n\t\t<h2 mbr-if=\"showTitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-2\">PROF.SANDRA PINHEIRO</h2>\n\t\t<p mbr-if=\"showSubtitle\" class=\"align-center mbr-fonts-style\" mbr-theme-style=\"display-7\">Olá mamães, papais e responsáveis pelo conhecimento dos pequenos !\n<br>Eu estou aqui para ajudar vocês nesta época de pandemia !\n<br>Reforço Escolar e Atendimento Pedagógico para as crianças , atendo também crianças com necessidades especiais com Déficit de aprendizagem  !\n<br>Temos parcerias com professores de outros anos de escolaridade.\n<br>Com todas as normas de segurança , máscara álcool em gel e toda higienização necessária !\n<br>Apenas um aluno para não ter aglomeração !\n<br>\n<br>Com preço justo e com muito amor !\n<br>\n<br>Me ligue e agende um horário! Venha estudar com quem sabe ensinar !<br><br></p>\n           <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n           <span class=\"mbr-iconfont mbri-file\"></span>EN SAVOIR PLUS</a></div>\n\t</div>\n\t\t<div class=\"col col--img\">\n\t\t<img src=\"@PROJECT_PATH@/assets/images/logo-preto-e-laranja-de-escola-do-ensino-mdio-2-500x500.png\" alt title>\n\t</div>\n</div>\n\n\n<div class=\"flex-container\" mbr-if=\"NbrCard > 1\">\n\n\t<div class=\"col col--text\">\n\t\t<h2 mbr-if=\"showTitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-2\">Title</h2>\n\t\t<p mbr-if=\"showSubtitle\" class=\"align-center mbr-fonts-style\" mbr-theme-style=\"display-7\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br></p>\n\t           <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n           <span class=\"mbr-iconfont mbri-file\"></span>EN SAVOIR PLUS</a></div>\n\t</div>\n\t\t<div class=\"col col--img\">\n\t\t<img src=\"https://www.unsitepourtous.be/mobi/lionbe.jpg\" alt>\n\t</div>\n</div>\n\n\n<div class=\"flex-container\" mbr-if=\"NbrCard > 2\">\n\n\t<div class=\"col col--text\">\n\t\t<h2 mbr-if=\"showTitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-2\">Title</h2>\n\t\t<p mbr-if=\"showSubtitle\" class=\"align-center mbr-fonts-style\" mbr-theme-style=\"display-7\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br></p>\n           <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n           <span class=\"mbr-iconfont mbri-file\"></span>EN SAVOIR PLUS</a></div>\n\t</div>\n\t\t<div class=\"col col--img\">\n\t\t<img src=\"https://www.unsitepourtous.be/mobi/lionbe.jpg\" alt>\n\t</div>\n</div>\n\n<div class=\"flex-container\" mbr-if=\"NbrCard > 3\">\n\n\t<div class=\"col col--text\">\n\t\t<h2 mbr-if=\"showTitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-2\">Title</h2>\n\t\t<p mbr-if=\"showSubtitle\" class=\"align-center mbr-fonts-style\" mbr-theme-style=\"display-7\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br></p>\n\t           <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n           <span class=\"mbr-iconfont mbri-file\"></span>EN SAVOIR PLUS</a></div>\n\t</div>\t<div class=\"col col--img\">\n\t\t<img src=\"https://www.unsitepourtous.be/mobi/lionbe.jpg\" alt>\n\t</div>\n</div>\n\n<div class=\"flex-container\" mbr-if=\"NbrCard > 4\">\n\n\t<div class=\"col col--text\">\n\t\t<h2 mbr-if=\"showTitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-2\">Title</h2>\n\t\t<p mbr-if=\"showSubtitle\" class=\"align-center mbr-fonts-style\" mbr-theme-style=\"display-7\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br></p>\n\t           <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n           <span class=\"mbr-iconfont mbri-file\"></span>EN SAVOIR PLUS</a></div>\n\t</div>\n\t\t<div class=\"col col--img\">\n\t\t<img src=\"https://www.unsitepourtous.be/mobi/lionbe.jpg\" alt>\n\t</div>\n</div>\n\n</section>",
+          "_cid": "ZgnlAnqaqZ",
+          "_anchor": "design-block-ZgnlAnqaqZ",
           "_protectedParams": [],
           "_global": false,
           "_once": false,

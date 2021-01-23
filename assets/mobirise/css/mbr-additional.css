@@ -15115,26 +15115,32 @@ h3, h4 {
 #witsec-custom-html-block-ff {
 }
 
-.cid-ptdstHQE3f {
-@paddingTop: 0;
-@paddingBottom: 0;
-@bgCardColor: #ffffff;
+.cid-ZgnlAnqaqZ {
+@paddingTop: 3;
+@paddingBottom: 3;
+@NbrCard: "1";
+@CardSize: 65;
+@ImgSize: 30;
+@radius: 19;
+@Cardradius: 19;
+@CardColor: #cccccc;
+@showTitle: true;
+@showSubtitle: true;
 @showButtons: false;
-@LeRi: 20;
-@UpDo: 20;
-@Flou: 22;
-@FlouInt: -7;
-@ShadowColor: #232323;
+@CardShColor: #ffffff;
+@Flou: 9;
+@DecalX: 16;
+@DecalY: 16;
 @uname__12: "https://www.unsitepourtous.be/mobi/lionaf.jpg";
 @uname__13: false;
-@uname__14: #cc2952;
-@bg-value: #cc2952;
+@uname__14: #ffffff;
+@bg-value: #ffffff;
 @bg-type: "color";
-@bg-color-value: #cc2952;
+@bg-color-value: #ffffff;
 @bg-parallax: false;
-@color2: #232323;
+@color2: #ffffff;
 @angle: 0;
-@transp: true;
+@transp: false;
 @overlay: false;
 @overlayColor: #232323;
 @overlayOpacity: 0.3;
@@ -15156,89 +15162,71 @@ padding-bottom: (@paddingBottom * 15px);
   text-align: center;
   color: #fff;
 }
-#mu-about {
-  background-color: #fff;
-  display: inline;
-  float: left;
-  width: 100%;
+* {
+  box-sizing: border-box;
 }
-.mu-about-area {
-  display: inline;
-  float: left;
-  padding: 100px 0;
-  width: 100%;
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 5rem 1rem;
 }
-.mu-about-left {
-  display: inline;
-  float: left;
-  width: 100%;
-}
-.mu-about-right {
-  display: inline;
-  float: left;
-  margin-top: 35px;
-  width: 130%;
-  background-color: @bgCardColor;
-  padding: 40px;
-  margin-left: -175px;
-  box-shadow: (@LeRi * 1px) (@UpDo * 1px) (@Flou * 1px) (@FlouInt * 1px) @ShadowColor;
-}
-.mu-about-right p {
-  font-size: 15px;
+p {
+  margin: 0 0 1rem;
 }
 img {
-  border: none;
-  max-width: 100%;
+  display: block;
+  width: 100%;
+  border-radius: (@radius * 1px);
+  -webkit-border-radius: (@radius * 1px);
+  -moz-border-radius: (@radius * 1px);
 }
-@media (max-width: 1199px) {
-  .mu-about-right {
-    margin-top: 20px;
-    width: 140%;
-    padding: 25px;
-    margin-left: -190px;
-  }
+.flex-container {
+  max-width: (@CardSize * 1rem);
+  margin: 0 auto 5rem auto;
+  filter: drop-shadow((@DecalX * 1px) (@DecalY * 1px) (@Flou * 1px) @CardShColor);
 }
-@media (max-width: 991px) {
-  .mu-about-left img {
-    max-width: none;
-    width: 115%;
-  }
-  .mu-about-right {
-    margin-top: 75px;
-    width: 160%;
-    padding: 20px;
-    margin-left: -190px;
-  }
-  .mu-about-right p {
-    font-size: 14px;
-  }
+.col {
+  position: relative;
 }
-@media (max-width: 767px) {
-  .mu-about-area {
-    padding: 50px 0;
+.col--img {
+  flex: 0 0 (@ImgSize * 1%);
+  align-self: flex-start;
+}
+.col--text {
+  background-color: @CardColor;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: (@Cardradius * 1px);
+  -webkit-border-radius: (@Cardradius * 1px);
+  -moz-border-radius: (@Cardradius * 1px);
+}
+@media (min-width: 40em) {
+  h3 {
+    font-size: 2rem;
   }
-  .mu-about-left img {
-    max-width: 100%;
-    width: auto;
+  .flex-container {
+    display: flex;
   }
-  .mu-about-right {
-    margin-top: 30px;
-    width: 100%;
-    padding: 0;
-    margin-left: 0;
-    box-shadow: none;
-  }
-  .mu-about-right p {
-    font-size: 15px;
+  .col--text {
+    padding: 2rem 4rem;
+    margin-top: 2rem;
+    margin-left: -2rem;
+    z-index: -1;
   }
 }
 .mbr-section-subtitle {
   text-align: left;
-  color: #232323;
+  color: #0a1c44;
 }
 P {
+  color: #0a1c44;
   text-align: left;
-  color: #232323;
+}
+H3 {
+  text-align: left;
+  color: #ffffff;
 }
 }
 
