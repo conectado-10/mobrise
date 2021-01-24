@@ -16723,12 +16723,12 @@ a {
 a.img {
   pointer-events: none;
 }
+.mbr-text, .mbr-section-btn {
+  text-align: center;
+}
 }
 
 #witsec-custom-html-block-gf {
-}
-
-#witsec-modal-window-block-gh {
 }
 
 .cid-sn12TdktUa {
