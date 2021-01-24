@@ -15848,8 +15848,8 @@ h3, h4 {
 }
 
 .cid-QRvv4pMjlQ {
-@paddingTop: 4;
-@paddingBottom: 4;
+@paddingTop: 2;
+@paddingBottom: 1;
 @showTitle: true;
 @showSubtitle: true;
 @showButtons: false;
